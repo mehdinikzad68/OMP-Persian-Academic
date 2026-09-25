@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:23:43-07:00\n"
+"PO-Revision-Date: 2019-09-30T06:23:43-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "api.submissions.400.submissionIdsRequired"
+msgstr "باید یک یا چند شناسه اثر برای افزودن به کاتالوگ ارائه دهید."
+
+msgid "api.submissions.400.submissionsNotFound"
+msgstr "یک یا چند اثر مشخص‌شده یافت نشد."
+
+msgid "api.submissions.400.wrongContext"
+msgstr "اثر درخواستی شما در این انتشارات وجود ندارد."
+
+msgid "api.emails.403.disabled"
+msgstr "قابلیت اطلاع‌رسانی از طریق رایانامه برای این انتشارات فعال نشده است."
+
+msgid "api.emailTemplates.403.notAllowedChangeContext"
+msgstr "شما مجاز به انتقال این قالب رایانامه به انتشارات دیگری نیستید."
+
+msgid "api.publications.403.contextsDidNotMatch"
+msgstr "نسخه انتشاری که درخواست کردید به این انتشارات تعلق ندارد."
+
+msgid "api.publications.403.submissionsDidNotMatch"
+msgstr "نسخه انتشاری که درخواست کردید به این اثر تعلق ندارد."
+
+msgid "api.submissions.403.cantChangeContext"
+msgstr "امکان تغییر انتشارات یک اثر وجود ندارد."
+
+msgid "api.submission.400.inactiveSection"
+msgstr "این بخش دیگر اثری دریافت نمی‌کند."

@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  omp:
+    image: pkpofficial/omp:stable-3_5_0
+    container_name: omp_app
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=db
+      - DB_USER=omp_user
+      - DB_PASSWORD=omp_password
+      - DB_NAME=omp_db
+    volumes:
+      - omp_public:/var/www/html/public
+      - omp_files:/var/www/files
+      # --- Persistence of OMP configuration ---
+      - ./config.inc.php:/var/www/html/config.inc.php
+      # --- Persian locale: OMP core ---
+      - ./Local_Overrides/OMP_Locales/core/fa:/var/www/html/locale/fa
+      # --- Persian locale: PKP shared library ---
+      - ./Local_Overrides/OMP_Locales/lib/fa:/var/www/html/lib/pkp/locale/fa
+      # --- Custom theme ---
+      - ./Local_Overrides/nigebTheme:/var/www/html/plugins/themes/nigebTheme
+      # --- Per-plugin Persian locale mounts (granular) ---
+      # Blocks
+      - ./Local_Overrides/OMP_Locales/plugins/blocks/browse/locale/fa:/var/www/html/plugins/blocks/browse/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/blocks/developedBy/locale/fa:/var/www/html/plugins/blocks/developedBy/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/blocks/information/locale/fa:/var/www/html/plugins/blocks/information/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/blocks/languageToggle/locale/fa:/var/www/html/plugins/blocks/languageToggle/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/blocks/makeSubmission/locale/fa:/var/www/html/plugins/blocks/makeSubmission/locale/fa
+      # Generic
+      - ./Local_Overrides/OMP_Locales/plugins/generic/citationStyleLanguage/locale/fa:/var/www/html/plugins/generic/citationStyleLanguage/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/customBlockManager/locale/fa:/var/www/html/plugins/generic/customBlockManager/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/dublinCoreMeta/locale/fa:/var/www/html/plugins/generic/dublinCoreMeta/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/googleAnalytics/locale/fa:/var/www/html/plugins/generic/googleAnalytics/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/googleScholar/locale/fa:/var/www/html/plugins/generic/googleScholar/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/htmlMonographFile/locale/fa:/var/www/html/plugins/generic/htmlMonographFile/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/pdfJsViewer/locale/fa:/var/www/html/plugins/generic/pdfJsViewer/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/staticPages/locale/fa:/var/www/html/plugins/generic/staticPages/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/tinymce/locale/fa:/var/www/html/plugins/generic/tinymce/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/generic/webFeed/locale/fa:/var/www/html/plugins/generic/webFeed/locale/fa
+      # Import/Export
+      - ./Local_Overrides/OMP_Locales/plugins/importexport/csv/locale/fa:/var/www/html/plugins/importexport/csv/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/importexport/native/locale/fa:/var/www/html/plugins/importexport/native/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/importexport/onix30/locale/fa:/var/www/html/plugins/importexport/onix30/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/importexport/users/locale/fa:/var/www/html/plugins/importexport/users/locale/fa
+      # Metadata
+      - ./Local_Overrides/OMP_Locales/plugins/metadata/dc11/locale/fa:/var/www/html/plugins/metadata/dc11/locale/fa
+      # Payment
+      - ./Local_Overrides/OMP_Locales/plugins/paymethod/manual/locale/fa:/var/www/html/plugins/paymethod/manual/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/paymethod/paypal/locale/fa:/var/www/html/plugins/paymethod/paypal/locale/fa
+      # Pub IDs
+      - ./Local_Overrides/OMP_Locales/plugins/pubIds/urn/locale/fa:/var/www/html/plugins/pubIds/urn/locale/fa
+      # Reports
+      - ./Local_Overrides/OMP_Locales/plugins/reports/monographReport/locale/fa:/var/www/html/plugins/reports/monographReport/locale/fa
+      - ./Local_Overrides/OMP_Locales/plugins/reports/reviewReport/locale/fa:/var/www/html/plugins/reports/reviewReport/locale/fa
+      # Themes (default theme locale only — nigebTheme is mounted above as full theme)
+      - ./Local_Overrides/OMP_Locales/plugins/themes/default/locale/fa:/var/www/html/plugins/themes/default/locale/fa
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mariadb:10.11
+    container_name: omp_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret_root_pass
+      - MYSQL_DATABASE=omp_db
+      - MYSQL_USER=omp_user
+      - MYSQL_PASSWORD=omp_password
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  omp_public:
+  omp_files:
+  db_data:

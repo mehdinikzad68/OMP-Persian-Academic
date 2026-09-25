@@ -1,0 +1,1357 @@
+# cicilia concei├ºao de maria <ccmaria@uem.br>, 2021.
+# Petro Bilous <petrobilous@ukr.net>, 2022.
+# Jonas Raoni Soares da Silva <weblate@raoni.org>, 2022.
+# Marc Bria <marc.bria@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:23:43-07:00\n"
+"PO-Revision-Date: 2023-04-26 17:49+0000\n"
+"Last-Translator: Marc Bria <marc.bria@gmail.com>\n"
+"Language-Team: Persian <http://translate.pkp.sfu.ca/projects/omp/manager/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "manager.language.confirmDefaultSettingsOverwrite"
+msgstr "این اقدام باعث جایگزینی تمامی تنظیمات اختصاصی انتشارات در این زبان خواهد شد."
+
+msgid "manager.languages.noneAvailable"
+msgstr "متأسفانه زبان‌های بیشتری در دسترس نیست. در صورتی که مایل به استفاده از زبان‌های بیشتری در این انتشارات هستید، با مدیر سامانه تماس بگیرید."
+
+msgid "manager.languages.primaryLocaleInstructions"
+msgstr "این زبان، زبان پیش‌فرض وب‌سایت انتشارات خواهد بود."
+
+msgid "manager.series.form.mustAllowPermission"
+msgstr "لطفاً اطمینان حاصل کنید که برای هر تخصیص مدیر مجموعه، حداقل یک گزینه انتخاب شده باشد."
+
+msgid "manager.series.form.reviewFormId"
+msgstr "لطفاً اطمینان حاصل کنید که یک فرم داوری معتبر انتخاب کرده‌اید."
+
+msgid "manager.series.submissionIndexing"
+msgstr "در نمایه‌سازی انتشارات گنجانده نخواهد شد."
+
+msgid "manager.series.editorRestriction"
+msgstr "آثار فقط توسط سردبیران و مدیران مجموعه قابل ارسال هستند."
+
+msgid "manager.series.confirmDelete"
+msgstr "آیا مطمئن هستید که می‌خواهید این مجموعه را برای همیشه حذف کنید؟"
+
+msgid "manager.series.indexed"
+msgstr "نمایه‌شده"
+
+msgid "manager.series.open"
+msgstr "آثار ارسالی باز"
+
+msgid "manager.series.readingTools"
+msgstr "ابزارهای مطالعه"
+
+msgid "manager.series.submissionReview"
+msgstr "مورد داوری تخصصی قرار نخواهد گرفت"
+
+msgid "manager.series.submissionsToThisSection"
+msgstr "آثار ارسال شده به این مجموعه"
+
+msgid "manager.series.abstractsNotRequired"
+msgstr "چکیده الزامی نیست"
+
+msgid "manager.series.disableComments"
+msgstr "غیرفعال کردن نظرات خوانندگان برای این مجموعه."
+
+msgid "manager.series.book"
+msgstr "مجموعه کتاب"
+
+msgid "manager.series.create"
+msgstr "ایجاد مجموعه"
+
+msgid "manager.series.policy"
+msgstr "شرح مجموعه"
+
+msgid "manager.series.assigned"
+msgstr "سردبیران این مجموعه"
+
+msgid "manager.series.seriesEditorInstructions"
+msgstr "یک مدیر مجموعه را از میان مدیران موجود به این مجموعه اضافه کنید. پس از افزودن، تعیین کنید که آیا مدیر مجموعه بر فرآیند داوری (داوری تخصصی) و/یا ویراستاری (ویراستاری، صفحه‌آرایی و نمونه‌خوانی) آثار ارسالی به این مجموعه نظارت خواهد داشت یا خیر. مدیران مجموعه با کلیک بر روی <a href=\"{$seriesEditorsUrl}\">مدیران مجموعه</a> در بخش نقش‌ها در مدیریت انتشارات ایجاد می‌شوند."
+
+msgid "manager.series.hideAbout"
+msgstr "حذف این مجموعه از بخش «درباره انتشارات»."
+
+msgid "manager.series.unassigned"
+msgstr "مدیران مجموعه در دسترس"
+
+msgid "manager.series.form.abbrevRequired"
+msgstr "درج عنوان اختصاری برای مجموعه الزامی است."
+
+msgid "manager.series.form.titleRequired"
+msgstr "درج عنوان برای مجموعه الزامی است."
+
+msgid "manager.series.noneCreated"
+msgstr "هیچ مجموعه‌ای ایجاد نشده است."
+
+msgid "manager.series.existingUsers"
+msgstr "کاربران موجود"
+
+msgid "manager.series.seriesTitle"
+msgstr "عنوان مجموعه"
+
+msgid "manager.series.restricted"
+msgstr "عدم اجازه به پدیدآورندگان برای ارسال مستقیم اثر به این مجموعه."
+
+msgid "manager.sections.alertDelete"
+msgstr "پیش از حذف این مجموعه، باید آثار مرتبط با آن را به مجموعه‌های دیگر منتقل کنید."
+
+msgid "manager.payment.generalOptions"
+msgstr "گزینه‌های عمومی"
+
+msgid "manager.payment.options.enablePayments"
+msgstr "پرداخت‌ها برای این انتشارات فعال خواهند شد. توجه داشته باشید که کاربران برای انجام پرداخت ملزم به ورود به سامانه هستند."
+
+msgid "manager.payment.success"
+msgstr "تنظیمات پرداخت به‌روزرسانی شد."
+
+msgid "manager.settings"
+msgstr "تنظیمات"
+
+msgid "manager.settings.pressSettings"
+msgstr "تنظیمات انتشارات"
+
+msgid "manager.settings.press"
+msgstr "انتشارات"
+
+msgid "manager.settings.publisher.identity"
+msgstr "هویت ناشر"
+
+msgid "manager.settings.publisher.identity.description"
+msgstr "تکمیل این فیلدها برای انتشار <a href=\"https://en.wikipedia.org/wiki/ONIX_for_Books\">متادیتای ONIX</a> معتبر الزامی است."
+
+msgid "manager.settings.publisher"
+msgstr "نام ناشر انتشارات"
+
+msgid "manager.settings.location"
+msgstr "موقعیت جغرافیایی"
+
+msgid "manager.settings.publisherCode"
+msgstr "کد ناشر"
+
+msgid "manager.settings.publisherCodeType"
+msgstr "نوع کد ناشر"
+
+msgid "manager.settings.publisherCodeType.invalid"
+msgstr "این نوع کد ناشر معتبر نیست."
+
+msgid "manager.settings.distributionDescription"
+msgstr "تمامی تنظیمات مربوط به فرآیند توزیع (اطلاع‌رسانی، نمایه‌سازی، بایگانی، پرداخت، ابزارهای مطالعه)."
+
+msgid "manager.statistics.reports.defaultReport.monographDownloads"
+msgstr "بارگیری فایل‌های تک‌نگاشت"
+
+msgid "manager.statistics.reports.defaultReport.monographAbstract"
+msgstr "بازدیدهای صفحه چکیده تک‌نگاشت"
+
+msgid "manager.statistics.reports.defaultReport.monographAbstractAndDownloads"
+msgstr "چکیده و بارگیری‌های تک‌نگاشت"
+
+msgid "manager.statistics.reports.defaultReport.seriesIndexPageViews"
+msgstr "بازدیدهای صفحه اصلی مجموعه"
+
+msgid "manager.statistics.reports.defaultReport.pressIndexPageViews"
+msgstr "بازدیدهای صفحه اصلی انتشارات"
+
+msgid "manager.tools"
+msgstr "ابزارها"
+
+msgid "manager.tools.importExport"
+msgstr "تمامی ابزارهای مربوط به درون‌ریزی و برون‌بری داده‌ها (انتشارات، تک‌نگاشت‌ها، کاربران)"
+
+msgid "manager.tools.statistics"
+msgstr "ابزارهای تولید گزارش‌های مربوط به آمار استفاده (بازدید صفحه اصلی کاتالوگ، بازدید صفحه چکیده تک‌نگاشت، بارگیری فایل تک‌نگاشت)"
+
+msgid "manager.users.availableRoles"
+msgstr "نقش‌های موجود"
+
+msgid "manager.users.currentRoles"
+msgstr "نقش‌های کنونی"
+
+msgid "manager.users.selectRole"
+msgstr "انتخاب نقش"
+
+msgid "manager.people.allEnrolledUsers"
+msgstr "کاربران ثبت‌نام شده در این انتشارات"
+
+msgid "manager.people.allPresses"
+msgstr "تمامی انتشارات"
+
+msgid "manager.people.allSiteUsers"
+msgstr "ثبت‌نام کاربر از این سایت در این انتشارات"
+
+msgid "manager.people.allUsers"
+msgstr "تمامی کاربران ثبت‌نام شده"
+
+msgid "manager.people.confirmRemove"
+msgstr "این کاربر از این انتشارات حذف شود؟ این اقدام باعث لغو ثبت‌نام کاربر از تمامی نقش‌ها در این انتشارات خواهد شد."
+
+msgid "manager.people.enrollExistingUser"
+msgstr "ثبت‌نام کاربر موجود"
+
+msgid "manager.people.enrollSyncPress"
+msgstr "با انتشارات"
+
+msgid "manager.people.mergeUsers.from.description"
+msgstr "یک کاربر را برای ادغام در حساب کاربری دیگر انتخاب کنید (مثلاً زمانی که فردی دو حساب کاربری دارد). حسابی که ابتدا انتخاب می‌شود حذف خواهد شد و آثار ارسالی، تخصیص‌ها و غیره به حساب دوم منتقل می‌گردد."
+
+msgid "manager.people.mergeUsers.into.description"
+msgstr "کاربری را انتخاب کنید که می‌خواهید آثار، تخصیص‌های ویراستاری و غیره کاربر قبلی به او منتسب شود."
+
+msgid "manager.people.syncUserDescription"
+msgstr "همگام‌سازی ثبت‌نام، تمامی کاربران ثبت‌نام شده در نقش مشخص در یک انتشارات خاص را با همان نقش در این انتشارات ثبت‌نام می‌کند. این عملکرد اجازه می‌دهد مجموعه‌ای از کاربران مشترک (مانند داوران) بین انتشارات مختلف همگام‌سازی شوند."
+
+msgid "manager.people.confirmDisable"
+msgstr ""
+"این کاربر غیرفعال شود؟ این اقدام از ورود کاربر به سامانه جلوگیری خواهد کرد.\n"
+"\n"
+"شما می‌توانید در صورت تمایل، دلیلی برای غیرفعال‌سازی حساب کاربری به وی ارائه دهید."
+
+msgid "manager.people.noAdministrativeRights"
+msgstr ""
+"متأسفانه شما دسترسی مدیریتی بر روی این کاربر ندارید. این موضوع ممکن است به دلایل زیر باشد:\n"
+"\t\t<ul>\n"
+"\t\t\t<li>کاربر مدیر سایت است</li>\n"
+"\t\t\t<li>کاربر در انتشاراتی فعالیت دارد که شما مدیریت آن‌ها را بر عهده ندارید</li>\n"
+"\t\t</ul>\n"
+"\tاین کار باید توسط مدیر سایت انجام شود.\n"
+"\t"
+
+msgid "manager.system"
+msgstr "تنظیمات سامانه"
+
+msgid "manager.system.archiving"
+msgstr "بایگانی"
+
+msgid "manager.system.reviewForms"
+msgstr "فرم‌های داوری"
+
+msgid "manager.system.readingTools"
+msgstr "ابزارهای مطالعه"
+
+msgid "manager.system.payments"
+msgstr "پرداخت‌ها"
+
+msgid "user.authorization.pluginLevel"
+msgstr "شما امتیاز کافی برای مدیریت این افزونه را ندارید."
+
+msgid "manager.pressManagement"
+msgstr "مدیریت انتشارات"
+
+msgid "manager.setup"
+msgstr "پیکربندی"
+
+msgid "manager.setup.aboutItemContent"
+msgstr "محتوا"
+
+msgid "manager.setup.addAboutItem"
+msgstr "افزودن مورد «درباره»"
+
+msgid "manager.setup.addChecklistItem"
+msgstr "افزودن مورد فهرست بازبینی"
+
+msgid "manager.setup.addItem"
+msgstr "افزودن مورد"
+
+msgid "manager.setup.addItemtoAboutPress"
+msgstr "افزودن مورد جهت نمایش در «درباره انتشارات»"
+
+msgid "manager.setup.addNavItem"
+msgstr "افزودن مورد"
+
+msgid "manager.setup.addSponsor"
+msgstr "افزودن سازمان حامی"
+
+msgid "manager.setup.announcements"
+msgstr "اطلاعیه‌ها"
+
+msgid "manager.setup.announcements.success"
+msgstr "تنظیمات اطلاعیه‌ها به‌روزرسانی شد."
+
+msgid "manager.setup.announcementsDescription"
+msgstr "اطلاعیه‌ها ممکن است جهت آگاه‌سازی خوانندگان از اخبار و رویدادهای انتشارات منتشر شوند. اطلاعیه‌های منتشر شده در صفحه اطلاعیه‌ها نمایش داده خواهند شد."
+
+msgid "manager.setup.announcementsIntroduction"
+msgstr "اطلاعات تکمیلی"
+
+msgid "manager.setup.announcementsIntroduction.description"
+msgstr "هرگونه اطلاعات تکمیلی که باید در صفحه اطلاعیه‌ها به خوانندگان نمایش داده شود را وارد کنید."
+
+msgid "manager.setup.appearInAboutPress"
+msgstr "(جهت نمایش در درباره انتشارات)"
+
+msgid "manager.setup.contextAbout"
+msgstr "درباره انتشارات"
+
+msgid "manager.setup.contextAbout.description"
+msgstr ""
+"تمامی اطلاعات مربوط به انتشارات خود را که ممکن است برای خوانندگان، پدیدآورندگان یا داوران جالب باشد، درج کنید. این اطلاعات می‌تواند شامل خط‌مشی دسترسی آزاد، تمرکز و دامنه فعالیت انتشارات، حمایت‌های مالی و تاریخچه انتشارات باشد."
+
+msgid "manager.setup.contextSummary"
+msgstr "خلاصه انتشارات"
+
+msgid "manager.setup.contextSummary.description"
+msgstr "توصیفی کوتاه از انتشارات خود ارائه دهید تا نمایی کلی از محتوا و اهداف آن حاصل شود."
+
+msgid "manager.setup.copyediting"
+msgstr "ویراستاران"
+
+msgid "manager.setup.copyeditInstructions"
+msgstr "دستورالعمل‌های ویراستاری"
+
+msgid "manager.setup.copyeditInstructionsDescription"
+msgstr "دستورالعمل‌های ویراستاری در مرحله ویراستاری دست‌نوشته در دسترس ویراستاران، پدیدآورندگان و مدیران بخش قرار خواهد گرفت. در ادامه مجموعه‌ای از دستورالعمل‌های پیش‌فرض در قالب HTML آورده شده است که می‌تواند در هر زمان توسط مدیر انتشارات تغییر یافته یا جایگزین شود."
+
+msgid "manager.setup.copyrightNotice"
+msgstr "اعلان حق‌نشر"
+
+msgid "manager.setup.coverage"
+msgstr "پوشش"
+
+msgid "manager.setup.coverThumbnailsMaxHeight"
+msgstr "حداکثر ارتفاع تصویر جلد"
+
+msgid "manager.setup.coverThumbnailsMaxWidth"
+msgstr "حداکثر عرض تصویر جلد"
+
+msgid "manager.setup.coverThumbnailsMaxWidthHeight.description"
+msgstr "تصاویر در صورتی که بزرگ‌تر از این اندازه باشند کوچک خواهند شد، اما هرگز برای انطباق با این ابعاد بزرگ یا کشیده نمی‌شوند."
+
+msgid "manager.setup.customizingTheLook"
+msgstr "مرحله ۵. شخصی‌سازی ظاهر و احساس سامانه"
+
+msgid "manager.setup.customTags"
+msgstr "برچسب‌های سفارشی"
+
+msgid "manager.setup.customTagsDescription"
+msgstr "برچسب‌های سفارشی سربرگ HTML جهت درج در هدر تمامی صفحات (مانند برچسب‌های META)."
+
+msgid "manager.setup.details"
+msgstr "جزئیات"
+
+msgid "manager.setup.details.description"
+msgstr "نام انتشارات، مخاطبان، حامیان و موتورهای جستجو."
+
+msgid "manager.setup.disableUserRegistration"
+msgstr "مدیر انتشارات تمامی حساب‌های کاربری را ثبت‌نام خواهد کرد. سردبیران یا مدیران بخش می‌توانند حساب‌های کاربری داوران را ثبت‌نام کنند."
+
+msgid "manager.setup.discipline"
+msgstr "رشته علمی و زیررشته‌ها"
+
+msgid "manager.setup.disciplineDescription"
+msgstr "زمانی مفید است که فعالیت انتشارات فراتر از مرزهای یک رشته خاص بوده و/یا پدیدآورندگان آثار چندرشته‌ای ارسال می‌کنند."
+
+msgid "manager.setup.disciplineExamples"
+msgstr "(به‌عنوان مثال: تاریخ؛ آموزش و پرورش؛ جامعه‌شناسی؛ روان‌شناسی؛ مطالعات فرهنگی؛ حقوق)"
+
+msgid "manager.setup.disciplineProvideExamples"
+msgstr "ارائه نمونه‌هایی از رشته‌های علمی مرتبط برای این انتشارات"
+
+msgid "manager.setup.displayCurrentMonograph"
+msgstr "افزودن فهرست مطالب برای تک‌نگاشت کنونی (در صورت موجود بودن)."
+
+msgid "manager.setup.displayOnHomepage"
+msgstr "محتوای صفحه اصلی"
+
+msgid "manager.setup.displayFeaturedBooks"
+msgstr "نمایش کتاب‌های برگزیده در صفحه اصلی"
+
+msgid "manager.setup.displayFeaturedBooks.label"
+msgstr "کتاب‌های برگزیده"
+
+msgid "manager.setup.displayNewReleases"
+msgstr "نمایش تازه‌های نشر در صفحه اصلی"
+
+msgid "manager.setup.displayNewReleases.label"
+msgstr "تازه‌های نشر"
+
+msgid "manager.setup.enableDois.description"
+msgstr "اجازه تخصیص شناسگر اشیای دیجیتال (DOI) به آثار منتشر شده توسط این انتشارات."
+
+msgid "doi.manager.settings.doiObjectsRequired"
+msgstr "انواع آثار منتشر شده توسط این انتشارات را که باید به آن‌ها DOI تخصیص یابد، انتخاب کنید. اکثر انتشارات به تک‌نگاشت‌ها/فصل‌ها DOI تخصیص می‌دهند، اما ممکن است مایل باشید به تمامی موارد منتشر شده DOI اختصاص دهید."
+
+msgid "doi.manager.settings.doiSuffixLegacy"
+msgstr "استفاده از الگوهای پیش‌فرض.<br />%p.%m برای تک‌نگاشت‌ها<br />%p.%m.c%c برای فصل‌ها<br />%p.%m.%f برای قالب‌های انتشار<br />%p.%m.%f.%s برای فایل‌ها."
+
+msgid "doi.manager.settings.doiCreationTime.copyedit"
+msgstr "به‌محض رسیدن به مرحله ویراستاری"
+
+msgid "manager.dois.disabledChaptersDescription"
+msgstr "فصل‌های بدون صفحه فرود نمی‌توانند دارای DOI باشند."
+
+msgid "manager.dois.formatIdentifier.file"
+msgstr "قالب / {$format}"
+
+msgid "manager.setup.editorDecision"
+msgstr "تصمیم سردبیری"
+
+msgid "manager.setup.emailBounceAddress"
+msgstr "نشانی بازگشت"
+
+msgid "manager.setup.emailBounceAddress.description"
+msgstr "هرگونه رایانامه تحویل‌نشده منجر به ارسال پیام خطا به این نشانی خواهد شد."
+
+msgid "manager.setup.emailBounceAddress.disabled"
+msgstr "جهت ارسال رایانامه‌های تحویل‌نشده به نشانی بازگشت، مدیر سایت باید گزینه <code>allow_envelope_sender</code> را در فایل پیکربندی سایت فعال کند. مطابق با مستندات OMP، ممکن است پیکربندی سرور نیز الزامی باشد."
+
+msgid "manager.setup.emails"
+msgstr "شناسایی رایانامه"
+
+msgid "manager.setup.emailSignature"
+msgstr "امضا"
+
+msgid "manager.setup.emailSignature.description"
+msgstr "رایانامه‌هایی که به‌طور خودکار از طرف انتشارات ارسال می‌شوند، دارای امضای زیر خواهند بود."
+
+msgid "manager.setup.enableAnnouncements.enable"
+msgstr "فعال‌سازی اطلاعیه‌ها"
+
+msgid "manager.setup.enableAnnouncements.description"
+msgstr "اطلاعیه‌ها ممکن است جهت آگاه‌سازی خوانندگان از اخبار و رویدادها منتشر شوند. اطلاعیه‌های منتشر شده در صفحه اطلاعیه‌ها نمایش داده خواهند شد."
+
+msgid "manager.setup.numAnnouncementsHomepage"
+msgstr "نمایش در صفحه اصلی"
+
+msgid "manager.setup.numAnnouncementsHomepage.description"
+msgstr "تعداد اطلاعیه‌هایی که در صفحه اصلی نمایش داده می‌شوند. برای عدم نمایش، این بخش را خالی بگذارید."
+
+msgid "manager.setup.enablePressInstructions"
+msgstr "فعال‌سازی این انتشارات جهت نمایش عمومی در سایت"
+
+msgid "manager.setup.enablePublicMonographId"
+msgstr "شناسگرهای سفارشی برای شناسایی موارد منتشر شده استفاده خواهند شد."
+
+msgid "manager.setup.enablePublicGalleyId"
+msgstr "شناسگرهای سفارشی برای شناسایی گالی‌ها (مانند فایل‌های HTML یا PDF) برای موارد منتشر شده استفاده خواهند شد."
+
+msgid "manager.setup.enableUserRegistration"
+msgstr "بازدیدکنندگان می‌توانند یک حساب کاربری در این انتشارات ثبت‌نام کنند."
+
+msgid "manager.setup.focusAndScope"
+msgstr "تمرکز و دامنه فعالیت انتشارات"
+
+msgid "manager.setup.focusAndScope.description"
+msgstr "محدوده تک‌نگاشت‌ها و سایر مواردی که انتشارات منتشر خواهد کرد را برای پدیدآورندگان، خوانندگان و کتابداران تشریح کنید."
+
+msgid "manager.setup.focusScope"
+msgstr "تمرکز و دامنه فعالیت"
+
+msgid "manager.setup.focusScopeDescription"
+msgstr "<strong>داده‌های نمونه HTML</strong>"
+
+msgid "manager.setup.forAuthorsToIndexTheirWork"
+msgstr "برای پدیدآورندگان جهت نمایه‌سازی آثارشان"
+
+msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
+msgstr ""
+"سامانه OMP از پروتکل <a href=\"https://www.openarchives.org\" target=\"_blank\">Open Archives Initiative</a> برای گردآوری متادیتا پیروی می‌کند که استانداردی نوظهور برای ارائه دسترسی نمایه‌شده مناسب به منابع پژوهشی الکترونیکی در مقیاس جهانی است. پدیدآورندگان از الگوی مشابهی برای ارائه متادیتای دست‌نوشته خود استفاده خواهند کرد. مدیر انتشارات باید دسته‌های نمایه‌سازی را انتخاب کرده و نمونه‌های مرتبط را به پدیدآورندگان ارائه دهد تا آن‌ها را در نمایه‌سازی آثارشان یاری کند؛ اصطلاحات را با نقطه-ویرگول (مثلاً term1; term2) جدا کنید. ورودی‌ها باید با استفاده از عباراتی مانند «به‌عنوان مثال» یا «مانند» معرفی شوند."
+
+msgid "manager.setup.form.contactEmailRequired"
+msgstr "درج رایانامه رابط اصلی الزامی است."
+
+msgid "manager.setup.form.contactNameRequired"
+msgstr "درج نام رابط اصلی الزامی است."
+
+msgid "manager.setup.form.numReviewersPerSubmission"
+msgstr "تعیین تعداد داوران برای هر دست‌نوشته الزامی است."
+
+msgid "manager.setup.form.supportEmailRequired"
+msgstr "درج رایانامه پشتیبانی الزامی است."
+
+msgid "manager.setup.form.supportNameRequired"
+msgstr "درج نام پشتیبانی الزامی است."
+
+msgid "manager.setup.generalInformation"
+msgstr "اطلاعات عمومی"
+
+msgid "manager.setup.gettingDownTheDetails"
+msgstr "مرحله ۱. ثبت جزئیات"
+
+msgid "manager.setup.guidelines"
+msgstr "راهنماها"
+
+msgid "manager.setup.preparingWorkflow"
+msgstr "مرحله ۳. آماده‌سازی فرآیند انجام کار"
+
+msgid "manager.setup.identity"
+msgstr "هویت انتشارات"
+
+msgid "manager.setup.information"
+msgstr "اطلاعات"
+
+msgid "manager.setup.information.description"
+msgstr "توصیفات کوتاه از انتشارات برای کتابداران و پدیدآورندگان و خوانندگان بالقوه. این اطلاعات در صورت افزودن بلوک «اطلاعات»، در نوار کناری سایت نمایش داده می‌شوند."
+
+msgid "manager.setup.information.forAuthors"
+msgstr "برای پدیدآورندگان"
+
+msgid "manager.setup.information.forLibrarians"
+msgstr "برای کتابداران"
+
+msgid "manager.setup.information.forReaders"
+msgstr "برای خوانندگان"
+
+msgid "manager.setup.information.success"
+msgstr "اطلاعات این انتشارات به‌روزرسانی شد."
+
+msgid "manager.setup.institution"
+msgstr "مؤسسه"
+
+msgid "manager.setup.itemsPerPage"
+msgstr "تعداد موارد در هر صفحه"
+
+msgid "manager.setup.itemsPerPage.description"
+msgstr "محدود کردن تعداد مواردی (مانند دست‌نوشته‌ها، کاربران یا تخصیص‌های ویراستاری) که پیش از نمایش موارد بعدی در صفحه‌ای دیگر، در یک فهرست نمایش داده می‌شوند."
+
+msgid "manager.setup.labelName"
+msgstr "نام برچسب"
+
+msgid "manager.setup.layoutAndGalleys"
+msgstr "مدیران صفحه‌آرایی"
+
+msgid "manager.setup.layoutInstructions"
+msgstr "دستورالعمل‌های صفحه‌آرایی"
+
+msgid "manager.setup.layoutInstructionsDescription"
+msgstr "دستورالعمل‌های صفحه‌آرایی را می‌توان برای قالب‌بندی موارد در حال انتشار در انتشارات تهیه کرد و در پایین به صورت HTML یا متن ساده وارد نمود. این دستورالعمل‌ها در صفحه ویراستاری هر دست‌نوشته در دسترس مدیر صفحه‌آرایی و مدیر بخش قرار خواهند گرفت. (از آنجا که هر انتشارات ممکن است از قالب‌های فایلی، استانداردهای کتابشناختی و شیوه‌نامه‌های خاص خود استفاده کند، مجموعه دستورالعمل پیش‌فرضی ارائه نشده است)."
+
+msgid "manager.setup.layoutTemplates"
+msgstr "الگوهای صفحه‌آرایی"
+
+msgid "manager.setup.layoutTemplatesDescription"
+msgstr "الگوها را می‌توان جهت نمایش در بخش صفحه‌آرایی برای هر یک از قالب‌های استاندارد منتشر شده در انتشارات (مانند تک‌نگاشت، نقد کتاب و غیره) با استفاده از هر نوع قالب فایلی (مانند pdf، doc و غیره) به همراه یادداشت‌های تعیین‌کننده قلم، اندازه، حاشیه و غیره بارگذاری کرد تا به عنوان راهنمایی برای مدیران صفحه‌آرایی و نمونه‌خوان‌ها عمل کنند."
+
+msgid "manager.setup.layoutTemplates.file"
+msgstr "فایل الگو"
+
+msgid "manager.setup.layoutTemplates.title"
+msgstr "عنوان"
+
+msgid "manager.setup.lists"
+msgstr "فهرست‌ها"
+
+msgid "manager.setup.lists.success"
+msgstr "تنظیمات فهرست به‌روزرسانی شد."
+
+msgid "manager.setup.look"
+msgstr "ظاهر و احساس"
+
+msgid "manager.setup.look.description"
+msgstr "سربرگ صفحه اصلی، محتوا، سربرگ انتشارات، پانویس، نوار راهبری و شیوه‌نامه."
+
+msgid "manager.setup.settings"
+msgstr "تنظیمات"
+
+msgid "manager.setup.management.description"
+msgstr "دسترسی و امنیت، زمان‌بندی، اطلاعیه‌ها، ویراستاری، صفحه‌آرایی و نمونه‌خوانی."
+
+msgid "manager.setup.managementOfBasicEditorialSteps"
+msgstr "مدیریت مراحل اساسی سردبیری"
+
+msgid "manager.setup.managingPublishingSetup"
+msgstr "تنظیمات مدیریت و انتشار"
+
+msgid "manager.setup.managingThePress"
+msgstr "مرحله ۴. مدیریت تنظیمات"
+
+msgid "manager.setup.masthead.success"
+msgstr "جزئیات شناسنامه این انتشارات به‌روزرسانی شد."
+
+msgid "manager.setup.noImageFileUploaded"
+msgstr "هیچ فایل تصویری بارگذاری نشده است."
+
+msgid "manager.setup.noStyleSheetUploaded"
+msgstr "هیچ شیوه‌نامه‌ای بارگذاری نشده است."
+
+msgid "manager.setup.note"
+msgstr "یادداشت"
+
+msgid "manager.setup.notifyAllAuthorsOnDecision"
+msgstr "هنگام استفاده از رایانامه «اطلاع‌رسانی به پدیدآورنده»، نشانی رایانامه تمامی پدیدآورندگان همکار در آثار دارای چندین پدیدآورنده (و نه فقط کاربر ارسال‌کننده) را نیز بگنجانید."
+
+msgid "manager.setup.noUseCopyeditors"
+msgstr "ویراستاری توسط سردبیر یا مدیر بخش تخصیص‌یافته به دست‌نوشته انجام خواهد شد."
+
+msgid "manager.setup.noUseLayoutEditors"
+msgstr "سردبیر یا مدیر بخش تخصیص‌یافته به دست‌نوشته، فایل‌های HTML، PDF و غیره را آماده خواهد کرد."
+
+msgid "manager.setup.noUseProofreaders"
+msgstr "سردبیر یا مدیر بخش تخصیص‌یافته به دست‌نوشته، گالی‌ها را بررسی خواهد کرد."
+
+msgid "manager.setup.numPageLinks"
+msgstr "پیوندهای صفحه"
+
+msgid "manager.setup.numPageLinks.description"
+msgstr "محدود کردن تعداد پیوندهای نمایش داده شده به صفحات بعدی در یک فهرست."
+
+msgid "manager.setup.onlineAccessManagement"
+msgstr "دسترسی به محتوای انتشارات"
+
+msgid "manager.setup.onlineIssn"
+msgstr "شاپا (ISSN) آنلاین"
+
+msgid "manager.setup.policies"
+msgstr "خط‌مشی‌ها"
+
+msgid "manager.setup.policies.description"
+msgstr "تمرکز، داوری تخصصی، بخش‌ها، حریم خصوصی، امنیت و موارد تکمیلی بخش «درباره»."
+
+msgid "manager.setup.privacyStatement.success"
+msgstr "بیانیه حریم خصوصی به‌روزرسانی شد."
+
+msgid "manager.setup.appearanceDescription"
+msgstr "اجزای مختلف ظاهر انتشارات از جمله عناصر سربرگ و پانویس، سبک و پوسته انتشارات و چگونگی ارائه فهرست‌های اطلاعات به کاربران را می‌توان در این صفحه پیکربندی کرد."
+
+msgid "manager.setup.pressDescription"
+msgstr "خلاصه انتشارات"
+
+msgid "manager.setup.pressDescription.description"
+msgstr "توصیفی کوتاه از انتشارات شما."
+
+msgid "manager.setup.aboutPress"
+msgstr "درباره انتشارات"
+
+msgid "manager.setup.aboutPress.description"
+msgstr "تمامی اطلاعات مربوط به انتشارات خود را که ممکن است برای خوانندگان، پدیدآورندگان یا داوران جالب باشد، درج کنید. این اطلاعات می‌تواند شامل خط‌مشی دسترسی آزاد، تمرکز و دامنه فعالیت انتشارات، اعلان حق‌نشر، حمایت‌های مالی، تاریخچه انتشارات و بیانیه حریم خصوصی باشد."
+
+msgid "manager.setup.pressArchiving"
+msgstr "بایگانی انتشارات"
+
+msgid "manager.setup.homepageContent"
+msgstr "محتوای صفحه اصلی انتشارات"
+
+msgid "manager.setup.homepageContentDescription"
+msgstr "صفحه اصلی انتشارات به‌طور پیش‌فرض شامل پیوندهای راهبری است. محتوای اضافی صفحه اصلی را می‌توان با استفاده از یک یا تمامی گزینه‌های زیر اضافه کرد."
+
+msgid "manager.setup.pressHomepageContent"
+msgstr "محتوای صفحه اصلی انتشارات"
+
+msgid "manager.setup.pressHomepageContentDescription"
+msgstr "صفحه اصلی انتشارات به‌طور پیش‌فرض شامل پیوندهای راهبری است. محتوای اضافی صفحه اصلی را می‌توان با استفاده از یک یا تمامی گزینه‌های زیر اضافه کرد."
+
+msgid "manager.setup.contextInitials"
+msgstr "حروف اختصاری انتشارات"
+
+msgid "manager.setup.selectCountry"
+msgstr "کشوری که انتشارات در آن مستقر است یا کشور مربوط به نشانی پستی انتشارات یا ناشر را انتخاب کنید."
+
+msgid "manager.setup.layout"
+msgstr "صفحه‌آرایی انتشارات"
+
+msgid "manager.setup.pageHeader"
+msgstr "سربرگ صفحه انتشارات"
+
+msgid "manager.setup.pageHeaderDescription"
+msgstr "شرح سربرگ صفحه"
+
+msgid "manager.setup.pressPolicies"
+msgstr "مرحله ۲. خط‌مشی‌های انتشارات"
+
+msgid "manager.setup.pressSetup"
+msgstr "پیکربندی انتشارات"
+
+msgid "manager.setup.pressSetupUpdated"
+msgstr "تنظیمات انتشارات شما به‌روزرسانی شد."
+
+msgid "manager.setup.styleSheetInvalid"
+msgstr "قالب شیوه‌نامه نامعتبر است. قالب پذیرفته شده .css می‌باشد."
+
+msgid "manager.setup.pressTheme"
+msgstr "پوسته انتشارات"
+
+msgid "manager.setup.pressThumbnail"
+msgstr "تصویر بندانگشتی انتشارات"
+
+msgid "manager.setup.pressThumbnail.description"
+msgstr "لوگوی کوچک یا نمادی از انتشارات که می‌تواند در فهرست انتشارات استفاده شود."
+
+msgid "manager.setup.contextTitle"
+msgstr "نام انتشارات"
+
+msgid "manager.setup.printIssn"
+msgstr "شاپا (ISSN) چاپی"
+
+msgid "manager.setup.proofingInstructions"
+msgstr "دستورالعمل‌های نمونه‌خوانی"
+
+msgid "manager.setup.proofingInstructionsDescription"
+msgstr "دستورالعمل‌های نمونه‌خوانی در مرحله ویراستاری دست‌نوشته در دسترس نمونه‌خوان‌ها، پدیدآورندگان، مدیران صفحه‌آرایی و مدیران بخش قرار خواهد گرفت. در ادامه مجموعه‌ای از دستورالعمل‌های پیش‌فرض در قالب HTML آورده شده است که می‌تواند در هر زمان توسط مدیر انتشارات تغییر یافته یا جایگزین شود."
+
+msgid "manager.setup.proofreading"
+msgstr "نمونه‌خوان‌ها"
+
+msgid "manager.setup.provideRefLinkInstructions"
+msgstr "ارائه دستورالعمل‌ها به مدیران صفحه‌آرایی."
+
+msgid "manager.setup.publicationScheduleDescription"
+msgstr "آثار انتشارات می‌توانند به‌صورت دسته‌جمعی و به عنوان بخشی از یک تک‌نگاشت با فهرست مطالب اختصاصی منتشر شوند. متناوباً، موارد منفرد می‌توانند به‌محض آماده شدن با افزودن به فهرست مطالب نسخه «کنونی» منتشر گردند. در بخش «درباره انتشارات»، بیانیه‌ای درباره سامانه‌ای که این انتشارات استفاده خواهد کرد و تواتر مورد انتظار انتشار آن به خوانندگان ارائه دهید."
+
+msgid "manager.setup.publisher"
+msgstr "ناشر"
+
+msgid "manager.setup.publisherDescription"
+msgstr "نام سازمان انتشاردهنده انتشارات در بخش «درباره انتشارات» ظاهر خواهد شد."
+
+msgid "manager.setup.referenceLinking"
+msgstr "پیونددهی منابع"
+
+msgid "manager.setup.refLinkInstructions.description"
+msgstr "دستورالعمل‌های صفحه‌آرایی برای پیونددهی منابع"
+
+msgid "manager.setup.restrictMonographAccess"
+msgstr "کاربران برای مشاهده محتوای دسترسی آزاد باید ثبت‌نام کرده و وارد سامانه شوند."
+
+msgid "manager.setup.restrictSiteAccess"
+msgstr "کاربران برای مشاهده سایت انتشارات باید ثبت‌نام کرده و وارد سامانه شوند."
+
+msgid "manager.setup.reviewGuidelines"
+msgstr "راهنمای داوری خارجی"
+
+msgid "manager.setup.reviewGuidelinesDescription"
+msgstr "معیارهای قضاوت درباره مناسب بودن یک دست‌نوشته برای انتشار در انتشارات را در اختیار داوران خارجی قرار دهید؛ این معیارها می‌تواند شامل دستورالعمل‌هایی برای تهیه یک داوری مؤثر و مفید باشد. داوران این فرصت را خواهند داشت که نظرات خود را برای پدیدآورنده و سردبیر، و همچنین نظرات مجزایی را فقط برای سردبیر ارائه دهند."
+
+msgid "manager.setup.internalReviewGuidelines"
+msgstr "راهنمای داوری داخلی"
+
+msgid "manager.setup.reviewOptions"
+msgstr "گزینه‌های داوری"
+
+msgid "manager.setup.reviewOptions.automatedReminders"
+msgstr "یادآوری‌های خودکار رایانامه‌ای"
+
+msgid "manager.setup.reviewOptions.onQuality"
+msgstr "سردبیران پس از هر داوری، داوران را بر اساس یک مقیاس کیفی پنج‌امتیازی رتبه‌بندی خواهند کرد."
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess"
+msgstr "محدودیت دسترسی به فایل"
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess.description"
+msgstr "داوران تنها پس از موافقت با داوری، به فایل دست‌نوشته دسترسی خواهند داشت."
+
+msgid "manager.setup.reviewOptions.reviewerAccess"
+msgstr "دسترسی داور"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled"
+msgstr "دسترسی داور با یک کلیک"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"
+msgstr "به داوران می‌توان یک پیوند امن در دعوت‌نامه رایانامه‌ای ارسال کرد که با کلیک بر روی آن، به‌طور خودکار وارد سامانه شوند."
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.label"
+msgstr "گنجاندن یک پیوند امن در دعوت‌نامه رایانامه‌ای برای داوران."
+
+msgid "manager.setup.reviewOptions.reviewerRatings"
+msgstr "رتبه‌بندی داوران"
+
+msgid "manager.setup.reviewOptions.reviewerReminders"
+msgstr "یادآوری‌های داور"
+
+msgid "manager.setup.reviewPolicy"
+msgstr "خط‌مشی داوری"
+
+msgid "manager.setup.searchDescription.description"
+msgstr "توصیفی کوتاه (۵۰ تا ۳۰۰ نویسه) از انتشارات ارائه دهید که موتورهای جستجو بتوانند هنگام فهرست کردن انتشارات در نتایج جستجو، آن را نمایش دهند."
+
+msgid "manager.setup.searchEngineIndexing"
+msgstr "نمایه‌سازی جستجو"
+
+msgid "manager.setup.searchEngineIndexing.description"
+msgstr "به موتورهای جستجو مانند گوگل در یافتن و نمایش سایت خود کمک کنید. توصیه می‌شود <a href=\"{$sitemapUrl}\" target=\"_blank\">نقشه سایت</a> خود را ارسال نمایید."
+
+msgid "manager.setup.searchEngineIndexing.success"
+msgstr "تنظیمات نمایه‌سازی موتور جستجو به‌روزرسانی شد."
+
+msgid "manager.setup.sectionsAndSectionEditors"
+msgstr "بخش‌ها و مدیران بخش"
+
+msgid "manager.setup.sectionsDefaultSectionDescription"
+msgstr "(اگر بخشی اضافه نشود، آثار به‌طور پیش‌فرض به بخش تک‌نگاشت‌ها ارسال می‌شوند)."
+
+msgid "manager.setup.sectionsDescription"
+msgstr "برای ایجاد یا تغییر بخش‌های انتشارات (مانند تک‌نگاشت‌ها، نقد کتاب و غیره)، به مدیریت بخش مراجعه کنید.<br /><br />پدیدآورندگان هنگام ارسال آثار به انتشارات، بخش مربوطه را تعیین خواهند کرد."
+
+msgid "manager.setup.securitySettings"
+msgstr "تنظیمات دسترسی و امنیت"
+
+msgid "manager.setup.securitySettings.note"
+msgstr "سایر گزینه‌های مربوط به امنیت و دسترسی را می‌توان در صفحه <a href=\"{$accessAndSecurityUrl}\" target=\"_blank\" class=\"action\">دسترسی و امنیت</a> پیکربندی کرد."
+
+msgid "manager.setup.selectEditorDescription"
+msgstr "سردبیر انتشارات که بر فرآیند سردبیری نظارت خواهد داشت."
+
+msgid "manager.setup.selectSectionDescription"
+msgstr "مجموعه انتشاراتی که اثر برای آن در نظر گرفته خواهد شد."
+
+msgid "manager.setup.showGalleyLinksDescription"
+msgstr "Always show galley links and indicate restricted access."
+
+msgid "manager.setup.siteAccess.view"
+msgstr "Site Access"
+
+msgid "manager.setup.siteAccess.viewContent"
+msgstr "مشاهده محتوای تک‌نگاشت"
+
+msgid "manager.setup.stepsToPressSite"
+msgstr "پنج مرحله برای وب‌سایت انتشارات"
+
+msgid "manager.setup.subjectExamples"
+msgstr "(به‌عنوان مثال: فتوسنتز؛ سیاهچاله‌ها؛ مسئله نقشه چهاررنگ؛ نظریه بیز)"
+
+msgid "manager.setup.subjectKeywordTopic"
+msgstr "کلمات کلیدی"
+
+msgid "manager.setup.subjectProvideExamples"
+msgstr "ارائه نمونه‌هایی از کلمات کلیدی یا موضوعات به عنوان راهنمایی برای پدیدآورندگان"
+
+msgid "manager.setup.submissionGuidelines"
+msgstr "راهنمای ارسال اثر"
+
+msgid "maganer.setup.submissionChecklistItemRequired"
+msgstr "درج مورد فهرست بازبینی الزامی است."
+
+msgid "manager.setup.workflow"
+msgstr "فرآیند انجام کار"
+
+msgid "manager.setup.submissions.description"
+msgstr "راهنمای پدیدآورندگان، حق‌نشر و نمایه‌سازی (شامل ثبت‌نام)."
+
+msgid "manager.setup.typeExamples"
+msgstr "(به‌عنوان مثال: پرس‌وجوی تاریخی؛ نیمه‌آزمایشی؛ تحلیل ادبی؛ پیمایش/مصاحبه)"
+
+msgid "manager.setup.typeMethodApproach"
+msgstr "نوع (روش/رویکرد)"
+
+msgid "manager.setup.typeProvideExamples"
+msgstr "ارائه نمونه‌هایی از انواع پژوهش، روش‌ها و رویکردهای مرتبط در این حوزه"
+
+msgid "manager.setup.useCopyeditors"
+msgstr "یک ویراستار برای کار بر روی هر اثر تخصیص داده خواهد شد."
+
+msgid "manager.setup.useEditorialReviewBoard"
+msgstr "انتشارات از یک هیئت تحریریه/داوری استفاده خواهد کرد."
+
+msgid "manager.setup.useImageTitle"
+msgstr "تصویر عنوان"
+
+msgid "manager.setup.useStyleSheet"
+msgstr "شیوه‌نامه انتشارات"
+
+msgid "manager.setup.useLayoutEditors"
+msgstr "یک مدیر صفحه‌آرایی برای آماده‌سازی فایل‌های HTML، PDF و غیره جهت انتشار الکترونیکی اختصاص داده خواهد شد."
+
+msgid "manager.setup.useProofreaders"
+msgstr "یک نمونه‌خوان برای بررسی (به همراه پدیدآورندگان) نمونه‌های چاپی قبل از انتشار، اختصاص داده خواهد شد."
+
+msgid "manager.setup.userRegistration"
+msgstr "ثبت‌نام کاربر"
+
+msgid "manager.setup.useTextTitle"
+msgstr "متن عنوان"
+
+msgid "manager.setup.volumePerYear"
+msgstr "تعداد دوره‌ها در سال"
+
+msgid "manager.setup.publicationFormat.code"
+msgstr "قالب"
+
+msgid "manager.setup.publicationFormat.codeRequired"
+msgstr "انتخاب یک قالب الزامی است."
+
+msgid "manager.setup.publicationFormat.nameRequired"
+msgstr "شما باید نامی برای این قالب تعیین کنید."
+
+msgid "manager.setup.publicationFormat.physicalFormat"
+msgstr "آیا این یک قالب فیزیکی (غیردیجیتال) است؟"
+
+msgid "manager.setup.publicationFormat.inUse"
+msgstr "از آنجا که این قالب انتشار در حال حاضر توسط یک تک‌نگاشت در انتشارات شما در حال استفاده است، قابل حذف نیست."
+
+msgid "manager.setup.newPublicationFormat"
+msgstr "قالب انتشار جدید"
+
+msgid "manager.setup.newPublicationFormatDescription"
+msgstr "برای ایجاد یک قالب انتشار جدید، فرم زیر را پر کرده و بر روی دکمه «ایجاد» کلیک کنید."
+
+msgid "manager.setup.genresDescription"
+msgstr "این گونه‌ها برای نام‌گذاری فایل‌ها استفاده شده و در منوی کشویی هنگام بارگذاری فایل‌ها نمایش داده می‌شوند. گونه‌هایی که با ## مشخص شده‌اند به کاربر اجازه می‌دهند فایل را به کل کتاب (99Z) یا یک فصل خاص با شماره (مثلاً 02) مرتبط کند."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "این انتشارات در حال حاضر هیچ اثری را نمی‌پذیرد. برای اجازه ارسال اثر به تنظیمات فرآیند انجام کار مراجعه کنید."
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "جلوگیری از ارسال آثار جدید توسط کاربران به انتشارات. ارسال اثر را می‌توان برای مجموعه‌های انفرادی انتشارات در صفحه تنظیمات <a href=\"{$url}\">مجموعه‌های انتشارات</a> غیرفعال کرد."
+
+msgid "manager.setup.genres"
+msgstr "گونه‌ها"
+
+msgid "manager.setup.newGenre"
+msgstr "گونه تک‌نگاشت جدید"
+
+msgid "manager.setup.newGenreDescription"
+msgstr "برای ایجاد یک گونه جدید، فرم زیر را پر کرده و بر روی دکمه «ایجاد» کلیک کنید."
+
+msgid "manager.setup.deleteSelected"
+msgstr "حذف موارد انتخاب شده"
+
+msgid "manager.setup.restoreDefaults"
+msgstr "بازگردانی تنظیمات پیش‌فرض"
+
+msgid "manager.setup.prospectus"
+msgstr "راهنمای طرح پیشنهادی"
+
+msgid "manager.setup.prospectusDescription"
+msgstr "راهنمای طرح پیشنهادی، سندی تهیه شده توسط انتشارات است که به پدیدآورنده کمک می‌کند مطالب ارسالی را به گونه‌ای توصیف نماید که انتشارات بتواند ارزش دست‌نوشته را تعیین کند. یک طرح پیشنهادی می‌تواند شامل موارد بسیاری باشد - از پتانسیل بازاریابی تا ارزش نظری؛ در هر صورت، انتشارات باید راهنمای طرح پیشنهادی ایجاد کند که مکمل دستور کار نشر آن‌ها باشد."
+
+msgid "manager.setup.submitToCategories"
+msgstr "اجازه ارسال اثر به دسته‌ها"
+
+msgid "manager.setup.submitToSeries"
+msgstr "اجازه ارسال اثر به مجموعه‌ها"
+
+msgid "manager.setup.issnDescription"
+msgstr "شماره استاندارد بین‌المللی پیایندها (ISSN)، شماره‌ای هشت‌رقمی است که نشریات دوره‌ای از جمله پیایندهای الکترونیکی را شناسایی می‌کند. این شماره را می‌توان از <a href=\"https://www.issn.org\" target=\"_blank\">مرکز بین‌المللی ISSN</a> دریافت کرد."
+
+msgid "manager.setup.currentFormats"
+msgstr "قالب‌های کنونی"
+
+msgid "manager.setup.categoriesAndSeries"
+msgstr "دسته‌ها و مجموعه‌ها"
+
+msgid "manager.setup.categories.description"
+msgstr "شما می‌توانید فهرستی از دسته‌ها را برای سازماندهی انتشارات خود ایجاد کنید. دسته‌ها، گروه‌بندی کتاب‌ها بر اساس موضوع هستند، برای مثال: اقتصاد؛ ادبیات؛ شعر؛ و غیره. دسته‌ها می‌توانند در دسته‌های «مادر» جای گیرند: برای مثال، دسته مادرِ اقتصاد می‌تواند شامل دسته‌های خرد و کلان باشد. بازدیدکنندگان قادر خواهند بود انتشارات را بر اساس دسته جستجو و مرور کنند."
+
+msgid "manager.setup.series.description"
+msgstr "شما می‌توانید هر تعداد مجموعه‌ای را برای سازماندهی انتشارات خود ایجاد کنید. یک مجموعه نشان‌دهنده مجموعه خاصی از کتاب‌های اختصاص یافته به یک موضوع یا مباحثی است که معمولاً توسط یک یا دو عضو هیئت علمی پیشنهاد شده و نظارت می‌شود. بازدیدکنندگان قادر خواهند بود انتشارات را بر اساس مجموعه جستجو و مرور کنند."
+
+msgid "manager.setup.reviewForms"
+msgstr "فرم‌های داوری"
+
+msgid "manager.setup.roleType"
+msgstr "نوع نقش"
+
+msgid "manager.setup.authorRoles"
+msgstr "نقش‌های پدیدآورنده"
+
+msgid "manager.setup.managerialRoles"
+msgstr "نقش‌های مدیریتی"
+
+msgid "manager.setup.availableRoles"
+msgstr "نقش‌های موجود"
+
+msgid "manager.setup.currentRoles"
+msgstr "نقش‌های کنونی"
+
+msgid "manager.setup.internalReviewRoles"
+msgstr "نقش‌های داوری داخلی"
+
+msgid "manager.setup.files"
+msgstr "فایل‌ها"
+
+msgid "manager.setup.productionTemplates"
+msgstr "قالب‌های تولید و نشر"
+
+msgid "manager.files.note"
+msgstr "نکته: مرورگر فایل‌ها یک ویژگی پیشرفته است که امکان مشاهده و مدیریت مستقیم فایل‌ها و دایرکتوری‌های مرتبط با انتشارات را فراهم می‌کند."
+
+msgid "manager.setup.copyrightNotice.sample"
+msgstr "<h3>متن‌های پیشنهادی حق‌نشر کرییتیو کامنز (Creative Commons)</h3>\n<h4>خط‌مشی پیشنهادی برای انتشاراتی که دسترسی آزاد ارائه می‌دهند</h4>\nپدیدآورندگانی که در این انتشارات اثر خود را منتشر می‌کنند با موارد زیر موافقت می‌نمایند:\n<ol type=\"a\">\n\t<li>پدیدآورندگان حق‌نشر را برای خود حفظ کرده و به انتشارات حق اولین انتشار را اعطا می‌کنند که به‌طور هم‌زمان تحت مجوز <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/3.0\">Creative Commons Attribution License</a> قرار می‌گیرد که به دیگران اجازه می‌دهد اثر را با ذکر نام پدیدآورنده و انتشار اولیه در این انتشارات به اشتراک بگذارند.</li>\n\t<li>پدیدآورندگان می‌توانند برای توزیع غیرانحصاری نسخه منتشر شده اثر توسط انتشارات (مثلاً قرار دادن آن در مخزن مؤسساتی یا انتشار در یک کتاب)، با ذکر نام انتشار اولیه در این انتشارات، قراردادهای جداگانه و اضافی منعقد کنند.</li>\n\t<li>پدیدآورندگان مجاز و ترغیب می‌شوند که اثر خود را پیش از فرآیند ارسال و در طول آن، به‌صورت آنلاین (مثلاً در مخازن مؤسساتی یا وب‌سایت خود) قرار دهند، زیرا این امر می‌تواند منجر به تبادلات سازنده و همچنین استناد زودتر و بیشتر به اثر منتشر شده گردد (ر.ک: <a target=\"_blank\" href=\"https://web-archive.southampton.ac.uk/opcit.eprints.org/oacitation-biblio.html\">تأثیر دسترسی آزاد</a>).</li>\n</ol>\n\n<h4>خط‌مشی پیشنهادی برای انتشاراتی که دسترسی آزاد با تأخیر ارائه می‌دهند</h4>\nپدیدآورندگانی که در این انتشارات اثر خود را منتشر می‌کنند با موارد زیر موافقت می‌نمایند:\n<ol type=\"a\">\n\t<li>پدیدآورندگان حق‌نشر را برای خود حفظ کرده و به انتشارات حق اولین انتشار را اعطا می‌کنند، به همراه اثر [مدت زمان را مشخص کنید] پس از انتشار که به‌طور هم‌زمان تحت مجوز <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/3.0\">Creative Commons Attribution License</a> قرار می‌گیرد که به دیگران اجازه می‌دهد اثر را با ذکر نام پدیدآورنده و انتشار اولیه در این انتشارات به اشتراک بگذارند.</li>\n</ol>"
+
+msgid "manager.setup.basicEditorialStepsDescription"
+msgstr "مراحل: صف دست‌نوشته‌ها > داوری دست‌نوشته > ویراستاری دست‌نوشته > فهرست مطالب.<br /><br />مدلی را برای مدیریت این جنبه‌های فرآیند سردبیری انتخاب کنید. (برای تعیین مدیر اجرایی و مدیران مجموعه، به بخش سردبیران در مدیریت انتشارات مراجعه کنید)."
+
+msgid "manager.setup.referenceLinkingDescription"
+msgstr "<p>برای فعال کردن امکان یافتن نسخه‌های آنلاین آثار استناد شده توسط پدیدآورنده، گزینه‌های زیر در دسترس هستند.</p>\n<ol>\n\t<li><strong>افزودن ابزار مطالعه</strong><p>مدیر انتشارات می‌تواند «یافتن منابع» را به ابزارهای مطالعه که همراه با موارد منتشر شده هستند اضافه کند، که به خوانندگان امکان می‌دهد عنوان یک منبع را چسبانده و سپس پایگاه‌های داده علمی از پیش انتخاب شده را برای اثر استناد شده جستجو کنند.</p></li>\n\t<li><strong>درج پیوند در منابع</strong><p>مدیر صفحه‌آرایی می‌تواند با استفاده از دستورالعمل‌های زیر (که قابل ویرایش هستند) پیوندی به منابعی که به‌صورت آنلاین یافت می‌شوند اضافه کند.</p></li>\n</ol>"
+
+msgid "manager.publication.library"
+msgstr "کتابخانه انتشارات"
+
+msgid "manager.setup.resetPermissions"
+msgstr "بازنشانی مجوزهای تک‌نگاشت"
+
+msgid "manager.setup.resetPermissions.confirm"
+msgstr "آیا مطمئن هستید که می‌خواهید داده‌های مجوزهای اختصاص یافته به تک‌نگاشت‌ها را بازنشانی کنید؟"
+
+msgid "manager.setup.resetPermissions.description"
+msgstr "بیانیه حق‌نشر و اطلاعات مجوز به‌طور دائمی به محتوای منتشر شده ضمیمه می‌شوند تا اطمینان حاصل شود که این داده‌ها در صورت تغییر خط‌مشی‌های انتشارات برای آثار ارسالی جدید، تغییر نخواهند کرد. برای بازنشانی اطلاعات مجوزهای ذخیره‌شده که قبلاً به محتوای منتشر شده ضمیمه شده‌اند، از دکمه زیر استفاده کنید."
+
+msgid "manager.setup.resetPermissions.success"
+msgstr "مجوزهای تک‌نگاشت با موفقیت بازنشانی شدند."
+
+msgid "grid.genres.title.short"
+msgstr "مؤلفه‌ها"
+
+msgid "grid.genres.title"
+msgstr "مؤلفه‌های تک‌نگاشت"
+
+msgid "manager.setup.notifications.copyPrimaryContact"
+msgstr "ارسال یک نسخه به رابط اصلی، شناسایی شده در تنظیمات انتشارات."
+
+msgid "grid.series.pathAlphaNumeric"
+msgstr "مسیر مجموعه باید تنها شامل حروف و اعداد باشد."
+
+msgid "grid.series.pathExists"
+msgstr "مسیر مجموعه از قبل موجود است. لطفاً یک مسیر منحصربه‌فرد وارد کنید."
+
+msgid "manager.navigationMenus.form.navigationMenuItem.series"
+msgstr "انتخاب مجموعه"
+
+msgid "manager.navigationMenus.form.navigationMenuItemSeriesMessage"
+msgstr "لطفاً مجموعه‌ای را که می‌خواهید این مورد منو به آن پیوند داده شود، انتخاب کنید."
+
+msgid "manager.navigationMenus.form.navigationMenuItem.category"
+msgstr "انتخاب دسته"
+
+msgid "manager.navigationMenus.form.navigationMenuItemCategoryMessage"
+msgstr "لطفاً دسته‌ای را که می‌خواهید این مورد منو به آن پیوند داده شود، انتخاب کنید."
+
+msgid "grid.series.urlWillBe"
+msgstr "نشانی وب (URL) مجموعه چنین خواهد بود: {$sampleUrl}"
+
+msgid "stats.contextStats"
+msgstr "آمار انتشارات"
+
+msgid "stats.context.tooltip.text"
+msgstr "تعداد بازدیدکنندگانی که صفحه نمایه انتشارات و کاتالوگ (ویترین) را مشاهده می‌کنند."
+
+msgid "stats.context.tooltip.label"
+msgstr "درباره آمار انتشارات"
+
+msgid "stats.context.downloadReport.description"
+msgstr "بارگیری یک صفحه‌گسترده CSV/Excel شامل آمار استفاده برای این انتشارات مطابق با پارامترهای زیر."
+
+msgid "stats.context.downloadReport.downloadContext.description"
+msgstr "تعداد بازدیدهای صفحه نمایه انتشارات و کاتالوگ (ویترین)."
+
+msgid "stats.context.downloadReport.downloadContext"
+msgstr "بارگیری آمار انتشارات"
+
+msgid "stats.publications.downloadReport.description"
+msgstr "بارگیری یک صفحه‌گسترده CSV/Excel شامل آمار استفاده برای تک‌نگاشت‌ها مطابق با پارامترهای زیر."
+
+msgid "stats.publications.downloadReport.downloadSubmissions"
+msgstr "بارگیری آمار تک‌نگاشت‌ها"
+
+msgid "stats.publications.downloadReport.downloadSubmissions.description"
+msgstr "تعداد مشاهده چکیده‌ها و بارگیری فایل‌ها برای هر تک‌نگاشت."
+
+msgid "stats.publicationStats"
+msgstr "آمار تک‌نگاشت"
+
+msgid "stats.publications.details"
+msgstr "جزئیات تک‌نگاشت"
+
+msgid "stats.publications.none"
+msgstr "هیچ تک‌نگاشتی با آمار استفاده منطبق با این پارامترها یافت نشد."
+
+msgid "stats.publications.totalAbstractViews.timelineInterval"
+msgstr "مجموع کل بازدیدهای کاتالوگ بر اساس تاریخ"
+
+msgid "stats.publications.totalGalleyViews.timelineInterval"
+msgstr "مجموع کل بازدیدهای فایل بر اساس تاریخ"
+
+msgid "stats.publications.countOfTotal"
+msgstr "{$count} از {$total} تک‌نگاشت"
+
+msgid "stats.publications.abstracts"
+msgstr "مدخل‌های کاتالوگ"
+
+msgid "plugins.importexport.common.error.salesRightRequiresTerritory"
+msgstr "یک رکورد حق فروش نادیده گرفته شد زیرا هیچ کشور یا منطقه‌ای برای آن تعیین نشده است."
+
+msgid "plugins.importexport.common.error.noObjectsSelected"
+msgstr "هیچ موردی انتخاب نشده است."
+
+msgid "plugins.importexport.common.error.validation"
+msgstr "امکان تبدیل موارد انتخاب شده وجود ندارد."
+
+msgid "plugins.importexport.common.invalidXML"
+msgstr "XML نامعتبر:"
+
+msgid "plugins.importexport.native.exportSubmissions"
+msgstr "برون‌سپاری دست‌نوشته‌ها"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.description"
+msgstr "ارسال یک نسخه از رایانامه تأیید دریافت دست‌نوشته به رابط اصلی این انتشارات."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled.description"
+msgstr "هیچ رابط اصلی برای این انتشارات تعریف نشده است. شما می‌توانید یک رابط اصلی در <a href=\"{$url}\">تنظیمات انتشارات</a> وارد کنید."
+
+msgid "plugins.importexport.common.error.unknownObjects"
+msgstr "موارد مشخص شده یافت نشدند."
+
+msgid "plugins.importexport.native.error.unknownUser"
+msgstr "کاربر مشخص شده، «{$userName}»، وجود ندارد."
+
+msgid "plugins.importexport.publicationformat.exportFailed"
+msgstr "فرآیند در تجزیه قالب‌های انتشار با خطا مواجه شد."
+
+msgid "plugins.importexport.chapter.exportFailed"
+msgstr "فرآیند در تجزیه فصل‌ها با خطا مواجه شد."
+
+msgid "emailTemplate.variable.context.contextName"
+msgstr "نام انتشارات"
+
+msgid "emailTemplate.variable.context.contextUrl"
+msgstr "نشانی وب (URL) صفحه اصلی انتشارات"
+
+msgid "emailTemplate.variable.context.contactName"
+msgstr "نام رابط اصلی انتشارات"
+
+msgid "emailTemplate.variable.context.contextAcronym"
+msgstr "حروف اختصاری انتشارات"
+
+msgid "emailTemplate.variable.context.contextSignature"
+msgstr "امضای رایانامه‌ای انتشارات برای رایانامه‌های خودکار"
+
+msgid "emailTemplate.variable.context.contactEmail"
+msgstr "نشانی رایانامه رابط اصلی انتشارات"
+
+msgid "emailTemplate.variable.context.mailingAddress"
+msgstr "نشانی پستی انتشارات"
+
+msgid "emailTemplate.variable.queuedPayment.itemName"
+msgstr "نام نوع پرداخت"
+
+msgid "emailTemplate.variable.queuedPayment.itemCost"
+msgstr "مبلغ پرداخت"
+
+msgid "emailTemplate.variable.queuedPayment.itemCurrencyCode"
+msgstr "واحد پول مبلغ پرداخت، مانند USD"
+
+msgid "emailTemplate.variable.site.siteTitle"
+msgstr "نام وب‌سایت هنگامی که بیش از یک انتشارات میزبانی می‌شود"
+
+msgid "emailTemplate.variable.statisticsReportNotify.publicationStatsLink"
+msgstr "پیوند به صفحه آمار کتاب‌ها"
+
+msgid "mailable.statisticsReportNotify.description"
+msgstr "این رایانامه به‌طور خودکار هر ماه برای سردبیران و مدیران انتشارات ارسال می‌شود تا مروری بر وضعیت سلامت سامانه داشته باشند."
+
+msgid "mailable.validateEmailContext.name"
+msgstr "تأیید رایانامه (ثبت‌نام انتشارات)"
+
+msgid "mailable.validateEmailContext.description"
+msgstr "این رایانامه به‌طور خودکار برای کاربر جدید هنگام ثبت‌نام در انتشارات ارسال می‌شود (در صورتی که تنظیمات نیاز به تأیید نشانی رایانامه داشته باشند)."
+
+msgid "doi.displayName"
+msgstr "شناسه دیجیتال اشیاء (DOI)"
+
+msgid "doi.manager.displayName"
+msgstr "شناسه‌های دیجیتال اشیاء (DOIs)"
+
+msgid "doi.description"
+msgstr "این افزونه امکان اختصاص شناسه‌های دیجیتال اشیاء (DOI) به تک‌نگاشت‌ها، فصل‌ها، قالب‌های انتشار و فایل‌ها را در OMP فراهم می‌کند."
+
+msgid "doi.readerDisplayName"
+msgstr "شناسه DOI:"
+
+msgid "doi.manager.settings.description"
+msgstr "لطفاً افزونه DOI را برای مدیریت و استفاده از شناسه‌های DOI در OMP پیکربندی کنید:"
+
+msgid "doi.manager.settings.explainDois"
+msgstr "لطفاً اشیاء نشری را که شناسه دیجیتال اشیاء (DOI) به آن‌ها اختصاص خواهد یافت، انتخاب کنید:"
+
+msgid "doi.manager.settings.enablePublicationDoi"
+msgstr "تک‌نگاشت‌ها"
+
+msgid "doi.manager.settings.enableChapterDoi"
+msgstr "فصل‌ها"
+
+msgid "doi.manager.settings.enableRepresentationDoi"
+msgstr "قالب‌های انتشار"
+
+msgid "doi.manager.settings.enableSubmissionFileDoi"
+msgstr "فایل‌ها"
+
+msgid "doi.manager.settings.doiPrefix"
+msgstr "پیشوند DOI"
+
+msgid "doi.manager.settings.doiPrefixPattern"
+msgstr "پیشوند DOI الزامی است و باید به شکل 10.xxxx باشد."
+
+msgid "doi.manager.settings.doiSuffixPattern"
+msgstr "برای هر نوع انتشار یک الگوی پسوند سفارشی وارد کنید. الگوی پسوند سفارشی می‌تواند از نمادهای زیر برای تولید پسوند استفاده کند:<br><br><code>%p</code> حروف اختصاری انتشارات<br><code>%m</code> شناسه تک‌نگاشت<br><code>%c</code> شناسه فصل<br><code>%f</code> شناسه قالب انتشار<br><code>%s</code> شناسه فایل<br><code>%x</code> شناسه سفارشی<br><br>توجه داشته باشید که الگوهای پسوند سفارشی اغلب منجر به مشکلاتی در تولید و ثبت شناسه‌های DOI می‌شوند. هنگام استفاده از الگوی پسوند سفارشی، دقت کنید که سردبیران بتوانند شناسه‌های DOI را تولید کرده و در آژانس‌های ثبت‌نام مانند Crossref ثبت نمایند."
+
+msgid "doi.manager.settings.doiSuffixPattern.example"
+msgstr "برای مثال، press%ppub%r می‌تواند شناسه DOI مانند 10.1234/pressESPpub100 ایجاد کند."
+
+msgid "doi.manager.settings.doiSuffixPattern.submissions"
+msgstr "برای تک‌نگاشت‌ها"
+
+msgid "doi.manager.settings.doiSuffixPattern.chapters"
+msgstr "برای فصل‌ها"
+
+msgid "doi.manager.settings.doiSuffixPattern.representations"
+msgstr "برای قالب‌های انتشار"
+
+msgid "doi.manager.settings.doiSuffixPattern.files"
+msgstr "برای فایل‌ها"
+
+msgid "doi.manager.settings.doiPublicationSuffixPatternRequired"
+msgstr "لطفاً الگوی پسوند DOI را برای تک‌نگاشت‌ها وارد کنید."
+
+msgid "doi.manager.settings.doiChapterSuffixPatternRequired"
+msgstr "لطفاً الگوی پسوند DOI را برای فصل‌ها وارد کنید."
+
+msgid "doi.manager.settings.doiRepresentationSuffixPatternRequired"
+msgstr "لطفاً الگوی پسوند DOI را برای قالب‌های انتشار وارد کنید."
+
+msgid "doi.manager.settings.doiSubmissionFileSuffixPatternRequired"
+msgstr "لطفاً الگوی پسوند DOI را برای فایل‌ها وارد کنید."
+
+msgid "doi.manager.settings.doiReassign"
+msgstr "تخصیص مجدد شناسه‌های DOI"
+
+msgid "doi.manager.settings.doiReassign.description"
+msgstr "اگر پیکربندی DOI خود را تغییر دهید، شناسه‌های DOI که قبلاً اختصاص یافته‌اند تحت تأثیر قرار نخواهند گرفت. پس از ذخیره پیکربندی DOI، از این دکمه برای پاک کردن تمامی شناسه‌های DOI موجود استفاده کنید تا تنظیمات جدید برای تمامی اشیاء موجود اعمال شود."
+
+msgid "doi.manager.settings.doiReassign.confirm"
+msgstr "آیا مطمئن هستید که می‌خواهید تمامی شناسه‌های DOI موجود را حذف کنید؟"
+
+msgid "doi.editor.doi"
+msgstr "شناسه DOI"
+
+msgid "doi.editor.doi.description"
+msgstr "شناسه DOI باید با {$prefix} شروع شود."
+
+msgid "doi.editor.doi.assignDoi"
+msgstr "اختصاص دادن"
+
+msgid "doi.editor.doiObjectTypeSubmission"
+msgstr "تک‌نگاشت"
+
+msgid "doi.editor.doiObjectTypeChapter"
+msgstr "فصل"
+
+msgid "doi.editor.doiObjectTypeRepresentation"
+msgstr "قالب انتشار"
+
+msgid "doi.editor.doiObjectTypeSubmissionFile"
+msgstr "فایل"
+
+msgid "doi.editor.customSuffixMissing"
+msgstr "شناسه DOI نمی‌تواند اختصاص یابد زیرا پسوند سفارشی وجود ندارد."
+
+msgid "doi.editor.missingParts"
+msgstr "شما نمی‌توانید شناسه DOI تولید کنید زیرا یک یا چند بخش از الگوی DOI فاقد داده است."
+
+msgid "doi.editor.patternNotResolved"
+msgstr "شناسه DOI نمی‌تواند اختصاص یابد زیرا شامل یک الگوی حل‌نشده است."
+
+msgid "doi.editor.canBeAssigned"
+msgstr "آنچه مشاهده می‌کنید پیش‌نمایشی از شناسه DOI است. کادر تیک را انتخاب کرده و فرم را ذخیره کنید تا شناسه DOI اختصاص یابد."
+
+msgid "doi.editor.assigned"
+msgstr "شناسه DOI به این {$pubObjectType} اختصاص یافته است."
+
+msgid "doi.editor.doiSuffixCustomIdentifierNotUnique"
+msgstr "پسوند DOI وارد شده قبلاً برای یک مورد منتشر شده دیگر استفاده شده است. لطفاً برای هر مورد یک پسوند DOI منحصربه‌فرد وارد کنید."
+
+msgid "doi.editor.clearObjectsDoi"
+msgstr "پاک کردن"
+
+msgid "doi.editor.clearObjectsDoi.confirm"
+msgstr "آیا مطمئن هستید که می‌خواهید شناسه DOI موجود را حذف کنید؟"
+
+msgid "doi.editor.assignDoi"
+msgstr "اختصاص شناسه DOI {$pubId} به این {$pubObjectType}"
+
+msgid "doi.editor.assignDoi.emptySuffix"
+msgstr "شناسه DOI نمی‌تواند اختصاص یابد زیرا پسوند سفارشی وجود ندارد."
+
+msgid "doi.editor.assignDoi.pattern"
+msgstr "شناسه DOI {$pubId} نمی‌تواند اختصاص یابد زیرا شامل یک الگوی حل‌نشده است."
+
+msgid "doi.editor.assignDoi.assigned"
+msgstr "شناسه DOI {$pubId} اختصاص یافت."
+
+msgid "doi.editor.missingPrefix"
+msgstr "شناسه DOI باید با {$doiPrefix} شروع شود."
+
+msgid "doi.editor.preview.publication"
+msgstr "شناسه DOI برای این انتشار {$doi} خواهد بود."
+
+msgid "doi.editor.preview.publication.none"
+msgstr "هیچ شناسه DOI به این انتشار اختصاص نیافته است."
+
+msgid "doi.editor.preview.chapters"
+msgstr "فصل: {$title}"
+
+msgid "doi.editor.preview.publicationFormats"
+msgstr "قالب انتشار: {$title}"
+
+msgid "doi.editor.preview.files"
+msgstr "فایل: {$title}"
+
+msgid "doi.editor.preview.objects"
+msgstr "مورد"
+
+msgid "doi.manager.submissionDois"
+msgstr "شناسه‌های DOI تک‌نگاشت"
+
+msgid "mailable.decision.sendInternalReview.notifyAuthor.description"
+msgstr "این رایانامه به پدیدآورنده اطلاع می‌دهد که دست‌نوشته او به مرحله داوری داخلی ارسال شده است."
+
+msgid "mailable.decision.initialDecline.notifyAuthor.description"
+msgstr "این رایانامه به پدیدآورنده اطلاع می‌دهد که دست‌نوشته او پیش از ارسال برای داوری رد شده است، زیرا دست‌نوشته الزامات انتشار در این انتشارات را برآورده نمی‌کند."
+
+msgid "manager.institutions.noContext"
+msgstr "انتشارات این مؤسسه یافت نشد."
+
+msgid "manager.manageEmails.description"
+msgstr "ویرایش پیام‌های ارسال شده در رایانامه‌های این انتشارات."
+
+msgid "mailable.decision.sendInternalReview.notifyAuthor.name"
+msgstr "ارسال شده برای داوری داخلی"
+
+msgid "mailable.indexRequest.name"
+msgstr "درخواست نمایه‌سازی"
+
+msgid "mailable.indexComplete.name"
+msgstr "نمایه‌سازی انجام شد"
+
+msgid "mailable.layoutComplete.name"
+msgstr "نمونه‌های چاپی (گالی‌ها) آماده شد"
+
+msgid "mailable.publicationVersionNotify.name"
+msgstr "نسخه جدید ایجاد شد"
+
+msgid "mailable.publicationVersionNotify.description"
+msgstr "این رایانامه به‌طور خودکار به سردبیران تعیین‌شده اطلاع می‌دهد که نسخه جدیدی از دست‌نوشته ایجاد شده است."
+
+msgid "mailable.submissionNeedsEditor.description"
+msgstr "این رایانامه هنگامی که دست‌نوشته جدیدی ارسال شده و هیچ سردبیری به آن اختصاص نیافته باشد، برای مدیران انتشارات ارسال می‌گردد."
+
+msgid "manager.statistics.counterR5Reports"
+msgstr "گزارشهای COUNTER R5"
+
+msgid "manager.statistics.reports.description"
+msgstr "سامانه گزارشهایی تولید میکند که جزئیات مربوط به استفاده از سایت و ارسالها را در یک دوره زمانی مشخص ردیابی میکنند."
+
+
+msgid "manager.statistics.counterR5Reports.usageNotPossible"
+msgstr "هنوز آمار استفادهای بر اساس استاندارد COUNTER R5 در دسترس نیست."
+
+msgid "manager.statistics.counterR5"
+msgstr "آمار COUNTER R5"
+
+msgid "plugins.reports.monographReport.displayName"
+msgstr "گزارش تکنگاشت"
+
+msgid "manager.users.registrationRequests"
+msgstr "درخواست‌های ثبت‌نام"
+
+msgid "manager.users.reviewRegistrationRequests"
+msgstr "بررسی درخواست‌ها"
+
+msgid "manager.users.noRegistrationRequests"
+msgstr "هیچ موردی وجود ندارد"

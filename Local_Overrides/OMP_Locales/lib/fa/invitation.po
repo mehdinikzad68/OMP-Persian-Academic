@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"en/>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.notExisting"
+msgstr "حداقل یک گروه کاربری برای افزودن باید تعریف شود"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupAssignedToUser"
+msgstr "گروه کاربری به کاربر دعوت‌شده اختصاص یافته است"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.notExisting"
+msgstr "حداقل یک گروه کاربری برای حذف باید تعریف شود"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.cantRemoveFromNonExistingUser"
+msgstr "حذف نقش‌های کاربری برای کاربران ناموجود قابل تعریف نیست."
+
+msgid "invitation.userRoleAssignment.validation.error.noUserGroupChanges"
+msgstr "دعوت‌نامه قابل ارسال نیست زیرا هیچ تغییری در گروه کاربری تعریف نکرده‌اید"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.duplicateUserGroupId"
+msgstr "گروه‌های کاربری ارائه‌شده شامل موارد تکراری هستند."
+
+msgid "invitation.userRoleAssignment.validation.error.username.alreadyExisting"
+msgstr "کاربری با نام کاربری {$username} از قبل وجود دارد. نام دیگری را امتحان کنید."
+
+msgid "invitation.userRoleAssignment.validation.error.user.mustExist"
+msgstr "هنگامی که دعوت‌نامه دارای یک شناسه کاربری ({$userId}) اختصاص‌یافته است، کاربر مربوطه باید وجود داشته باشد."
+
+msgid "invitation.userRoleAssignment.validation.error.user.emailMustNotExist"
+msgstr "هنگامی که دعوت‌نامه دارای یک ایمیل ({$email}) اختصاص‌یافته است، این ایمیل نباید توسط کاربر دیگری استفاده شود."
+
+msgid "invitation.userRoleAssignment.validation.error.username.mandatory"
+msgstr "نام کاربری باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.password.mandatory"
+msgstr "رمز عبور باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.affiliation.mandatory"
+msgstr "وابستگی سازمانی باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.country.mandatory"
+msgstr "کشور باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.givenName.mandatory"
+msgstr "نام باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.familyName.mandatory"
+msgstr "نام خانوادگی باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupIdMandatory"
+msgstr "برای گروه‌های کاربری افزوده‌شده، شناسه گروه کاربری باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.dateStartMandatory"
+msgstr "برای گروه‌های کاربری افزوده‌شده، تاریخ شروع باید ارائه شود"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.mastheadMandatory"
+msgstr "برای گروه‌های کاربری افزوده‌شده، وضعیت نمایش در شناسنامه باید ارائه شود"
+
+msgid "invitation.api.error.invitationTypeNotHasMailable"
+msgstr "این نوع دعوت‌نامه دارای قالب ایمیل تعریف‌شده نیست"
+
+msgid "invitation.api.error.operationFailed"
+msgstr "این عملیات دعوت با شکست مواجه شد"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotExisting"
+msgstr "شناسه گروه کاربری ارائه‌شده {$userGroupId} وجود ندارد"
+
+msgid "invitation.validation.required"
+msgstr "فیلد {$attribute} الزامی است."
+
+msgid "invitation.userRoleAssignment.validation.error.userRoles.unexpectedProperties"
+msgstr "ویژگی‌های غیرمنتظره‌ای در مورد موجود در شاخص {$attribute} یافت شد: {$properties}."
+
+msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
+msgstr "شناسه {reviewAssignmentId} با یک انتساب داوری معتبر مطابقت ندارد"
+
+msgid "invitation.api.error.invitationCantBeCanceled"
+msgstr "این دعوت‌نامه قابل لغو نیست"
+
+msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
+msgstr "شما نمی‌توانید ایمیل و شناسه کاربری را هم‌زمان ارائه دهید."
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
+msgstr "دسترسی به این ویژگی برای کاربران موجود مجاز نیست"
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
+msgstr "دسترسی به این ویژگی برای کاربران ناموجود مجاز نیست"
+
+msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
+msgstr "این ویژگی باید دارای مقداری برابر یا پس از امروز باشد"
+
+msgid "invitation.validation.error.propertyProhibited"
+msgstr "فیلد :attribute ممنوع است"
+
+msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
+msgstr "مقداری برای زبان '{$primaryLocale}' الزامی است"
+
+msgid "invitation.step"
+msgstr "مرحله"
+
+msgid "invitation.header"
+msgstr "دعوت‌نامه‌ها"
+
+msgid "invitation.inviteToRole.btn"
+msgstr "دعوت برای یک نقش"
+
+msgid "invitation.wizard.pageTitle"
+msgstr "دعوت از کاربر برای پذیرش نقش"
+
+msgid "userInvitation.enterDetailsLabel"
+msgstr "ورود جزئیات"
+
+msgid "userInvitation.reviewAndInviteLabel"
+msgstr "بازبینی و دعوت برای نقش‌ها"
+
+msgid "userInvitation.searchUser.stepName"
+msgstr "جستجوی کاربر"
+
+msgid "userInvitation.searchUser.stepLabel"
+msgstr "{$step} - جستجوی کاربر"
+
+msgid "userInvitation.searchUser.nextButtonLabel"
+msgstr "جستجوی کاربر"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr "اگر کاربر وجود ندارد، می‌توانید از او برای پذیرش نقش‌ها دعوت کنید. اگر کاربر از قبل در سامانه وجود دارد، می‌توانید اطلاعات او را مشاهده کرده و برای پذیرش نقش‌های بیشتر از او دعوت نمایید."
+
+msgid "userInvitation.searchField.description"
+msgstr "به عنوان مثال aeinstein@example.com یا aeinstein یا 0000-0002-1825-0097"
+
+msgid "userInvitation.enterDetails.stepName"
+msgstr "ورود جزئیات"
+
+msgid "userInvitation.enterDetails.stepLabel"
+msgstr "{$step} - ورود جزئیات و دعوت برای نقش‌ها"
+
+msgid "userInvitation.enterDetails.nextButtonLabel"
+msgstr "ذخیره و ادامه"
+
+msgid "invitation.role.selectRole"
+msgstr "یک نقش جدید انتخاب کنید"
+
+msgid "invitation.role.dateStart"
+msgstr "تاریخ شروع"
+
+msgid "invitation.role.dateEnd"
+msgstr "تاریخ پایان"
+
+msgid "invitation.role.addRole.button"
+msgstr "افزودن نقش دیگر"
+
+msgid "userInvitation.roleTable.role"
+msgstr "نقش"
+
+msgid "userInvitation.roleTable.startDate"
+msgstr "تاریخ شروع"
+
+msgid "userInvitation.roleTable.endDate"
+msgstr "تاریخ پایان"
+
+msgid "userInvitation.sendMail.stepName"
+msgstr "بازبینی و دعوت برای نقش‌ها"
+
+msgid "userInvitation.sendMail.nextButtonLabel"
+msgstr "دعوت از کاربر برای نقش"
+
+msgid "userInvitation.sendMail.stepLabel"
+msgstr "{$step} - اصلاح ایمیل ارسالی به کاربر"
+
+msgid "userInvitation.modal.title"
+msgstr "دعوت‌نامه ارسال شد"
+
+msgid "userInvitation.modal.button"
+msgstr "مشاهده همه کاربران"
+
+msgid "invitation.role.removeRole.button"
+msgstr "حذف نقش"
+
+msgid "invitation.email.description"
+msgstr "به عنوان مثال aeinstein@example.com"
+
+msgid "invitation.orcid.description"
+msgstr "با پذیرش دعوت‌نامه، کاربر در صورت تمایل برای تأیید حساب کاربری خود به سامانه ارکید (ORCID) هدایت خواهد شد."
+
+msgid "invitation.givenName.description"
+msgstr "در صورت اطلاع از نام کاربر، می‌توانید این اطلاعات را وارد کنید. با این حال، این اطلاعات توسط کاربر قابل تغییر است."
+
+msgid "invitation.familyName.description"
+msgstr "در صورت اطلاع از نام خانوادگی کاربر، می‌توانید این اطلاعات را وارد کنید. با این حال، این اطلاعات توسط کاربر قابل تغییر است."
+
+msgid "invitation.decline.confirm"
+msgstr "تأیید عدم پذیرش دعوت‌نامه"
+
+msgid "invitation.decline.confirm.title"
+msgstr "عدم پذیرش دعوت‌نامه"
+
+msgid "invitation.decline.confirm.description"
+msgstr "آیا از عدم پذیرش این دعوت‌نامه اطمینان دارید؟ با کلیک بر روی دکمه زیر، عدم پذیرش را تأیید کنید."
+
+msgid "acceptInvitation.verifyOrcid.stepName"
+msgstr "تأیید شناسه ارکید (ORCID)"
+
+msgid "acceptInvitation.verifyOrcid.stepLabel"
+msgstr "{$step} - تأیید شناسه ارکید (ORCID)"
+
+msgid "acceptInvitation.verifyOrcid.nextButtonLabel"
+msgstr "ذخیره و ادامه"
+
+msgid "acceptInvitation.accountDetails.nextButtonLabel"
+msgstr "ذخیره و ادامه"
+
+msgid "acceptInvitation.userDetails.stepName"
+msgstr "ورود جزئیات"
+
+msgid "acceptInvitation.userDetails.stepLabel"
+msgstr "{$step} - ورود جزئیات"
+
+msgid "acceptInvitation.userDetails.stepDescription"
+msgstr "جزئیات خود مانند شناسه ایمیل، وابستگی سازمانی و غیره را وارد کنید. بر اساس تطابق با مقررات عمومی حفاظت از داده‌ها (GDPR)، این اطلاعات تنها توسط شما قابل اصلاح است. همچنین می‌توانید انتخاب کنید که آیا این اطلاعات در نمایه شما برای سردبیر قابل مشاهده باشد یا خیر."
+
+msgid "acceptInvitation.userDetails.nextButtonLabel"
+msgstr "ذخیره و ادامه"
+
+msgid "acceptInvitation.userDetails.form.name"
+msgstr "فرم ورود جزئیات کاربر برای پذیرش دعوت‌نامه"
+
+msgid "acceptInvitation.userDetails.form.description"
+msgstr "لطفاً برای کمک به ما در مدیریت حساب کاربری شما، جزئیات زیر را ارائه دهید"
+
+msgid "acceptInvitation.detailsReview.stepName"
+msgstr "بازبینی و ایجاد حساب کاربری"
+
+msgid "acceptInvitation.detailsReview.stepLabel"
+msgstr "{$step} - بازبینی و ایجاد حساب کاربری"
+
+msgid "acceptInvitation.skipVerifyOrcid"
+msgstr "عبور از تأیید ارکید (ORCID)"
+
+msgid "acceptInvitation.verifyOrcid"
+msgstr "تأیید شناسه ارکید (ORCID)"
+
+msgid "acceptInvitation.usernameField.description"
+msgstr "این فیلد می‌تواند ترکیبی از حروف بزرگ، حروف کوچک یا اعداد باشد"
+
+msgid "acceptInvitation.passwordField.description"
+msgstr "باید حداقل ۶ نویسه (کاراکتر) طول داشته باشد و می‌تواند ترکیبی از حروف بزرگ، حروف کوچک، اعداد و نمادها باشد"
+
+msgid "acceptInvitation.privacyStatement.label"
+msgstr "بله، موافقت می‌کنم که داده‌های من مطابق با {$url} جمع‌آوری و ذخیره شود"
+
+msgid "acceptInvitation.privacyStatement.btn"
+msgstr "بیانیه حریم خصوصی"
+
+msgid "acceptInvitation.userDetailsForm.givenName.description"
+msgstr "همچنین با عنوان نام اول شناخته می‌شود، بخشی از نام شخصی است که هویت یک فرد را مشخص می‌کند."
+
+msgid "acceptInvitation.userDetailsForm.familyName.description"
+msgstr "نام خانوادگی، بخشی از نام شخصی است که غالباً ارثی بوده و نشان‌دهنده خانواده فرد است."
+
+msgid "acceptInvitation.userDetailsForm.affiliation.description"
+msgstr "این مؤسسه‌ای است که با آن وابستگی سازمانی دارید"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.description"
+msgstr "این کشوری است که مؤسسه متبوع شما در آن قرار دارد"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.label"
+msgstr "کشور محل وابستگی سازمانی"
+
+msgid "acceptInvitation.review.accountDetails"
+msgstr "جزئیات حساب کاربری"
+
+msgid "acceptInvitation.review.userDetails"
+msgstr "جزئیات کاربر"
+
+msgid "acceptInvitation.modal.button"
+msgstr "مشاهده همه آثار"
+
+msgid "invitation.tableHeader.name"
+msgstr "نام"
+
+msgid "invitation.searchForm.emptyError"
+msgstr "حداقل یک معیار جستجو ارائه دهید."
+
+msgid "invitation.wizard.viewPageTitleDescription"
+msgstr "شما در حال مشاهده جزئیات کاربر {$name} هستید"
+
+msgid "invitation.cancelInvite.actionName"
+msgstr "لغو دعوت"
+
+msgid "invitation.cancelInvite.title"
+msgstr "لغو دعوت‌نامه"
+
+msgid "invitation.cancelInvite.message"
+msgstr "لغو دعوت‌نامه ارسال‌شده به {$givenName} {$familyName}، پیوند پذیرش ارسال‌شده از طریق ایمیل را غیرفعال خواهد کرد. جزئیات دعوت‌نامه به شرح زیر است: "
+
+msgid "invitation.masthead.show"
+msgstr "نمایش در شناسنامه"
+
+msgid "invitation.masthead.hidden"
+msgstr "عدم نمایش در شناسنامه"
+
+msgid "invitation.role.modifyRole.button"
+msgstr "اصلاح نقش"
+
+msgid "invitation.management.options"
+msgstr "گزینه‌های مدیریت دعوت‌نامه"
+
+msgid "userInvitation.cancel.message"
+msgstr "آیا از لغو این دعوت‌نامه اطمینان دارید؟"
+
+msgid "userInvitation.cancel.goBack"
+msgstr "بازگشت"
+
+msgid "userInvitation.status.invited"
+msgstr "دعوت‌شده در {$date}"
+
+msgid "userInvitation.edit.title"
+msgstr "ویرایش دعوت‌نامه"
+
+msgid "userInvitation.edit.message"
+msgstr "اگر دعوت‌نامه موجود را ویرایش کنید یا نقش جدیدی بیفزایید، دعوت‌نامه فعلی لغو شده و دعوت‌نامه جدیدی ارسال خواهد شد. آیا برای ادامه اطمینان دارید؟"
+
+msgid "validation.after_or_equal"
+msgstr "تاریخ شروع باید بزرگ‌تر یا مساوی امروز باشد"
+
+msgid "invitation.removeRoles"
+msgstr "کاربر از نقش حذف شد"
+
+msgid "acceptInvitation.privacyStatement.validation"
+msgstr "لطفاً تأیید کنید که بیانیه حریم خصوصی را مطالعه کرده و با آن موافق هستید"
+
+msgid "acceptInvitation.cancel.message"
+msgstr "آیا از لغو اطمینان دارید؟ لغو در این مرحله فرآیند پذیرش نقش را متوقف می‌کند و برای پذیرش مجدد نقش باید از طریق ایمیل دعوت‌نامه دوباره اقدام کنید. اگر از قبل کاربر سامانه هستید، به پیشخوان بازگردانده خواهید شد. در غیر این صورت، برای شروع مجدد فرآیند باید به ایمیل دعوت‌نامه مراجعه کنید."
+
+msgid "acceptInvitation.cancelInvite.title"
+msgstr "لغو فرآیند دعوت برای نقش؟"
+
+msgid "acceptInvitation.cancelInvite.button"
+msgstr "لغو فرآیند دعوت"
+
+msgid "acceptInvitation.authorization.shouldBeAnonymous"
+msgstr "دعوت‌نامه پذیرفته نشد. شما با یک حساب کاربری دیگر وارد شده‌اید."
+
+msgid "acceptInvitation.authorization.message"
+msgstr "لطفاً برای پذیرش این دعوت‌نامه، از حساب فعلی خارج شده و با حساب کاربری صحیح وارد شوید."
+
+msgid "userInvitation.searchField"
+msgstr "کاربر را از طریق آدرس ایمیل، نام کاربری یا شناسه ارکید (ORCID) جستجو کنید. برای شروع تنها یکی از موارد را وارد نمایید!"
+
+msgid "userInvitation.user.disableTitle"
+msgstr "این کاربر در حال حاضر غیرفعال است."
+
+msgid "userInvitation.user.disableMessage"
+msgstr "این کاربر غیرفعال شده است. تا زمانی که غیرفعال باشد، نمی‌توانید نقشی به او اختصاص دهید. لطفاً برای دعوت او به یک نقش، ابتدا کاربر را فعال کنید."
+
+msgid "acceptInvitation.privacyConsent"
+msgstr "رضایت‌نامه حریم خصوصی"
+
+msgid "invitation.unavailable.title"
+msgstr "دعوت‌نامه در دسترس نیست"
+
+msgid "invitation.unavailable.description"
+msgstr "این دعوت‌نامه دیگر در دسترس نیست. ممکن است پیش‌تر پذیرفته شده، رد شده یا منقضی شده باشد. لطفاً برای دریافت راهنمایی بیشتر با مدیر انتشارات تماس بگیرید."
+

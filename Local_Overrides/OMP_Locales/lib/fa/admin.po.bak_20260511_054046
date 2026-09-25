@@ -1,0 +1,794 @@
+# Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>, 2026.
+# Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:45+00:00\n"
+"PO-Revision-Date: 2026-05-07 00:00+0330\n"
+"Last-Translator: Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>\n"
+"Language-Team: Persian <mehdi.nikzad2@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "نام تنظیم"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "مقدار تنظیم"
+
+msgid "admin.adminFunctions"
+msgstr "عملیات مدیریتی"
+
+msgid "admin.deleteCache"
+msgstr "پاک کردن کش"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"پاک کردن کش فایل‌ها از این سیستم. این کار باید در محیط توسعه برنامه انجام "
+"شود."
+
+msgid "admin.clearDataCache"
+msgstr "پاک کردن نهان گاه داده‌ها"
+
+msgid "admin.clearTemplateCache"
+msgstr "پاک کردن نهان گاه الگوها"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"فایل پیکربندی شما با موفقیت به‌روزرسانی گردید. لطفاً به یاد داشته باشید که در "
+"صورت عدم کارکرد صحیح سایت ممکن است لازم شود که به‌طور دستی فایل <tt>config."
+"inc.php</tt> را ویرایش کنید."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "آیا مطمئن هستید که می‌خواهید نهان گاه الگوهای کامپایل شده را پاک کنید؟"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"مطمئن هستید که می‌خواهید نشست (session) همه کاربران را منقضی کنید؟ در این "
+"صورت تمام کاربرانی که هم اکنون در سیستم هستند، از جمله خودتان، از سامانه "
+"خارج خواهید شد."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "محتویات فایل پیکره‌بندی"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"آیا مطمئنید که می‌خواهید به‌طور دائم {$contextName} و تمام محتویات آن را پاک "
+"کنید؟"
+
+msgid "admin.currentVersion"
+msgstr "نسخه جاری"
+
+msgid "admin.dateInstalled"
+msgstr "تاریخ نصب"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"محتوای فایل به‌روزرسانی شده پیکربندی شما در زیر نشان داده شده است. برای اعمال "
+"تغییرات باید فایل <tt>config.inc.php</tt> را در یک ویرایشگر متن مناسب باز "
+"کنید و محتوای آن را با محتوای زیر عوض کنید."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "نمایش پیکره‌بندی جدید"
+
+msgid "admin.expireSessions"
+msgstr "خارج کردن کاربران از سیستم"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"همه کاربران فوراً از سامانه لاگ اوت می‌شوند که شما خود شما نیز بوده و باید "
+"دوباره وارد شوید."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"این زیان، زبان اصلی سایت است و تا زمانی که زبان دیگری را به‌عنوان زبان اصلی "
+"سایت انتخاب نکنید، اجازه حذف این زبان را ندارید."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"آیا مطمئن هستید که می خواهید محلی اصلی سایت را تغییر دهید؟ نام کاربران ، که "
+"در محلی اصلی سایت مورد نیاز است ، از محلی که موجود نیست ، کپی خواهد شد."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"آیا می‌خواهید این زبان را از نو بارگذاری کنید؟ این کار باعث می‌شود داده‌های "
+"مختص این زبان مانند ایمیل‌های اختصاصی شده پاک شود"
+
+msgid "admin.languages.installedLocales"
+msgstr "زبان‌های نصب شده"
+
+msgid "admin.languages.installLanguages"
+msgstr "نصب زبان‌ها"
+
+msgid "admin.languages.availableLocales"
+msgstr "زبان‌های موجود"
+
+msgid "admin.languages.installLocale"
+msgstr "نصب زبان دیگر"
+
+msgid "admin.languages.installLocales"
+msgstr "نصب"
+
+msgid "admin.languages.installNewLocales"
+msgstr "نصب زبان‌های جدید"
+
+msgid "admin.languages.languageSettings"
+msgstr "تنظیمات زبان"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "هیچ زبان دیگری برای نصب وجود ندارد"
+
+msgid "admin.languages.reload"
+msgstr "نصب مجدد زبان"
+
+msgid "admin.languages.uninstall"
+msgstr "حذف زبان"
+
+msgid "admin.phpInfo"
+msgstr "اطلاعات تفصیلی PHP"
+
+msgid "admin.scheduledTask"
+msgstr "وظایف زمان‌بندی شده"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "پردازش وظیفه آغاز شد"
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "پردازش وظیفه متوقف شد."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "اجرای وظیفه هیچ log تولید نکرد"
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "سپردن شناسه‌های DOI با نمایندگی ثبت تنظیم شده"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"نصب {$softwareName} به صورت خودکار انجام شده و به پایان رسید. می‌توانید فایل "
+"log مربوطه را از این آدرس بارگیری کنید:  {$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr "ارسال ایمیل به هر دبیر برای یادآوری وظایف انجام نشده آن‌ها"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "شناسایی دبیران به منظور یادآوری در {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"تعداد {$count} ایمیل یادآوری دبیری به کاربران {$userIds} در بستر {$contextId}"
+" ارسال شده"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr ""
+"آیا مطمئنید که می‌خواهید فایل‌های log تمامی وظایف زمان‌بندی شده را حذف کنید؟"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr "پاک کردن فایل‌های log وظایف زمان‌بندی شده"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr "پاک کردن تمام لاگ‌های وظایف برنامه‌ریزی شده در حال اجرا."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "پاک کردن لاگ‌های وظایف"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "موارد ارسالی برنامه ریزی شده برای انتشار را منتشر کنید"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "یادآوری داوری"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "اطلاع رسانی گزارش دبیری"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "یادآوری اتمام اشتراک"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "حذف کاربران تأیید نشده منقضی شده"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr "پاک کردن کارهای قدیمی از فهرست کارهای انجام نشده."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "پردازش کارهای در صف بررسی"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "به روز رسانی دیتابیس DB-IP"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"تغییر نام فایل دیتابیس DB-IP با نام {$sourceFilename} به {$targetFilename} "
+"با شکست مواجه شد."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "وظیفه بارگزار فایل آمار کارکرد"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"دایرکتوری {$directory} خالی نیست. این می‌تواند نشان دهنده یک پردازش شکست "
+"خورده یا وجود یک پردازش در حال اجرا به طور همزمان باشد. این فایل به طور "
+"خودکار مجدداً پردازش خواهد شد."
+
+msgid "admin.job.processLogFile.openFileFailed"
+msgstr "فایل {$file} نمیتواند باز شود و نادیده گرفته می شود."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"فایل {$file} دارای فرمتی قدیمی است که قابل پردازش نیست. بنابراین فایل مجدداً "
+"به مرحله دایرکتوری منتقل خواهد شد."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr "آمار مربوط به این ماه از پیش موجود است."
+
+msgid "admin.job.processLogFile.wrongLoglineFormat"
+msgstr "قالب سطر لاگ نادرست است."
+
+msgid "admin.job.processLogFile.invalidLogEntry"
+msgstr "ورودی لاگ نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.time"
+msgstr "زمان ورودی لاگ نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.contextId"
+msgstr "شناسه انتشارات (Context ID) نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.submissionId"
+msgstr "شناسه اثر نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.representationId"
+msgstr "شناسه بازنمایی (Representation ID) نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.assocType"
+msgstr "نوع انتساب (Assoc Type) نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.fileType"
+msgstr "نوع فایل نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.country"
+msgstr "کد کشور نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.region"
+msgstr "کد منطقه نامعتبر است."
+
+msgid "admin.job.processLogFile.invalidLogEntry.institutionIds"
+msgstr "شناسه‌های مؤسسات نامعتبر است."
+
+msgid "admin.job.processLogFile.insertError"
+msgstr "خطا در درج داده‌ها"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr "وظیفه پردازش آمار ارسال شد."
+
+msgid "admin.server.apacheVersion"
+msgstr "نسخه آپاچی"
+
+msgid "admin.server.dbDriver"
+msgstr "درایور پایگاه داده"
+
+msgid "admin.server.dbVersion"
+msgstr "نسخه پایگاه داده"
+
+msgid "admin.serverInformation"
+msgstr "اطلاعات سرور"
+
+msgid "admin.server.phpVersion"
+msgstr "نسخه PHP"
+
+msgid "admin.server.platform"
+msgstr "سیستم‌عامل"
+
+msgid "admin.settings"
+msgstr "تنظیمات"
+
+msgid "admin.settings.about"
+msgstr "درباره سایت"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "ایمیل انبوه"
+
+msgid "admin.settings.contactEmail"
+msgstr "ایمیل اطلاعات تماس اصلی"
+
+msgid "admin.settings.contactName"
+msgstr "نام اطلاعات تماس اصلی"
+
+msgid "admin.settings.introduction"
+msgstr "معرفی"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "حداقل طول رمز ورود"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "محدودکردن ایمیل‌های انبوه"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "غیرفعال‌سازی ایمیل انبوه برای نقش‌های کاربری"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "فقط توسط مدیران سایت"
+
+msgid "admin.settings.siteLanguage"
+msgstr "زبان سایت"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr "استایل شیت انتخاب شده نامناسب است. باید از نوع css باشد."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "استایل شیت سایت"
+
+msgid "admin.settings.siteLogo"
+msgstr "لوگوی سایت"
+
+msgid "admin.settings.siteTitle"
+msgstr "عنوان سایت"
+
+msgid "admin.settings.siteTheme"
+msgstr "پوسته سایت"
+
+msgid "admin.siteAdmin"
+msgstr "مدیریت سایت"
+
+msgid "admin.siteManagement"
+msgstr "مدیریت سایت"
+
+msgid "admin.siteSettings"
+msgstr "تنظیمات سایت"
+
+msgid "admin.siteSetup"
+msgstr "نصب سایت"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"فایل پیکربندی <tt>config.inc.php</tt> وجود ندارد، قابل خواندن نیست و یا "
+"بی‌اعتبار است."
+
+msgid "admin.systemInformation"
+msgstr "اطلاعات سیستم"
+
+msgid "admin.systemInformation.description"
+msgstr "توضیحات اطلاعات سیستم"
+
+msgid "admin.systemInformation.view"
+msgstr "مشاهده اطلاعات سیستم"
+
+msgid "admin.versionBuild"
+msgstr "ساخت"
+
+msgid "admin.version.checkForUpdates"
+msgstr "بررسی به‌روزرسانی‌ها"
+
+msgid "admin.version.downloadPackage"
+msgstr "بارگیری"
+
+msgid "admin.version.downloadPatch"
+msgstr "بارگیری وصله"
+
+msgid "admin.versionHistory"
+msgstr "سوابق نسخه‌های نصب شده"
+
+msgid "admin.version.latest"
+msgstr "آخرین نسخه"
+
+msgid "admin.versionMajor"
+msgstr "کلی"
+
+msgid "admin.versionMinor"
+msgstr "جزئی"
+
+msgid "admin.version.moreInfo"
+msgstr "اطلاعات بیشتر"
+
+msgid "admin.versionRevision"
+msgstr "اصلاح"
+
+msgid "admin.version.updateAvailable"
+msgstr "نسخه به‌روز موجود است"
+
+msgid "admin.version.upToDate"
+msgstr "سیستم شما به‌روز است"
+
+msgid "admin.version"
+msgstr "نسخه"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr "مسیر {$path} باید در داخل پوشه فایل‌های عمومی باشد."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "مسیر {$path} آدرس یک پوشه نیست یا این پوشه قبل خواندن نمی‌باشد."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"فایل {$filename} قابل انتقال از {$currentFilePath} به {$destinationPath} "
+"نمی‌باشد."
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "فایل {$filename} پردازش و بایگانی شد."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "بارگزار فایل"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr "فایل مورد نظر قابل فشرده سازی نبود."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr "فایل مورد نظر قابل فشرده سازی نبود."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr "فایل مورد نظر قابل فشرده سازی نبود."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr "فایل مورد نظر قابل فشرده سازی نبود."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr "خطا در بستن فایل پس از استخراج"
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr "خطا در بستن جریان داده‌های فشرده"
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr "خطا در حذف فایل موقت"
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr "خطا در باز کردن جریان داده برای فشرده‌سازی"
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr "خطا در باز کردن فایل برای فشرده‌سازی"
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr "خطا در خواندن فایل جهت فشرده‌سازی"
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr "خطا در نوشتن داده‌های فشرده شده"
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr "خطا در بستن فایل پس از فشرده‌سازی"
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr "خطا در بستن جریان فشرده‌سازی"
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr "خطا در حذف فایل پس از فشرده‌سازی"
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "زبانی برای بارگیری وجود ندارد."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "راهنمای استفاده از ابزار خط فرمان"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "پارامترهای ورودی"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "دستورات موجود"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr "در حال انجام عملیات نگهداری روی صف کارها..."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr "نمایش فهرست تمامی کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr "حذف و پاکسازی کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr "اجرای آزمایشی یک کار برای بررسی صحت عملکرد"
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr "آغاز به کار پردازشگر برای انجام کارهای صف"
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr "نمایش فهرست کارهای شکست خورده"
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr "اجرای کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr "اجرای تمامی کارهای موجود در صف با موفقیت به پایان رسید."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr "هیچ کاری برای اجرا در صف یافت نشد."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr "نمایش مجموع تعداد کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "نمایش راهنمای استفاده از دستورات"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "نمایش نحوه استفاده از ابزار"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "گزینه خالی"
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "فهرست کارهای شکست خورده در صف"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "فهرست کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "شناسه"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "نام صف"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "نوع اتصال"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "نام نمایشی کار"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "دفعات تلاش"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "زمان رزرو شده"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "زمان آماده‌سازی"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "زمان ایجاد"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "زمان شکست"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "شرح خطا (استثنا)"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "صفحه‌بندی"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "صفحه جاری"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "صفحه قبل"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "صفحه بعد"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr "امکان پاکسازی بدون شناسه وجود ندارد."
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr "خطا در ارسال کار آزمایشی به صف کارهای سیستم"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr "کار آزمایشی با موفقیت به صف کارهای سیستم ارسال شد."
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr "گزینه انتخابی برای دستور تست نامعتبر است."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "شناسه وارد شده برای پاکسازی نامعتبر است."
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "پاکسازی کار با موفقیت انجام شد."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "صف خالی است؛ امکان انجام عملیات پاکسازی وجود ندارد."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "امکان پاکسازی کلیه کارهای صف میسر نمی‌باشد."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "تمامی کارهای موجود در صف با موفقیت پاکسازی شدند."
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr "لیست کارهای شکست خورده با موفقیت پاکسازی شد."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "کارهای شکست خورده مجدداً با موفقیت به صف ارسال شدند."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "مجموع کارهای شکست خورده"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "مجموع کل کارهای صف"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "گزینه مورد نظر وجود ندارد."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "منظور شما این موارد است؟"
+
+msgid "admin.jobs.totalCount"
+msgstr "تعداد کل کارها"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "تعداد کل کارهای شکست خورده"
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "مشاهده کارهای موجود در صف"
+
+msgid "navigation.tools.jobs"
+msgstr "مدیریت صف کارها"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "کارهای شکست خورده"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "جزئیات کارهای شکست خورده"
+
+msgid "navigation.tools.jobs.description"
+msgstr "مدیریت و مشاهده کارهای سیستمی موجود در صف پردازش"
+
+msgid "navigation.tools.jobs.view"
+msgstr "مشاهده کارها"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "مشاهده کارهای شکست خورده"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "مشاهده جزئیات کار شکست خورده"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "ویژگی"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "مقدار"
+
+msgid "admin.jobs.list.id"
+msgstr "شناسه"
+
+msgid "admin.jobs.list.displayName"
+msgstr "نام نمایشی"
+
+msgid "admin.jobs.list.queue"
+msgstr "صف"
+
+msgid "admin.jobs.list.connection"
+msgstr "اتصال"
+
+msgid "admin.jobs.list.attempts"
+msgstr "دفعات تلاش"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "زمان ایجاد"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "زمان شکست"
+
+msgid "admin.jobs.list.payload"
+msgstr "داده‌های ورودی"
+
+msgid "admin.jobs.list.exception"
+msgstr "شرح خطا"
+
+msgid "admin.jobs.list.actions"
+msgstr "عملیات"
+
+msgid "admin.jobs.failedAt"
+msgstr "زمان شکست"
+
+msgid "admin.jobs.createdAt"
+msgstr "زمان ایجاد"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "ارسال مجدد به صف"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "ارسال مجدد تمامی کارهای شکست خورده به صف"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr "خطا در بازگرداندن فایل‌های آمار به پوشه موقت"
+
+msgid "admin.job.compileMetrics.error"
+msgstr "خطا در تجمیع معیارهای آماری"
+
+msgid "admin.settings.statistics.collection"
+msgstr "جمع‌آوری آمار"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "تنظیمات و مدیریت نحوه جمع‌آوری آمارهای انتشارات"
+
+msgid "admin.settings.statistics.storage"
+msgstr "ذخیره‌سازی آمار"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr "تنظیمات مربوط به محل و نحوه نگهداری داده‌های آماری"
+
+msgid "admin.settings.statistics.sushi"
+msgstr "تنظیمات پروتکل SUSHI"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr "مدیریت و پیکربندی تبادل آمار بر اساس استاندارد SUSHI"
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "نگهداری آمار روزانه"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr "تعیین وضعیت نگهداری یا حذف داده‌های آماری روزانه پس از پردازش نهایی"
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "نگهداری فایل‌ها"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "حذف فایل‌ها"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "فشرده‌سازی فایل‌های گزارش آمار"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr "فعال‌سازی فشرده‌سازی برای کاهش حجم فایل‌های گزارش قدیمی"
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "حالت پیش‌فرض"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "فشرده‌سازی شود"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr "دسترسی خصوصی به API"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "پلتفرم SUSHI"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr "تنظیمات مربوط به معرفی پلتفرم در گزارش‌های استاندارد"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "شناسه پلتفرم SUSHI"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr "توضیحاتی در مورد شناسه اختصاصی پلتفرم در گزارش‌های استاندارد ارائه دهید."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr "وارد کردن شناسه پلتفرم الزامی است."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "گزینه‌های پردازشگر صف کارها"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "نحوه استفاده از دستور پردازشگر"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "توضیحات مربوط به فرآیند پردازش کارهای موجود در صف"
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr "تعیین نام اتصال برای استفاده توسط پردازشگر"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "تعیین نام صف جهت پردازش کارها"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "تعیین نام اختصاصی برای پردازشگر"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr "تعیین مدت زمان تاخیر در صورت بروز خطا در پردازش"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "تعیین حداکثر میزان حافظه مجاز برای پردازشگر"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr "تعیین حداکثر زمان مجاز برای اجرای هر کار"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr "تعیین مدت زمان انتظار در صورت خالی بودن صف"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr "تعیین حداکثر دفعات تلاش مجدد در صورت بروز خطا"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr "اجبار پردازشگر به فعالیت در حالت تعمیر و نگهداری"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "توقف خودکار پردازشگر پس از اتمام کارهای صف"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr "تعیین حداکثر تعداد کارهای قابل پردازش در هر نوبت"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr "تعیین حداکثر زمان مجاز برای فعالیت پردازشگر در هر نوبت"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr "تعیین مدت زمان استراحت بین اجرای کارها"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "اجرای پردازشگر در حالت آزمایشی"

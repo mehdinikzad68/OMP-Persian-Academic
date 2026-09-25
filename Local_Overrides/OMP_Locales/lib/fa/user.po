@@ -1,0 +1,838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:47+00:00\n"
+"PO-Revision-Date: 2026-05-07 00:00+0330\n"
+"Last-Translator: Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>\n"
+"Language-Team: Persian <mehdi.nikzad2@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "user.accountInformation"
+msgstr "اطلاعات حساب کاربری"
+
+msgid "user.affiliation"
+msgstr "وابستگی"
+
+msgid "user.affiliation.description"
+msgstr "نام مؤسسه، مانند دانشگاه تهران"
+
+msgid "user.affiliations"
+msgstr "وابستگی ها"
+
+msgid "user.authorization.accessDenied"
+msgstr "دسترسی رد شد."
+
+msgid "user.authorization.processAuthenticationTokenRequired"
+msgstr "اطلاعات مربوط به روند احراز هویت نامعتبر بوده یا موجود نیست."
+
+msgid "user.authorization.contextRequired"
+msgstr "بدون مشخص کردن یک محتوا امکان فراخوانی این عمل وجود ندارد (انتشارات، کنفرانس، کتاب و ...)."
+
+msgid "user.authorization.loginRequired"
+msgstr "نیازمند ورود به سیستم"
+
+msgid "user.authorization.privateOperation"
+msgstr "عملیاتی که مایل به دسترسی به آن هستید، خصوصی است و یا وجود ندارد."
+
+msgid "user.authorization.restrictedSiteAccess"
+msgstr "دسترسی شما رد شد. دسترسی به این وب‌سایت محدود شده است."
+
+msgid "user.authorization.roleBasedAccessDenied"
+msgstr "نقش کاربر کنونی اجازه دسترسی به این عملیات ندارد."
+
+msgid "user.authorization.assignedStageRoleBasedAccessDenied"
+msgstr "نقش انتساب داده شده به شما در این مرحله، اجازه دسترسی به این عملیات را نمی‌دهد."
+
+msgid "user.authorization.userGroupRequired"
+msgstr "برای دسترسی به این عملیات باید عضو گروه کاربری معتبر باشید"
+
+msgid "user.authorization.managerRequired"
+msgstr ""
+"کاربری با دسترسی مدیر (برای مثال دبیر تولید) قبل از شروع باید به این مرحله "
+"انتساب یابد"
+
+msgid "user.authorization.accessibleWorkflowStage"
+msgstr "شما اجازه دسترسی به این مرحله از جریان کاری را ندارید."
+
+msgid "user.authorization.workflowStageRequired"
+msgstr "مراحل گردش کار مشخص نشده است."
+
+msgid "user.authorization.pluginRequired"
+msgstr "افزونه مشخص نشده است و الزامی است."
+
+msgid "user.authorization.invalidReviewAssignment"
+msgstr "انتساب داوری نامعتبر است."
+
+msgid "user.authorization.submissionQuery"
+msgstr "شما اجازه دسترسی به گفتگوهای مربوط به این اثر را ندارید."
+
+msgid "user.biography"
+msgstr "رزومه علمی"
+
+msgid "user.changeMyPassword"
+msgstr "تغییر کلمه رمز ورود"
+
+msgid "user.changePassword"
+msgstr "تغییر رمز ورود"
+
+msgid "user.dateLastLogin"
+msgstr "تاریخ آخرین ورود"
+
+msgid "user.dateRegistered"
+msgstr "تاریخ ثبت‌نام"
+
+msgid "user.editMyProfile"
+msgstr "ویرایش پروفایل"
+
+msgid "user.email"
+msgstr "ایمیل"
+
+msgid "user.givenName"
+msgstr "نام"
+
+msgid "user.interests"
+msgstr "زمینه های داوری"
+
+msgid "user.gossip"
+msgstr "یادداشت خصوصی"
+
+msgid "user.gossip.description"
+msgstr "این یادداشت‌ها فقط توسط مدیران، دبیران و سردبیران انتشارات قابل مشاهده است."
+
+msgid "user.group"
+msgstr "گروه کاربری"
+
+msgid "user.familyName"
+msgstr "نام خانوادگی"
+
+msgid "user.profile.form.profileImageInvalid"
+msgstr ""
+"فرمت نامناسب تصویر پروفایل و یا تصویر بسیار بزرگ. فرمت‌های قابل قبول عبارتند "
+"از .gif, .jpg, or .png و اندازه تصویر نباید از ۱۵۰ × ۱۵۰ پیکسل بیشتر باشد."
+
+msgid "user.login.accountDisabledWithReason"
+msgstr "حساب شما به دلیل زیر غیرفعال شده است: {$reason}"
+
+msgid "user.login.accountDisabled"
+msgstr ""
+"حساب شما غیرفعال شده است. لطفا برای اطلاعات بیشتر با مدیر سایت تماس بگیرید"
+
+msgid "user.login.accountNotValidated"
+msgstr ""
+"یک لیمیل فعال سازی به آدرس {$email} ارسال شده است. لطفا ایمیل خود را چک کنید "
+"و دستوراتی که در ایمیلی که برایتان فرستاده ایم را دنبال کنید. چنانچه ایمیلی "
+"دریافت نکرده اید ممکن است لازم باشد که با مدیر سایت تماس بگیرید."
+
+msgid "user.login.activate"
+msgstr "فعال کردن حساب کاربری"
+
+msgid "user.login.activated"
+msgstr ""
+"از اینکه حساب خود را فعال کرده اید متشکریم. اکنون میتوانید با استفاده از نام "
+"کاربری و رمز ورود خود وارد شوید"
+
+msgid "user.login.changePasswordInstructions"
+msgstr ""
+"قبل از اینکه بتوانید کاملا وارد سایت شوید میبایست یک رمز عبور جدید برای خود "
+"انتخاب کنید. <br /><br />لطفا نام کاربری و رمز عبور جاری خود را وارد کرده و "
+"سپس رمز عبور جدیدی را دو بار وارد کنید."
+
+msgid "user.login.forgotPassword"
+msgstr "رمز عبور خود را فراموش کرده اید؟"
+
+msgid "user.login.loginError"
+msgstr "نام کاربری یا رمز عبور غلط است. لطفا از نو وارد کنید."
+
+msgid "user.login"
+msgstr "ورود"
+
+msgid "user.login.lostPassword.confirmationSent"
+msgstr "یک ایمیل حاوی دستورالعمل‌های بازنشانی رمز عبور به نشانی ثبت شده شما ارسال گردید. اگر این ایمیل را دریافت نکردید، پوشه هرزنامه (Spam) خود را بررسی نمایید."
+
+msgid "user.login.lostPassword.invalidHash"
+msgstr ""
+"متأسفانه لینکی که شما بر روی آن کلیک کرده اید تاریخ آن منقضی شده است یا دیگر "
+"وجود ندارد. برای دریافت رمز عبور از نو اقدام کنید."
+
+msgid "user.login.lostPassword.passwordSent"
+msgstr ""
+"یک رمز عبور جدید به آدرس ایمیل شما ارسال گردید. با این رمز عبور جدید هم "
+"اکنون میتوانید وارد سایت شوید."
+
+msgid "user.login.registeredEmail"
+msgstr "ایمیل کاربر ثبت‌نام کرده"
+
+msgid "user.login.registrationComplete"
+msgstr " تکمیل ثبت‌نام"
+
+msgid "user.login.registrationComplete.instructions"
+msgstr ""
+" ضمن تشکر از ثبت‌نام شما ، حال می توانید به قسمت های زیر مراجعه فرمایید: "
+
+msgid "user.login.registrationComplete.manageSubmissions"
+msgstr "مشاهده مقالات ارسال شده "
+
+msgid "user.login.registrationComplete.newSubmission"
+msgstr " ارسال اثر جدید "
+
+msgid "user.login.registrationComplete.continueBrowsing"
+msgstr " برگشت به صفحه اصلی"
+
+msgid "user.login.registrationPendingValidation"
+msgstr "ثبت‌نام منتظر تایید است"
+
+msgid "user.login.rememberUsernameAndPassword"
+msgstr "به خاطر سپاری نام کاربری و رمز عبور"
+
+msgid "user.login.resetPassword"
+msgstr "باز نشانی رمز عبور"
+
+msgid "user.logOut"
+msgstr "خروج"
+
+msgid "user.logOutAs"
+msgstr "خروج از"
+
+msgid "user.hello"
+msgstr "سلام، "
+
+msgid "user.mailingAddress"
+msgstr "آدرس پستی"
+
+msgid "user.myAccount"
+msgstr "حساب کاربری من"
+
+msgid "user.name"
+msgstr "نام"
+
+msgid "user.password"
+msgstr "رمز ورود"
+
+msgid "user.repeatPassword"
+msgstr "تکرار رمز عبور"
+
+msgid "user.phone"
+msgstr "تلفن"
+
+msgid "user.preferredPublicName"
+msgstr "نام نمایشی"
+
+msgid "user.preferredPublicName.description"
+msgstr "نامی را وارد کنید که مایلید در بخش اطلاعات پدیدآورندگان اثر نمایش داده شود."
+
+msgid "user.profile.changePasswordInstructions"
+msgstr ""
+"برای تغییر رمز عبور، رمز عبور فعلی و جدید  را در قسمت های زیر وارد کنید"
+
+msgid "user.profile.editProfile"
+msgstr "ویرایش پروفایل"
+
+msgid "user.profile.form.countryRequired"
+msgstr "انتخاب کشور الزامی است"
+
+msgid "user.profile.form.emailRequired"
+msgstr "وارد کردن آدرس ایمیل معتبر الزامی است"
+
+msgid "user.profile.form.givenNameRequired"
+msgstr "وارد کردن نام الزامی است."
+
+msgid "user.profile.form.givenNameRequired.locale"
+msgstr "وارد کردن نام برای این زبان الزامی است."
+
+msgid "user.profile.form.mailingAddressRequired"
+msgstr "آدرس ایمیل الزامی است"
+
+msgid "user.profile.form.newPasswordRequired"
+msgstr "رمز عبور جدید را وارد کنید"
+
+msgid "user.profile.form.oldPasswordInvalid"
+msgstr "رمز عبور وارد شده صحیح نمی باشد"
+
+msgid "user.profile.form.openAccessNotifications"
+msgstr "اطلاع‌رسانی درباره نسخه‌های دسترسی آزاد"
+
+msgid "user.profile.form.passwordRequired"
+msgstr "وارد کردن رمزعبور الزامی است"
+
+msgid "user.profile.form.passwordSameAsOld"
+msgstr "رمز ورودی جدید مشابه با رمز قبلی است"
+
+msgid "user.profile.form.profileImage"
+msgstr "تصویر پروفایل"
+
+msgid "user.profile.form.publishedNotifications"
+msgstr "اطلاع‌رسانی درباره انتشار نسخه جدید"
+
+msgid "user.profile.form.urlInvalid"
+msgstr ""
+"آدرس وارد شده بی‌اعتبار است. پس از بررسی دوباره امتحان کنید. (نکته: http:// "
+"را به ابتدای آدرس بیافزائید.)"
+
+msgid "user.profile.form.usergroupRequired"
+msgstr "وارد کردن گروه کاربری الزامی است."
+
+msgid "user.profile.form.usernameRequired"
+msgstr "وارد کردن شناسه ی کاربری الزامی است"
+
+msgid "user.profile.form.privacyConsentRequired"
+msgstr "اعلام موافقت با بیانیه حریم خصوصی الزامی است."
+
+msgid "user.profile.leavePasswordBlank"
+msgstr "برای حفظ رمز عبور فعلی قسمت مربوط به رمز عبور را خالی بگذارید"
+
+msgid "user.profile.newPassword"
+msgstr "رمز عبور جدید"
+
+msgid "user.profile.oldPassword"
+msgstr "رمز عبور فعلی"
+
+msgid "user.profile"
+msgstr "پروفایل"
+
+msgid "user.profile.publicProfile"
+msgstr "پروفایل کابر"
+
+msgid "user.profile.repeatNewPassword"
+msgstr "تکرار رمز عبور جدید"
+
+msgid "user.login.registerNewAccount"
+msgstr "ثبت‌نام"
+
+msgid "user.login.resetPasswordInstructions"
+msgstr ""
+"لطفا ایمیلی را که با آن در این سامانه ثبت کرده اید را در کادر زیر وارد کنید"
+
+msgid "user.register.form.privacyConsent"
+msgstr "من با جمع‌آوری و ذخیره‌سازی داده‌های خود بر اساس <a href=\"{$privacyUrl}\" target=\"_blank\">بیانیه حریم خصوصی</a> موافقم."
+
+msgid "user.register.form.emailConsent"
+msgstr "بله، من مایل هستم از انتشار نسخه‌ها و اطلاعیه‌های جدید مطلع شوم."
+
+msgid "user.register.form.emailExists"
+msgstr ""
+"قبلا با آدرس ایمیل وارد شده، کاربری در این سامانه ثبت‌نام کرده است. (ممکن است "
+"قبلا ثبت‌نام کرده باشید!)"
+
+msgid "user.register.form.passwordsDoNotMatch"
+msgstr "رمز عبور با تکرار آن یکسان نیست"
+
+msgid "user.register.form.emailsDoNotMatch"
+msgstr "فیلدهای حاوی آدرس ایمیل مطابقت ندارند"
+
+msgid "user.register.form.usernameAlphaNumeric"
+msgstr ""
+"نام کاربری فقط میتواند شامل حروف، اعداد، خط فاصله زیرین و خط فاصله باشد و "
+"میبایست با یک حرف یا عدد شروع و به یک حرف یا عدد ختم شود."
+
+msgid "user.register.form.userGroupRequired"
+msgstr "حداقل یک گروه کاربری باید انتخاب شود."
+
+msgid "user.register.form.usernameExists"
+msgstr "نام کاربری انتخاب شده در سامانه موجود می باشد"
+
+msgid "user.register.form.passwordLengthRestriction"
+msgstr "کلمه ی عبور باید حداقل دارای {$length} کاراکتر باشد"
+
+msgid "user.register.registerAs"
+msgstr "ثبت‌نام در {$contextName} به عنوان"
+
+msgid "user.register"
+msgstr "ثبت‌نام"
+
+msgid "user.register.usernameRestriction"
+msgstr ""
+"نام کاربری فقط میتواند دارای حروف کوچک، اعداد، خط فاصله و خط فاصله زیرین "
+"باشد."
+
+msgid "user.register.registrationCompleted"
+msgstr ""
+" ثبت‌نام شما انجام شد. برای مشاهده و تکمیل پروفایل خود بر روی این <a href="
+"\"{$profileUrl}\">لینک</a> کلیک کنید."
+
+msgid "user.role.assistant"
+msgstr "دستیار"
+
+msgid "user.role.author"
+msgstr "پدیدآورنده"
+
+msgid "user.role.author_s"
+msgstr "پدیدآورنده(گان)"
+
+msgid "user.role.authors"
+msgstr "پدیدآورندگان"
+
+msgid "user.role.editor"
+msgstr "دبیر"
+
+msgid "user.role.editors"
+msgstr "دبیران"
+
+msgid "user.role.reader"
+msgstr "خواننده"
+
+msgid "user.role.readers"
+msgstr "خوانندگان"
+
+msgid "user.role.reviewer"
+msgstr "داور"
+
+msgid "user.role.reviewers"
+msgstr "داوران"
+
+msgid "user.role.siteAdmin"
+msgstr "مدیر سایت"
+
+msgid "user.role.siteAdmins"
+msgstr "مدیر های سایت"
+
+msgid "user.role.copyeditor"
+msgstr "ویراستیار"
+
+msgid "user.role.copyeditors"
+msgstr "ویراستیاران"
+
+msgid "user.role.proofreader"
+msgstr "بازبین نهایی"
+
+msgid "user.role.proofreaders"
+msgstr "بازبینهای نهایی"
+
+msgid "user.role.layoutEditor"
+msgstr "صفحه‌آرا"
+
+msgid "user.role.layoutEditors"
+msgstr "صفحه‌آرا"
+
+msgid "user.roles"
+msgstr "نقش ها"
+
+msgid "user.sendPassword"
+msgstr "ارسال رمز ورود"
+
+msgid "user.sendPassword.description"
+msgstr "یک ایمیل تاییدیه برایم بفرست و در آن نام کاربری و رمز ورود مرا ذکر کن"
+
+msgid "user.signature"
+msgstr "امضا"
+
+msgid "user.title"
+msgstr "عنوان"
+
+msgid "user.url"
+msgstr "URL"
+
+msgid "user.userHome"
+msgstr "صفحه خانگی کاربر"
+
+msgid "user.username"
+msgstr "نام کاربری"
+
+msgid "user.workingLanguages"
+msgstr "زبان‌های کاربردی"
+
+msgid "user.orcid"
+msgstr "شناسه ی پدیدآورندگان/پژوهشگران"
+
+msgid "user.orcid.orcidInvalid"
+msgstr ""
+"شناسه ORCID وارد شده معتبر نیست. لطفاً آدرس کامل را وارد کنید (برای مثال:"
+"\"https://orcid.org/0000-0002-1825-0097\")."
+
+msgid "user.profile.identity"
+msgstr "مشخصات فردی"
+
+msgid "user.profile.contact"
+msgstr "اطلاعات تماس"
+
+msgid "user.profile.public"
+msgstr "مشخصات عمومی"
+
+msgid "user.apiKey"
+msgstr "کلید API"
+
+msgid "user.apiKeyEnabled"
+msgstr ""
+"فعال‌سازی امکان دسترسی نرم‌افزارهای خارجی به این حساب کاربری از طریق کلید API"
+
+msgid "user.apiKey.generate"
+msgstr "ایجاد یک کلید جدید API"
+
+msgid "user.apiKey.remove"
+msgstr "حذف کلید API"
+
+msgid "user.apiKey.generateWarning"
+msgstr ""
+"ایجاد یک کلید جدید API باعث نامعتبر شدن کلیدهای قبلی ایجاد شده برای این "
+"کاربر خواهد شد."
+
+msgid "user.apiKey.removeWarning"
+msgstr "حذف کلید API باعث می‌شود تمامی برنامه‌هایی که از این کلید استفاده می‌کنند دیگر دسترسی به این حساب داشته باشند."
+
+msgid "user.apiKey.remove.confirmation.message"
+msgstr "آیا از حذف این کلید API اطمینان دارید؟"
+
+msgid "user.apiKey.secretRequired"
+msgstr ""
+"قبل از ایجاد کلید API، باید کد مخفی در فایل پیکربندی وارد شود "
+"(api_key_secret)"
+
+msgid "user.privacyLink"
+msgstr "بیانیه حریم خصوصی"
+
+msgid "user.login.lostPassword.invalidUser"
+msgstr "هیچ کاربری با آدرس ایمیل وارد شده در سامانه وجود ندارد."
+
+msgid "user.login.lostPassword.confirmationSentFailedWithReason"
+msgstr "ارسال ایمیل تاییدیه با شکست مواجه شد. دلیل خطا: {$reason}"
+
+msgid "user.login.passwordResetProcessInstructions"
+msgstr "لطفاً رمز عبور جدید خود را در کادرهای زیر وارد کنید تا فرآیند بازنشانی تکمیل شود."
+
+msgid "user.login.resetPassword.passwordUpdated"
+msgstr "رمز عبور شما با موفقیت به‌روزرسانی شد. اکنون می‌توانید وارد سامانه شوید."
+
+
+# === Auto-appended missing keys (needs Persian translation) ===
+
+msgid "user.affiliations.description"
+msgstr "نام کامل مؤسسه را بدون استفاده از نام‌های اختصاری در زیر وارد کنید. نام را از منوی کشویی انتخاب کرده و برای افزودن وابستگی به پروفایل خود روی «افزودن» کلیک کنید."
+
+msgid "user.affiliations.institution"
+msgstr "مؤسسه"
+
+msgid "user.affiliations.translation"
+msgstr "اطلاعات بیشتر"
+
+msgid "user.affiliations.translationEditActionLabel"
+msgstr "ویرایش نام مؤسسه"
+
+msgid "user.affiliations.translationDeleteActionLabel"
+msgstr "حذف مؤسسه"
+
+msgid "user.affiliations.translationActionsAriaLabel"
+msgstr "برای ویرایش یا حذف کلیک کنید"
+
+msgid "user.affiliations.translationsAllAvailable"
+msgstr "تمامی ترجمه‌ها موجود است"
+
+msgid "user.affiliations.translationsSomeAvailable"
+msgstr "{$count} از {$total} زبان تکمیل شده است"
+
+msgid "user.affiliations.typeTranslationNameInLanguageLabel"
+msgstr "نام مؤسسه را به زبان {$language} تایپ کنید"
+
+msgid "user.affiliations.translationNameInLanguage"
+msgstr "نام مؤسسه به زبان {$language}"
+
+msgid "user.affiliations.deleteModal.title"
+msgstr "آیا اطمینان دارید؟"
+
+msgid "user.affiliations.deleteModal.message"
+msgstr "وابستگی <strong>{$affiliation}</strong> حذف خواهد شد."
+
+msgid "user.affiliations.searchPhraseLabel"
+msgstr "نام مؤسسه را به زبان {$language} تایپ کنید"
+
+msgid "user.affiliations.searchPhraseNothingFound"
+msgstr "عبارت جستجوی شما یافت نشد"
+
+msgid "user.affiliations.primaryLocaleRequired"
+msgstr "زبان اصلی {$primaryLocale} الزامی است"
+
+msgid "user.affiliations.error.rorApi"
+msgstr "خطای API ROR"
+
+msgid "user.affiliations.error.rorApiUnavailable"
+msgstr "سرویس API ROR در حال حاضر در دسترس نیست. لطفاً صفحه را تازه‌سازی کنید یا بعداً دوباره امتحان کنید."
+
+msgid "user.affiliations.error.rorApiDeprecated"
+msgstr "سرویس API ROR در این نصب منسوخ شده است. لطفاً با مدیر سیستم خود تماس بگیرید."
+
+msgid "user.authorization.submission.incomplete.workflowAccessRestrict"
+msgstr "دسترسی به گردش کار برای دست‌نوشته ناقص محدود شده است."
+
+msgid "user.authorization.submission.complete.reviewerSuggestionRestrict"
+msgstr "افزودن، به‌روزرسانی یا حذف پیشنهاد داور برای دست‌نوشته تکمیل‌شده محدود شده است."
+
+msgid "user.authorization.shouldBeAnonymous"
+msgstr "کاربر باید ناشناس باشد. شما در حال حاضر وارد سیستم شده‌اید."
+
+msgid "user.login.activate.description"
+msgstr "حساب کاربری خود را تأیید و فعال کنید"
+
+msgid "user.preferredAvatarInitials"
+msgstr "حروف اختصاری ترجیحی آواتار"
+
+msgid "user.preferredAvatarInitials.description"
+msgstr "دو حرفی را که مایلید به عنوان آواتار خود استفاده کنید وارد نمایید. این حروف اختصاری برای نمایش شما استفاده خواهند شد."
+
+msgid "user.profile.form.affiliationRequired.locale"
+msgstr "لطفاً یک وابستگی به زبان اثر اضافه کنید."
+
+msgid "user.role.ended"
+msgstr "نقش پایان یافت"
+
+msgid "user.usernameOrEmail"
+msgstr "نام کاربری یا ایمیل"
+
+msgid "user.pendingEmailChange"
+msgstr "شما درخواست تغییر ایمیل خود را به \"{$pendingEmail}\" داده‌اید. ما قبلاً ایمیلی حاوی دستورالعمل‌های نحوه تأیید ایمیل تغییریافته برای شما ارسال کرده‌ایم."
+
+msgid "orcid.displayName"
+msgstr "ORCID"
+
+msgid "orcid.description"
+msgstr "امکان وارد کردن اطلاعات پروفایل کاربر از ORCID را فراهم می‌کند."
+
+msgid "orcid.instructions"
+msgstr "می‌توانید این فرم را از قبل با اطلاعات پروفایل ORCID تکمیل کنید. آدرس ایمیل یا شناسه ORCID مرتبط با پروفایل ORCID را وارد کرده و سپس روی «ارسال» کلیک کنید."
+
+msgid "orcid.noData"
+msgstr "هیچ داده‌ای از ORCID یافت نشد."
+
+msgid "orcid.emailOrOrcid"
+msgstr "آدرس ایمیل یا شناسه ORCID:"
+
+msgid "orcid.manager.settings.title"
+msgstr "تنظیمات API ORCID"
+
+msgid "orcid.manager.settings.hidden"
+msgstr "پنهان"
+
+msgid "orcid.manager.settings.description"
+msgstr "لطفاً دسترسی API ORCID را برای دریافت اطلاعات پروفایل ORCID به حساب کاربران و پدیدآورندگان و به‌روزرسانی رکوردهای متصل ORCID با انتشارات جدید پیکربندی کنید (فقط ویژه اعضای ORCID)."
+
+msgid "orcid.manager.settings.description.globallyconfigured"
+msgstr "API ORCID به‌صورت سراسری توسط میزبان پیکربندی شده است. API ORCID، شناسه مشتری (Client ID) و رمز مشتری (Client Secret) در سطح سایت تنظیم شده‌اند و در اینجا قابل تغییر نیستند. برای غیرفعال کردن عملکرد ORCID یا تغییر این اعتبارنامه‌ها، با مدیر سایت خود تماس بگیرید."
+
+msgid "orcid.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "orcid.manager.settings.orcidProfileAPIPath.public"
+msgstr "عمومی"
+
+msgid "orcid.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Sandbox عمومی"
+
+msgid "orcid.manager.settings.orcidProfileAPIPath.member"
+msgstr "عضو"
+
+msgid "orcid.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Sandbox عضو"
+
+msgid "orcid.manager.settings.orcidClientId"
+msgstr "شناسه مشتری"
+
+msgid "orcid.manager.settings.orcidClientSecret"
+msgstr "رمز مشتری"
+
+msgid "orcid.manager.settings.orcidScope"
+msgstr "دامنه دسترسی به پروفایل"
+
+msgid "orcid.manager.settings.mailSectionTitle"
+msgstr "تنظیمات ایمیل"
+
+msgid "orcid.manager.settings.saved"
+msgstr "تنظیمات ذخیره شد"
+
+msgid "orcid.manager.settings.sendMailToAuthorsOnPublication"
+msgstr "ارسال ایمیل برای درخواست مجوز دسترسی ORCID از پدیدآورندگان هنگام پذیرش اثر (به عنوان مثال، هنگام ارسال به مرحله ویراستاری)"
+
+msgid "orcid.manager.settings.logSectionTitle"
+msgstr "گزارش درخواست‌های ORCID"
+
+msgid "orcid.manager.settings.logLevel.help"
+msgstr "میزان خروجی گزارش ثبت‌شده توسط ویژگی ORCID را انتخاب کنید"
+
+msgid "orcid.manager.settings.logLevel.error"
+msgstr "خطاها"
+
+msgid "orcid.manager.settings.logLevel.all"
+msgstr "همه موارد"
+
+msgid "orcid.manager.settings.city"
+msgstr "شهر"
+
+msgid "orcid.author.accessDenied"
+msgstr "دسترسی ORCID در زمان زیر رد شد:"
+
+msgid "orcid.author.accessTokenStored"
+msgstr "دسترسی به رکورد ORCID با دامنه {$orcidAccessScope} اعطا شد و تا زمان زیر معتبر است:"
+
+msgid "orcid.author.requestAuthorization"
+msgstr "ارسال ایمیل برای درخواست مجوز دسترسی ORCID از پدیدآورنده"
+
+msgid "orcid.author.deleteORCID"
+msgstr "شناسه ORCID و رمز دسترسی را حذف کنید!"
+
+msgid "orcid.author.orcidEmptyNotice"
+msgstr "برای درخواست شناسه ORCID تأییدشده به پایین مراجعه کنید"
+
+msgid "orcid.author.unauthenticated"
+msgstr "شناسه ORCID احراز هویت نشده است! لطفاً احراز هویت را از پدیدآورنده درخواست کنید."
+
+msgid "orcid.unauthenticated"
+msgstr "(بدون احراز هویت)"
+
+msgid "orcid.verify.title"
+msgstr "اعتبارسنجی ORCID"
+
+msgid "orcid.verify.sendSubmissionToOrcid.success"
+msgstr "اثر به رکورد ORCID شما اضافه شد."
+
+msgid "orcid.verify.sendSubmissionToOrcid.failure"
+msgstr "اثر به رکورد ORCID شما اضافه نشد."
+
+msgid "orcid.verify.sendSubmissionToOrcid.notpublished"
+msgstr "اثر در طول انتشار به رکورد ORCID شما اضافه خواهد شد."
+
+msgid "orcid.verify.success"
+msgstr "شناسه ORCID شما تأیید شده و با موفقیت به این اثر مرتبط شد."
+
+msgid "orcid.verify.success.redirect"
+msgstr "اکنون به‌طور خودکار به {$contextName} بازگردانده می‌شوید."
+
+msgid "orcid.verify.failure"
+msgstr "شناسه ORCID شما تأیید نشد. این پیوند دیگر معتبر نیست."
+
+msgid "orcid.verify.duplicateOrcid"
+msgstr "یک شناسه ORCID قبلاً برای این اثر ذخیره شده بود."
+
+msgid "orcid.verify.denied"
+msgstr "شما دسترسی به رکورد ORCID خود را رد کردید."
+
+msgid "orcid.authFailure"
+msgstr "پیوند اعتبارسنجی ORCID قبلاً استفاده شده است یا نامعتبر است."
+
+msgid "orcid.invalidClient"
+msgstr "اعتبارنامه‌های مشتری نامعتبر است"
+
+msgid "orcid.failure.contact"
+msgstr "لطفاً با مدیر انتشارات به همراه نام، شناسه ORCID و جزئیات اثر خود تماس بگیرید."
+
+msgid "orcid.fieldset"
+msgstr "ORCID"
+
+msgid "orcid.connect"
+msgstr "شناسه ORCID خود را ایجاد یا متصل کنید"
+
+msgid "orcid.authorise"
+msgstr "شناسه ORCID خود را تأیید و متصل کنید"
+
+msgid "orcid.about.title"
+msgstr "ORCID چیست؟"
+
+msgid "orcid.about.orcidExplanation"
+msgstr "ORCID یک سازمان مستقل غیرانتفاعی است که یک شناسه دائمی – شناسه ORCID – ارائه می‌دهد که شما را از سایر پژوهشگران متمایز کرده و سازوکاری برای پیوند دادن خروجی‌ها و فعالیت‌های پژوهشی شما به شناسه‌تان فراهم می‌کند. ORCID با بسیاری از سیستم‌های مورد استفاده ناشران، حامیان مالی، مؤسسات و سایر خدمات مرتبط با پژوهش یکپارچه شده است. اطلاعات بیشتر در https://orcid.org."
+
+msgid "orcid.about.howAndWhy.title"
+msgstr "چگونه و چرا شناسه‌های ORCID را جمع‌آوری می‌کنیم؟"
+
+msgid "orcid.about.howAndWhyPublicAPI"
+msgstr "این سایت در حال جمع‌آوری شناسه ORCID شماست تا ما و جامعه گسترده‌تر بتوانیم اطمینان حاصل کنیم که شما به‌درستی شناسایی شده و با انتشارات خود مرتبط هستید. این امر تضمین می‌کند که ارتباط شما با مجموعه کامل آثارتان در طول حرفه‌تان با شما باقی می‌ماند. <br>\n\tوقتی روی دکمه «تأیید» در پنجره بازشوی ORCID کلیک می‌کنید، از شما می‌خواهیم با استفاده از یک فرآیند احراز هویت شده شناسه خود را به اشتراک بگذارید — یا با ثبت‌نام برای دریافت شناسه ORCID، یا اگر از قبل یکی دارید، با ورود به حساب ORCID خود و سپس اعطای مجوز به ما برای دریافت شناسه ORCID شما. ما این کار را انجام می‌دهیم تا مطمئن شویم شما به‌درستی شناسایی شده و به‌طور ایمن به شناسه ORCID خود متصل شده‌اید.<br>\n\tدر <a href=\"https://info.orcid.org/whats-so-special-about-signing-in/\">ورود به سیستم چه ویژگی خاصی دارد</a> اطلاعات بیشتری کسب کنید.<br>\nاین سایت شناسه‌های تأییدشده پدیدآورندگان و همکاران را در پروفایل کاربری و در هر جایی که نام پدیدآورنده ذکر شده است، جمع‌آوری و نمایش می‌دهد."
+
+msgid "orcid.about.howAndWhyMemberAPI"
+msgstr "این سایت در حال جمع‌آوری شناسه ORCID شماست تا ما و جامعه گسترده‌تر بتوانیم اطمینان حاصل کنیم که شما به‌درستی شناسایی شده و با انتشارات خود مرتبط هستید. این امر تضمین می‌کند که ارتباط شما با مجموعه کامل آثارتان در طول حرفه‌تان با شما باقی می‌ماند.<br>\n\tوقتی روی دکمه «تأیید» در پنجره بازشوی ORCID کلیک می‌کنید، از شما می‌خواهیم با استفاده از یک فرآیند احراز هویت شده شناسه خود را به اشتراک بگذارید — یا با ثبت‌نام برای دریافت شناسه ORCID، یا اگر از قبل یکی دارید، با ورود به حساب ORCID خود و سپس اعطای مجوز به ما برای دریافت شناسه ORCID شما. ما این کار را انجام می‌دهیم تا مطمئن شویم شما به‌درستی شناسایی شده و به‌طور ایمن به شناسه ORCID خود متصل می‌شوید.<br>\n\tدر <a href=\"https://info.orcid.org/whats-so-special-about-signing-in/\">ورود به سیستم چه ویژگی خاصی دارد</a> اطلاعات بیشتری کسب کنید.<br>\n\tاین سایت شناسه‌های تأییدشده پدیدآورندگان و همکاران را در پروفایل و در هر جایی که نام پدیدآورنده ذکر شده است، جمع‌آوری و نمایش می‌دهد. علاوه بر این، فراداده‌های انتشار به‌طور خودکار به رکورد ORCID شما ارسال می‌شود که ما را قادر می‌سازد تا به شما کمک کنیم رکورد خود را با اطلاعات قابل اعتماد به‌روز نگه دارید. در <a href=\"https://info.orcid.org/six-ways-to-make-your-orcid-id-work-for-you/\">شش راه برای کارآمد کردن شناسه ORCID برای شما!</a> اطلاعات بیشتری کسب کنید."
+
+msgid "orcid.about.display.title"
+msgstr "شناسه‌های ORCID در کجا نمایش داده می‌شوند؟"
+
+msgid "orcid.about.display"
+msgstr "برای تأیید اینکه شما از شناسه خود استفاده کرده‌اید و این شناسه احراز هویت شده است، ما نماد شناسه ORCID را <img src=\"https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png\" alt=\"iD icon\" width=\"16\" height=\"16\" border=\"0\"> در کنار نام شما در صفحه اثر شما و در پروفایل کاربری عمومی‌تان نمایش می‌دهیم.<br>\n\t\tدر <a href=\"https://info.orcid.org/how-should-an-orcid-id-be-displayed/\">نحوه نمایش شناسه ORCID چگونه باید باشد</a> اطلاعات بیشتری کسب کنید."
+
+msgid "orcid.manager.settings.orcidClientId.error"
+msgstr "شناسه مشتری نامعتبر است"
+
+msgid "orcid.manager.settings.orcidClientSecret.error"
+msgstr "رمز مشتری نامعتبر است"
+
+msgid "orcid.manager.status.configuration.journal"
+msgstr "بر اساس انتشارات پیکربندی شده است"
+
+msgid "orcid.manager.status.configuration.clientIdValid"
+msgstr "شناسه مشتری معتبر است"
+
+msgid "orcid.manager.status.configuration.clientIdInvalid"
+msgstr "شناسه مشتری نامعتبر است، لطفاً ورودی خود را بررسی کنید"
+
+msgid "orcid.manager.status.configuration.clientSecretValid"
+msgstr "رمز مشتری معتبر است"
+
+msgid "orcid.manager.status.configuration.clientSecretInvalid"
+msgstr "رمز مشتری نامعتبر است، لطفاً اعتبارنامه‌های خود را بررسی کنید"
+
+msgid "orcid.verify.duplicateOrcidAuthor"
+msgstr "شناسه‌های ORCID تکراری برای پدیدآورندگان شناسایی شد."
+
+msgid "orcid.verify.hasUnauthenticatedOrcid"
+msgstr "شناسه‌های ORCID احراز هویت‌نشده برای پدیدآورندگان شناسایی شد."
+
+msgid "orcid.manager.context.enabled"
+msgstr "فعال‌سازی قابلیت ORCID"
+
+msgid "orcid.manager.siteWide.enabled"
+msgstr "فعال‌سازی قابلیت ORCID در کل سایت"
+
+msgid "orcid.manager.siteWide.description"
+msgstr "قابلیت ORCID می‌تواند به‌صورت اختیاری در سطح سایت برای تمامی انتشارات/سرورها فعال و پیکربندی شود. در صورت فعال بودن، این گزینه تمام اعتبارنامه‌های سطح محتوا را باطل کرده و اعتبارنامه‌های زیر را برای تمامی انتشارات/سرورها در این نصب اعمال می‌کند."
+
+msgid "orcid.field.verification.request"
+msgstr "درخواست اعتبارسنجی"
+
+msgid "orcid.field.verification.requested"
+msgstr "اعتبارسنجی ORCID درخواست شده است!"
+
+msgid "orcid.field.verification.resendRequest"
+msgstr "ارسال مجدد ایمیل اعتبارسنجی"
+
+msgid "orcid.field.authorEmailModal.title"
+msgstr "درخواست اعتبارسنجی ORCID"
+
+msgid "orcid.field.authorEmailModal.message"
+msgstr "آیا مایل هستید ایمیلی به این پدیدآورنده ارسال کنید و از او بخواهید ORCID خود را اعتبارسنجی کند؟"
+
+msgid "orcid.field.authorEmailModal.message.noAuthor"
+msgstr "پس از ایجاد پدیدآورنده، ایمیل ارسال خواهد شد."
+
+msgid "orcid.field.deleteOrcidModal.title"
+msgstr "حذف ORCID"
+
+msgid "orcid.field.deleteOrcidModal.message"
+msgstr "آیا از حذف این ORCID اطمینان دارید؟"
+
+msgid "orcid.field.unverified.shouldRequest"
+msgstr "این ORCID اعتبارسنجی نشده است. لطفاً این ORCID اعتبارسنجی‌نشده را حذف کرده و درخواست اعتبارسنجی را مستقیماً از کاربر/پدیدآورنده بخواهید."
+
+msgid "user.removeRole.message"
+msgstr "آیا از حذف این نقش اطمینان دارید؟ کاربر دسترسی‌ها و مجوزهای مرتبط با آن را از دست خواهد داد."
+
+msgid "user.futureRole.notification.message"
+msgstr "نقش شما برای شروع در تاریخ {$roleStartDate} برنامه‌ریزی شده است"
+
+msgid "user.futureRole.notification.description"
+msgstr "تا آن زمان، می‌توانید پروفایل خود را بررسی و به‌روزرسانی کنید. اگر فکر می‌کنید این یک خطا است، لطفاً با مدیر تماس بگیرید."
+
+msgid "user.disabledModal.description"
+msgstr "نقش‌های کنونی: {$roles}"
+
+msgid "user.disabledModal.title"
+msgstr "غیرفعال کردن {$fullName}"
+
+msgid "user.enabledModal.title"
+msgstr "فعال کردن {$fullName}"
+
+msgid "user.bioStatement"
+msgstr "رزومه علمی"
+
+msgid "user.removeRole.roleRemainMessage"
+msgstr "شما نمی‌توانید این نقش را حذف کنید. حداقل یک نقش باید به کاربر اختصاص داده شود."
+
+msgid "user.masthead.update.title"
+msgstr "تأیید تغییر مشاهده‌پذیری در اطلاعات هیئت تحریریه"
+
+msgid "user.masthead.update.message"
+msgstr "این گزینه تعیین می‌کند که آیا این کاربر برای نقش انتخاب‌شده در اطلاعات هیئت تحریریه انتشارات ظاهر شود یا خیر. این تغییر به کاربر اطلاع داده خواهد شد."

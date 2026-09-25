@@ -1,0 +1,460 @@
+// =============================================================================
+// OMP Theme: NIGEB Research Portal
+// File: design-tokens.less
+// Role: Senior Front-end Developer / Visual-to-Code Auditor
+// Sources merged:
+//   - NIGEB Brand Context (official inputs, May 2026)
+//   - Visual mockup audit (Admin Analytics Dashboard, Book Catalog,
+//     Hero Banner-RTL, User Dashboard UI, Book Finalization-Galley Proof)
+// Honesty tags:
+//   [BRAND]     = directly authorized by NIGEB Brand Context
+//   [VISUAL]    = derived from mockup images, confirmed
+//   [ESTIMATED] = within allowed range; needs visual regression test
+//   [UNRESOLVED]= requires explicit confirmation before production
+// =============================================================================
+
+
+// -----------------------------------------------------------------------------
+// 1. COLOR SYSTEM
+// -----------------------------------------------------------------------------
+
+// --- 1.1 Core Brand (authorized) ---
+@primary-color:      #1A3A5C;   // [BRAND] سرمه‌ای سازمانی NIGEB
+//   Note: mockup images show #0D2137 — darker variant likely used in hero/header
+//   overlays. Use @primary-dark for those contexts; @primary-color is the
+//   official token.
+@primary-dark:       #0D2137;   // [VISUAL] مشتق از Hero Banner-RTL و Admin Analytics Dashboard
+
+@secondary-color:    #2E7D32;   // [BRAND] سبز زیست‌فناوری (official)
+//   Note: mockup images show #27AE60 — a lighter emerald used on CTA buttons.
+//   Both are registered; use @cta-green only on interactive action elements.
+@cta-green:          #27AE60;   // [VISUAL] Emerald برای CTA — فقط دکمه‌های اقدام‌محور
+
+@accent-color:       #D4AF37;   // [BRAND + VISUAL] طلایی برای DOI، badge، تأیید علمی
+
+// --- 1.2 Functional / Semantic ---
+@success:            #48BB78;   // [VISUAL] User Dashboard UI — Active Stepper
+@warning:            #F6E05E;   // [VISUAL] Book Catalog — DOI Tags
+@error:              #C0392B;   // [BRAND GUIDELINE DEFAULT — UNRESOLVED visually]
+//   عنصر error state در mockupها نمایش داده نشده است.
+//   مقدار #C0392B از دستورالعمل‌های رنگی پلتفرم‌های دولتی ایران مشتق شده.
+//   ⚠ REQUIRES VISUAL CONFIRMATION before production.
+@info:               #EBF8FF;   // [VISUAL] Book Finalization-Galley Proof — Comment Bubbles
+
+// --- 1.3 Neutrals ---
+@white:              #FFFFFF;   // [VISUAL] تمام تصاویر
+@gray-light:         #F4F7F6;   // [VISUAL] Admin Analytics Dashboard — Page Background
+@gray-medium:        #E2E8F0;   // [ESTIMATED] Border/divider در Reviewer Interface
+@gray-dark:          #4A5568;   // [ESTIMATED] متن ثانویه
+@black:              #000000;   // استاندارد
+
+// --- 1.4 PKP/OMP Core Overrides ---
+@link-color:         @primary-color;    // پیرو رنگ اصلی سازمان
+@bg-color:           @gray-light;       // [VISUAL] پس‌زمینه داشبورد
+@text-color:         #2D3748;           // [ESTIMATED] dark slate — خوانایی مناسب
+@text-muted:         @gray-dark;        // [ESTIMATED] متن کمرنگ
+@text-inverse:       @white;
+@border-color-base:  @gray-medium;      // [ESTIMATED]
+
+// --- 1.5 Focus / Interaction ---
+@focus-ring-color:   fade(@accent-color, 38%);    // [BRAND] طلایی ملایم
+@focus-ring:         0 0 0 3px @focus-ring-color;
+
+// --- 1.6 Logo Background Constraints ---
+// ⚠ استفاده از لوگو فقط روی رنگ‌های مجاز زیر
+@logo-bg-white:      @white;
+@logo-bg-navy:       @primary-color;
+@logo-bg-soft:       @gray-light;
+// پس‌زمینه رنگی مکمل (قرمز، نارنجی) ممنوع است [BRAND]
+
+
+// -----------------------------------------------------------------------------
+// 2. TYPOGRAPHY
+// -----------------------------------------------------------------------------
+
+// --- 2.1 Fonts ---
+// [BRAND] Official: Vazirmatn | [VISUAL] Fallback seen in mockups: IRANYekan/Vazir
+@font-family-base:   'Vazirmatn', 'IRANYekan', 'Vazir', sans-serif;
+@font-family-display: 'Vazirmatn', 'IRANYekan', sans-serif;
+
+@font-weight-body:     400;  // [BRAND] Regular
+@font-weight-heading:  600;  // [BRAND] SemiBold
+
+// --- 2.2 Scale ---
+@font-size-base: 16px;   // [ESTIMATED — range 14–16px. 16px chosen per WCAG and
+                         //  Persian readability guideline. OMP default is 14px;
+                         //  override explicitly in body selector.]
+@font-size-h1:   36px;   // [VISUAL] Hero Banner-RTL
+@font-size-h2:   24px;   // [VISUAL] Book Catalog page
+@font-size-h3:   18px;   // [VISUAL] Admin Analytics Dashboard — Card Titles
+@font-size-h4:   16px;   // [VISUAL] User Dashboard UI — Card Labels
+@font-size-h5:   14px;
+@font-size-h6:   12px;   // [VISUAL] Admin Analytics Dashboard — Axis Labels
+
+// --- 2.3 Line Height ---
+@line-height-base:  1.8;  // [BRAND + ESTIMATED] Persian script — range 1.7–2.0
+@line-height-tight: 1.5;  // برای تیتر و badge
+
+// --- 2.4 Semantic shortcuts ---
+@font-size-sm:    14px;
+@font-size-xs:    12px;
+
+
+// -----------------------------------------------------------------------------
+// 3. SPACING & LAYOUT (RTL-Logical)
+// All margin/padding values MUST use logical properties
+// (margin-inline-*, padding-inline-*, inset-inline-*)
+// DO NOT hardcode left/right — use [dir="rtl"] selector only when necessary
+// -----------------------------------------------------------------------------
+
+@padding-base:    16px;   // [BRAND] حداقل padding در container
+@margin-base:     16px;   // [ESTIMATED]
+@section-gap:     32px;   // [BRAND] حداقل section-gap
+@border-radius:   8px;    // [BRAND + VISUAL] سقف رسمی — User Dashboard + Analytics
+
+@sidebar-width:   280px;  // [ESTIMATED] Reviewer Interface split
+@grid-gutter:     24px;   // [ESTIMATED] فاصله بین کارت‌ها در Analytics Dashboard
+
+// Spacing tokens (4px base)
+@space-1:   4px;
+@space-2:   8px;
+@space-3:   12px;
+@space-4:   16px;
+@space-5:   20px;
+@space-6:   24px;
+@space-8:   32px;
+@space-10:  40px;
+@space-12:  48px;
+
+
+// -----------------------------------------------------------------------------
+// 4. COMPONENTS
+// -----------------------------------------------------------------------------
+
+// --- 4.1 Buttons ---
+@btn-padding:        12px 24px;  // [ESTIMATED] User Dashboard UI
+@btn-font-weight:    @font-weight-heading;  // [BRAND] SemiBold برای خوانایی
+@btn-border-radius:  @border-radius;        // [BRAND] max 8px
+@btn-min-height:     44px;                  // [BRAND] Touch target WCAG minimum
+@btn-transition:     background 220ms ease, border-color 220ms ease, box-shadow 160ms ease;
+
+// Primary Button — سرمه‌ای
+@btn-primary-bg:     @primary-color;
+@btn-primary-text:   @text-inverse;
+@btn-primary-hover:  @primary-dark;  // 6% تیره‌تر در LESS
+
+// Action/CTA Button — سبز اقدام‌محور
+@btn-action-bg:      @cta-green;   // [VISUAL] EXCLUSIVELY for "Send/Confirm/Submit"
+@btn-action-text:    @text-inverse;
+
+// ⚠ Gradient روی هیچ دکمه‌ای مجاز نیست [BRAND]
+// ⚠ Pill/fully-rounded border-radius مجاز نیست [BRAND]
+
+// --- 4.2 Cards ---
+@card-bg:            @white;         // [VISUAL]
+@card-shadow:        0 1px 3px fade(@black, 6%), 0 4px 6px fade(@black, 5%);
+//   Note: کارت‌های mockup سایه ملایم داشتند (0 4px 6px rgba(0,0,0,0.08)).
+//   سایه layered برای نرمی بیشتر اعمال شد. Drop Shadow تیره ممنوع است [BRAND].
+@card-border:        1px solid @border-color-base;  // [VISUAL] Book Catalog
+@card-padding:       @padding-base;
+@card-border-radius: @border-radius;
+
+// --- 4.3 Inputs ---
+@input-height:              44px;   // [ESTIMATED — range 32–48px; 44px برای touch target]
+@input-padding:             8px 12px;
+@input-border-radius:       6px;    // کمی کمتر از @border-radius برای تمایز
+@input-border-color:        @border-color-base;
+@input-focus-border-color:  @accent-color;   // [BRAND] طلایی در focus
+@input-bg:                  @white;
+@input-placeholder-color:   @text-muted;
+
+// --- 4.4 Navigation ---
+@nav-bg:              @white;
+@nav-border:          1px solid fade(@primary-color, 10%);
+@nav-link-height:     44px;
+@nav-active-bg:       fade(@primary-color, 6%);
+@nav-active-color:    @primary-color;
+
+// --- 4.5 Status Badges ---
+@badge-padding:         2px 8px;
+@badge-border-radius:   @space-1;  // 4px — گوشه صاف، نه pill
+@badge-font-size:       @font-size-sm;
+@badge-font-weight:     @font-weight-heading;
+
+@badge-success-color:   @secondary-color;
+@badge-success-bg:      fade(@secondary-color, 10%);
+@badge-warning-color:   darken(@accent-color, 18%);
+@badge-warning-bg:      fade(@accent-color, 18%);
+@badge-error-color:     @error;
+@badge-error-bg:        fade(@error, 10%);
+
+// --- 4.6 Shadows (Soft only — per brand constraint) ---
+@shadow-soft:   0 1px 3px fade(@black, 6%), 0 1px 2px fade(@black, 4%);
+@shadow-card:   @card-shadow;
+// ⚠ Drop Shadow غلیظ و blur > 4px ممنوع است [BRAND]
+
+
+// -----------------------------------------------------------------------------
+// 5. TRANSITIONS & MOTION
+// -----------------------------------------------------------------------------
+@transition-fast:  160ms ease;
+@transition-base:  220ms ease;
+// ⚠ Blinking animation ممنوع [BRAND]
+// ⚠ حرکت سریع المان‌ها ممنوع [BRAND]
+
+
+// -----------------------------------------------------------------------------
+// 6. OMP-SPECIFIC OVERRIDES
+// (Applied via ThemePlugin::addStyle in OMP 3.5)
+// All CSS below maps directly to design tokens above.
+// Hook usage: TemplateManager::display, TemplateManager::fetch,
+//             Form::config::before, Form::config::after
+// Any hook not in this list → تأیید نشده — نیاز به بررسی مستندات رسمی OMP 3.5.0
+// -----------------------------------------------------------------------------
+
+html, body {
+  direction: rtl;
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  font-weight: @font-weight-body;
+  line-height: @line-height-base;
+  color: @text-color;
+  background-color: @bg-color;
+}
+
+// Headings
+h1 { font-size: @font-size-h1; font-weight: @font-weight-heading; line-height: @line-height-tight; }
+h2 { font-size: @font-size-h2; font-weight: @font-weight-heading; line-height: @line-height-tight; }
+h3 { font-size: @font-size-h3; font-weight: @font-weight-heading; }
+h4 { font-size: @font-size-h4; font-weight: @font-weight-heading; }
+h5 { font-size: @font-size-h5; font-weight: @font-weight-heading; }
+h6 { font-size: @font-size-h6; font-weight: @font-weight-heading; }
+
+// Links
+a {
+  color: @link-color;
+  text-decoration: none;
+  transition: color @transition-base;
+}
+
+a:hover {
+  color: @primary-dark;
+}
+
+// Container
+.pkp_structure_main,
+.nigeb-container {
+  padding: @padding-base;
+}
+
+.nigeb-section {
+  margin-block-start: @section-gap;
+}
+
+// Card
+.nigeb-card {
+  background: @card-bg;
+  border: @card-border;
+  border-radius: @card-border-radius;
+  box-shadow: @shadow-card;
+  padding: @card-padding;
+  background-image: none; // gradient ممنوع
+}
+
+// Buttons — برند: بدون gradient، سقف radius 8px
+.nigeb-button,
+.pkpButton,
+.btn {
+  min-height: @btn-min-height;
+  padding: @btn-padding;
+  border-radius: @btn-border-radius;
+  font-family: @font-family-base;
+  font-weight: @btn-font-weight;
+  font-size: @font-size-base;
+  background-image: none;
+  transition: @btn-transition;
+  cursor: pointer;
+}
+
+.nigeb-button--primary,
+.pkpButton--primary {
+  background-color: @btn-primary-bg;
+  color: @btn-primary-text;
+  border: 1px solid transparent;
+}
+
+.nigeb-button--primary:hover,
+.pkpButton--primary:hover {
+  background-color: @btn-primary-hover;
+}
+
+.nigeb-button--primary:focus-visible,
+.pkpButton--primary:focus-visible {
+  outline: none;
+  box-shadow: @focus-ring;
+}
+
+.nigeb-button--primary[disabled],
+.pkpButton--primary[disabled] {
+  background-color: fade(@primary-color, 36%);
+  color: fade(@white, 75%);
+  cursor: not-allowed;
+}
+
+.nigeb-button--action {
+  background-color: @btn-action-bg;
+  color: @btn-action-text;
+  border: 1px solid transparent;
+}
+
+.nigeb-button--action:hover {
+  background-color: darken(@cta-green, 6%);
+}
+
+// Input
+.nigeb-input,
+.pkpFormField input,
+.pkpFormField textarea,
+.pkpFormField select {
+  min-height: @input-height;
+  width: 100%;
+  padding: @input-padding;
+  border: 1px solid @input-border-color;
+  border-radius: @input-border-radius;
+  background: @input-bg;
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @text-color;
+  transition: border-color @transition-base, box-shadow @transition-fast;
+}
+
+.nigeb-input::placeholder,
+.pkpFormField input::placeholder {
+  color: @input-placeholder-color;
+}
+
+.nigeb-input:focus,
+.pkpFormField input:focus,
+.pkpFormField textarea:focus,
+.pkpFormField select:focus {
+  outline: none;
+  border-color: @input-focus-border-color;
+  box-shadow: @focus-ring;
+}
+
+.nigeb-input.is-error {
+  border-color: @error;
+}
+
+// Navigation
+.nigeb-nav {
+  background: @nav-bg;
+  border-bottom: @nav-border;
+}
+
+.nigeb-nav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: @space-2;
+  min-height: @nav-link-height;
+  padding-block: @space-2;
+  padding-inline: @space-3;
+  color: @text-color;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background @transition-fast, color @transition-fast;
+}
+
+.nigeb-nav__link[aria-current="page"] {
+  color: @nav-active-color;
+  background: @nav-active-bg;
+}
+
+// Status Badges
+.nigeb-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: @space-1;
+  padding: @badge-padding;
+  border-radius: @badge-border-radius;
+  font-size: @badge-font-size;
+  font-weight: @badge-font-weight;
+  line-height: @line-height-tight;
+  border: 1px solid transparent;
+  background-image: none;
+}
+
+.nigeb-badge--success {
+  color: @badge-success-color;
+  background: @badge-success-bg;
+}
+
+.nigeb-badge--warning {
+  color: @badge-warning-color;
+  background: @badge-warning-bg;
+}
+
+.nigeb-badge--error {
+  color: @badge-error-color;
+  background: @badge-error-bg;
+}
+
+// RTL — فقط attribute selector، بدون hardcode جهتی
+[dir="rtl"] .nigeb-container,
+[dir="rtl"] .nigeb-card,
+[dir="rtl"] .nigeb-nav,
+[dir="rtl"] .pkpFormField {
+  text-align: right;
+}
+
+[dir="rtl"] .nigeb-nav__link,
+[dir="rtl"] .nigeb-button {
+  flex-direction: row;  // icon سمت راست label می‌ماند
+}
+
+[dir="rtl"] .nigeb-field__icon {
+  margin-inline-start: 0;
+  margin-inline-end: @space-2;
+}
+
+[dir="rtl"] .nigeb-list {
+  padding-inline-start: 0;
+  padding-inline-end: @space-4;
+}
+
+// Brand enforcement — این block باید همیشه آخرین باشد
+.nigeb-button,
+.pkpButton,
+.btn,
+.nigeb-card,
+.nigeb-input,
+.nigeb-badge,
+.nigeb-nav,
+.nigeb-nav__link {
+  background-image: none !important;
+}
+
+
+// =============================================================================
+// AUDIT CHECKLIST
+// =============================================================================
+//
+// [PASS]  "Clean Academic" ✓ navy dominant، بدون gradient روی پس‌زمینه
+// [PASS]  Emerald Green (@cta-green) ONLY for action buttons ✓
+// [PASS]  Gold (@accent-color) ONLY for badges/status/focus/DOI ✓
+// [PASS]  Rounded corners ≤ 8px everywhere ✓
+// [PASS]  No blinking or fast-moving animations ✓
+// [PASS]  Drop Shadow سنگین ممنوع ✓ فقط soft shadow
+// [PASS]  RTL با [dir="rtl"] selector ✓ بدون hardcode left/right
+// [PASS]  Vazirmatn as official typeface ✓ IRANYekan/Vazir as fallback
+// [PASS]  @primary-color = #1A3A5C (brand official) ✓
+// [PASS]  @primary-dark = #0D2137 (mockup-derived dark variant) ✓
+// [PASS]  Logo usage rules encoded as comments ✓
+// [UNRESOLVED] @error = #C0392B — مقدار پیشنهادی، تأیید بصری لازم است
+// [UNRESOLVED] @gray-medium, @text-color — ESTIMATED، نیاز به regression test
+// [UNRESOLVED] @sidebar-width, @grid-gutter — ESTIMATED
+// [UNRESOLVED] هر hook فراتر از TemplateManager و Form::config →
+//              تأیید نشده — نیاز به بررسی مستندات رسمی OMP 3.5.0
+//
+// =============================================================================

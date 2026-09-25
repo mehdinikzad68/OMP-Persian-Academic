@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+<!--
+  - version.xml
+  -
+  - Copyright (c) 2024 Nigeb
+  - Distributed under the GNU GPL v3.
+  -
+  - Plugin version descriptor for the Nigeb Theme plugin.
+  -->
+<version>
+    <application>nigebTheme</application>
+    <type>plugins.themes</type>
+    <release>1.0.0.1</release>
+    <date>2026-05-14</date>
+    <lazy-load>1</lazy-load>
+    <class>NigebThemePlugin</class>
+</version>

@@ -1,0 +1,53 @@
+msgid "acceptInvitation.accountDetails.stepDescription"
+msgstr "برای شروع کار با OMP و پذیرش نقش جدید، باید یک حساب کاربری ایجاد کنید. بدین منظور لطفاً نام کاربری و رمز عبور را وارد نمایید."
+
+msgid "acceptInvitation.accountDetails.stepLabel"
+msgstr "{$step} - ایجاد حساب کاربری OMP"
+
+msgid "acceptInvitation.accountDetails.stepName"
+msgstr "ایجاد حساب کاربری OMP"
+
+msgid "acceptInvitation.detailsReview.nextButtonLabel"
+msgstr "پذیرش و ورود به OMP"
+
+msgid "acceptInvitation.detailsReview.stepDescription"
+msgstr "جزئیات را جهت آغاز نقش‌های جدید خود در OMP بررسی کنید"
+
+msgid "acceptInvitation.modal.message"
+msgstr "پذیرش نقش جدید در OMP را تبریک می‌گوییم! اکنون ممکن است به گزینه‌های جدیدی دسترسی داشته باشید. در صورت نیاز به هرگونه راهنمایی برای آشنایی با سامانه، لطفاً بر روی دکمه «راهنما» در بخش‌های مختلف کلیک کنید."
+
+msgid "acceptInvitation.modal.title"
+msgstr "نقش جدیدی در OMP به شما محول شده است"
+
+msgid "acceptInvitation.verifyOrcid.stepDescription"
+msgstr "می‌توانید شناسه ORCID خود را تأیید کنید یا از این مرحله عبور نمایید. در صورتی که اکنون از این مرحله عبور کنید، بعداً می‌توانید شناسه ORCID خود را از طریق بخش نمایه کاربری در OMP تأیید نمایید"
+
+msgid "invitation.orcid.acceptInvitation.message"
+msgstr "تأیید نشده است. می‌توانید شناسه ORCID خود را از طریق بخش نمایه کاربری در OMP تأیید نمایید."
+
+msgid "invitation.role.masthead"
+msgstr "شناسنامه انتشارات"
+
+msgid "invitation.wizard.pageTitleDescription"
+msgstr "شما در حال دعوت از یک کاربر جهت پذیرش نقشی در OMP و همچنین درج نام وی در شناسنامه انتشارات هستید"
+
+msgid "userInvitation.enterDetails.stepDescription"
+msgstr "می‌توانید از آن‌ها دعوت کنید تا نقشی را در OMP بر عهده بگیرند"
+
+msgid "userInvitation.modal.message"
+msgstr "کاربر با رایانامه {$email} جهت پذیرش نقش جدید در OMP دعوت شده است. شما می‌توانید از طریق صفحه کاربران و نقش‌ها، اطلاعیه‌های OMP خود و/یا رایانامه از تصمیم کاربر مطلع شوید"
+
+msgid "userInvitation.roleTable.journalMasthead"
+msgstr "شناسنامه انتشارات"
+
+msgid "userInvitation.search.userFound"
+msgstr "کاربر از پیش در این انتشارات وجود دارد"
+
+msgid "userInvitation.search.userNotFound"
+msgstr "کاربر دارای نقشی در این انتشارات نیست"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr "جستجوی کاربر با استفاده از آدرس رایانامه، نام کاربری یا شناسه ORCID. برای شروع حداقل یکی از این مشخصات را وارد نمایید. اگر کاربر وجود ندارد، می‌توانید از او دعوت کنید تا نقش‌هایی را بر عهده گرفته و در انتشارات شما مشارکت نماید. چنانچه کاربر از پیش در سامانه وجود دارد، می‌توانید اطلاعات وی را مشاهده نموده و جهت پذیرش نقش‌های اضافی از او دعوت به عمل آورید."
+
+msgid "userInvitation.sendMail.stepDescription"
+msgstr "جهت اطلاع‌رسانی در خصوص دعوت، مراحل بعدی، سیاست‌های حریم خصوصی (GDPR) انتشارات و تأییدیه ORCID، یک رایانامه برای کاربر ارسال نمایید"

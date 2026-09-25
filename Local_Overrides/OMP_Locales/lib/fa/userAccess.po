@@ -1,0 +1,8 @@
+msgid "userAccess.tableHeader.startDate"
+msgstr "تاریخ شروع"
+
+msgid "userAccess.tableHeader.name"
+msgstr "نام"
+
+msgid "userAccess.search"
+msgstr "نام، نقش (مثلاً ویراستار انتشارات) یا وابستگی سازمانی کاربر را وارد کنید"

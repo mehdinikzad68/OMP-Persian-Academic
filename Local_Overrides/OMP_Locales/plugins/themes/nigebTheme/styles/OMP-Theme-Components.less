@@ -1,0 +1,126 @@
+@import "variables.less";
+
+// =============================================================================
+// OMP Theme: NIGEB Research Portal (components.less)
+// Role: Senior Front-end Developer / Visual-to-Code Auditor
+// Context: RTL layout enabled (dir="rtl"). Logical properties applied.
+// =============================================================================
+
+// --- CONFIRMED OVERRIDES ---
+@error: #C0392B;           // [HUMAN-CONFIRMED]
+@gray-medium: #95A5A6;     // [HUMAN-CONFIRMED]
+
+
+// -----------------------------------------------------------------------------
+// 1. BUTTON SYSTEM
+// -----------------------------------------------------------------------------
+.pkpButton { // [REQUIRES INSPECTION]
+    font-weight: @btn-font-weight;
+    padding: @btn-padding;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: @border-radius;
+    border: none;
+    cursor: pointer;
+
+    &.pkpButton--primary { // [REQUIRES INSPECTION]
+        background: @btn-primary-bg;
+        color: @white;
+    }
+
+    &.pkpButton--action { // [REQUIRES INSPECTION]
+        background: @btn-action-bg;
+        color: @white;
+    }
+}
+
+
+// -----------------------------------------------------------------------------
+// 2. CATALOG CARDS
+// -----------------------------------------------------------------------------
+.catalog-card { // [REQUIRES INSPECTION]
+    background: @card-bg;
+    box-shadow: @card-shadow;
+    border: @card-border;
+    border-radius: @border-radius;
+    overflow: hidden;
+
+    .catalog-card__content { // [REQUIRES INSPECTION]
+        padding-inline-start: @padding-base;
+        padding-inline-end: @padding-base;
+        padding-block-start: @padding-base;
+        padding-block-end: @padding-base;
+    }
+
+    .catalog-card__doi-badge { // [REQUIRES INSPECTION]
+        background: @theme-accent-gold;
+        color: @white; // [REQUIRES CONTRAST CHECK]
+        padding-inline-start: 8px;
+        padding-inline-end: 8px;
+        padding-block-start: 4px;
+        padding-block-end: 4px;
+        border-radius: 4px;
+        font-size: @font-size-h6;
+    }
+}
+
+
+// -----------------------------------------------------------------------------
+// 3. SUBMISSION STEPPER
+// -----------------------------------------------------------------------------
+// Design tokens for stepper states
+@stepper-completed-bg: @success;
+@stepper-completed-color: @white;
+@stepper-active-bg: @primary-color;
+@stepper-active-color: @white;
+@stepper-pending-bg: @gray-light;
+@stepper-pending-color: @text-color;
+
+.stepper-container { // [REQUIRES HTML INSPECTION]
+    display: flex;
+    justify-content: space-between;
+    
+    .stepper__step--completed { // [REQUIRES HTML INSPECTION]
+        background: @stepper-completed-bg;
+        color: @stepper-completed-color;
+    }
+
+    .stepper__step--active { // [REQUIRES HTML INSPECTION]
+        background: @stepper-active-bg;
+        color: @stepper-active-color;
+    }
+
+    .stepper__step--pending { // [REQUIRES HTML INSPECTION]
+        background: @stepper-pending-bg;
+        color: @stepper-pending-color;
+    }
+}
+
+
+// -----------------------------------------------------------------------------
+// 4. FORM FIELDS
+// -----------------------------------------------------------------------------
+.pkpFormField { // [REQUIRES INSPECTION]
+    margin-block-end: @margin-base;
+
+    .pkpFormField__input { // [REQUIRES INSPECTION]
+        height: @input-height;
+        background: @input-bg;
+        border: 1px solid @border-color-base;
+        border-radius: @border-radius;
+        padding-inline-start: @padding-base;
+        padding-inline-end: @padding-base;
+        color: @text-color;
+
+        &:focus {
+            outline: none; // Disable legacy outline to avoid RTL inconsistencies
+            border-color: @input-focus-border-color;
+            box-shadow: 0 0 0 3px @theme-accent-gold;
+        }
+    }
+}
+
+// =============================================================================
+// === FINAL AUDIT CHECKLIST ===
+// Total count of [REQUIRES INSPECTION] or [REQUIRES HTML INSPECTION] items: 13
+// Total count of [REQUIRES CONTRAST CHECK] items: 1
+// =============================================================================

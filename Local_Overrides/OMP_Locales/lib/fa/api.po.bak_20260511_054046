@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:46+00:00\n"
+"PO-Revision-Date: 2026-05-07 00:00+0330\n"
+"Last-Translator: Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>\n"
+"Language-Team: Persian <mehdi.nikzad2@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "api.400.paramNotSupported"
+msgstr "پارامتر ارسالی پشتیبانی نمی‌شود."
+
+msgid "api.400.propReadOnly"
+msgstr "ویژگی مورد نظر فقط‌خواندنی است."
+
+msgid "api.400.invalidApiToken"
+msgstr "توکن API نامعتبر است."
+
+msgid "api.400.tokenCouldNotBeDecoded"
+msgstr "توکن ارسالی قابل بازگشایی نیست."
+
+msgid "api.400.requireEmailSubjectBody"
+msgstr "درج موضوع و متن پیام الزامی است."
+
+msgid "api.files.400.notAllowedCreatedAt"
+msgstr "تغییر زمان ایجاد فایل مجاز نمی‌باشد."
+
+msgid "api.dois.403.prefixRequired"
+msgstr "درج پیشوند برای شناسه DOI الزامی است."
+
+msgid "api.403.unauthorized"
+msgstr "دسترسی غیرمجاز"
+
+msgid "api.404.resourceNotFound"
+msgstr "منابع درخواستی یافت نشد."
+
+msgid "api.404.endpointNotFound"
+msgstr "آدرس نهایی یافت نشد."
+
+msgid "api.500.apiSecretKeyMissing"
+msgstr "کلید مخفی API یافت نشد."
+
+msgid "api.announcements.404.announcementNotFound"
+msgstr "اطلاعیه مورد نظر یافت نشد."
+
+msgid "api.institutions.404.institutionNotFound"
+msgstr "مؤسسه مورد نظر یافت نشد."
+
+msgid "api.contexts.400.localesNotSupported"
+msgstr "زبان انتخابی پشتیبانی نمی‌شود."
+
+msgid "api.dois.403.editItemOutOfContext"
+msgstr "اجازه ویرایش موارد خارج از دامنه انتشارات فعلی وجود ندارد."
+
+msgid "api.dois.403.pubTypeNotRecognized"
+msgstr "نوع اثر شناسایی نشد."
+
+msgid "api.dois.404.contextNotFound"
+msgstr "انتشارات مورد نظر یافت نشد."
+
+msgid "api.dois.404.doiNotFound"
+msgstr "شناسه DOI یافت نشد."
+
+msgid "api.dois.404.pubObjectNotFound"
+msgstr "موجودیت انتشار یافت نشد."
+
+msgid "api.dois.404.submissionNotFound"
+msgstr "اثر مورد نظر یافت نشد."
+
+msgid "api.dois.400.noUnpublishedItems"
+msgstr "هیچ مورد منتشر نشده‌ای یافت نشد."
+
+msgid "api.dois.400.creationFailed"
+msgstr "فرآیند ایجاد شناسه DOI با شکست مواجه شد."
+
+msgid "api.dois.400.xmlExportFailed"
+msgstr "استخراج فایل XML با شکست مواجه شد."
+
+msgid "api.dois.400.markRegisteredFailed"
+msgstr "ثبت وضعیت نهایی شناسه DOI با شکست مواجه شد."
+
+msgid "api.dois.400.depositFailed"
+msgstr "ارسال اطلاعات شناسه DOI به مرجع مربوطه با شکست مواجه شد."
+
+msgid "api.dois.404.noPubObjectIncluded"
+msgstr "هیچ موجودیت انتشاری در درخواست یافت نشد."
+
+msgid "api.dois.400.invalidPubObjectIncluded"
+msgstr "موجودیت انتشار ارسالی نامعتبر است."
+
+msgid "api.dois.400.invalidPluginType"
+msgstr "نوع افزونه انتخابی نامعتبر است."
+
+msgid "api.decisions.403.alreadyPublished"
+msgstr "به دلیل انتشار قبلی اثر، امکان ثبت تصمیم جدید وجود ندارد."
+
+msgid "api.emails.400.missingBody"
+msgstr "متن پیام ایمیل یافت نشد."
+
+msgid "api.emails.400.missingSubject"
+msgstr "موضوع پیام ایمیل یافت نشد."
+
+msgid "api.emails.400.missingUserGroups"
+msgstr "گروه‌های کاربری مقصد تعیین نشده است."
+
+msgid "api.emails.403.notAllowedUserGroup"
+msgstr "اجازه ارسال پیام به گروه کاربری انتخاب شده وجود ندارد."
+
+msgid "api.emailTemplates.400.invalidAlternateTo"
+msgstr "گیرنده جایگزین در قالب ایمیل نامعتبر است."
+
+msgid "api.emailTemplates.400.invalidContext"
+msgstr "انتشارات انتخاب شده برای این قالب ایمیل نامعتبر است."
+
+msgid "api.emailTemplates.404.templateNotFound"
+msgstr "قالب ایمیل یافت نشد."
+
+msgid "api.files.400.noUpload"
+msgstr "هیچ فایلی برای بارگذاری ارسال نشده است."
+
+msgid "api.files.400.uploadFailed"
+msgstr "بارگذاری فایل با شکست مواجه شد."
+
+msgid "api.files.400.fileSize"
+msgstr "حجم فایل ارسالی بیش از حد مجاز است."
+
+msgid "api.files.400.config"
+msgstr "خطای پیکربندی در زیرسیستمِ بارگذاری فایل"
+
+msgid "api.publication.403.alreadyPublished"
+msgstr "به دلیل انتشار قبلی اثر، امکان انجام عملیات مورد نظر وجود ندارد."
+
+msgid "api.publication.403.alreadyUnpublished"
+msgstr "اثر قبلاً از حالت انتشار خارج شده است."
+
+msgid "api.publication.403.cantEditPublished"
+msgstr "ویرایش اثر منتشر شده مجاز نمی‌باشد."
+
+msgid "api.publication.403.cantEditStatus"
+msgstr "تغییر وضعیت اثر مجاز نمی‌باشد."
+
+msgid "api.publication.403.cantDeletePublished"
+msgstr "حذف اثر منتشر شده مجاز نمی‌باشد."
+
+msgid "api.publicFiles.400.extensionNotSupported"
+msgstr "پسوند فایل ارسالی پشتیبانی نمی‌شود."
+
+msgid "api.publicFiles.400.invalidImage"
+msgstr "تصویر ارسالی نامعتبر است."
+
+msgid "api.publicFiles.400.mimeTypeNotMatched"
+msgstr "نوع فایل با پسوند آن مطابقت ندارد."
+
+msgid "api.publicFiles.403.unauthorized"
+msgstr "دسترسی غیرمجاز به فایل‌های عمومی"
+
+msgid "api.publicFiles.413.noDirSpace"
+msgstr "فضای کافی در پوشه فایل‌های عمومی وجود ندارد."
+
+msgid "api.publicFiles.500.badFilesDir"
+msgstr "نقص در پوشه ذخیره‌سازی فایل‌ها"
+
+msgid "api.stats.400.wrongDateFormat"
+msgstr "قالب تاریخ ارسالی نامعتبر است."
+
+msgid "api.stats.400.wrongDateRange"
+msgstr "بازه زمانی ارسالی نامعتبر است."
+
+msgid "api.stats.400.earlyDateRange"
+msgstr "تاریخ شروع بازه زمانی فراتر از محدوده مجاز است."
+
+msgid "api.stats.400.lateDateRange"
+msgstr "تاریخ پایان بازه زمانی فراتر از محدوده مجاز است."
+
+msgid "api.stats.400.wrongTimelineInterval"
+msgstr "فواصل زمانی در محور آمار نامعتبر است."
+
+msgid "api.stats.400.invalidOrderDirection"
+msgstr "جهت مرتب‌سازی نتایج نامعتبر است."
+
+msgid "api.stats.400.invalidTimelineInterval"
+msgstr "فاصله زمانی انتخابی نامعتبر است."
+
+msgid "api.submissionFiles.400.assocTypeAndIdRequired"
+msgstr "تعیین نوع و شناسه وابستگی برای فایل الزامی است."
+
+msgid "api.submissionFiles.400.badDependentFileAssocType"
+msgstr "نوع وابستگی برای فایل‌های وابسته نامعتبر است."
+
+msgid "api.submissionFiles.400.badNoteAssocType"
+msgstr "نوع وابستگی برای یادداشت‌ها نامعتبر است."
+
+msgid "api.submissionFiles.400.badReviewAssignmentAssocType"
+msgstr "نوع وابستگی برای فایل‌های انتساب داوری نامعتبر است."
+
+msgid "api.submissionFiles.400.badReviewRoundAssocType"
+msgstr "نوع وابستگی برای فایل‌های دور داوری نامعتبر است."
+
+msgid "api.submissionFiles.400.missingReviewRoundAssocType"
+msgstr "نوع وابستگی برای دور داوری یافت نشد."
+
+msgid "api.submissionFiles.400.noFileStageId"
+msgstr "شناسه مرحله فایل یافت نشد."
+
+msgid "api.submissionFiles.400.invalidFileStage"
+msgstr "مرحله انتخاب شده برای فایل نامعتبر است."
+
+msgid "api.submissionsFiles.400.noParams"
+msgstr "پارامترهای لازم در درخواست یافت نشد."
+
+msgid "api.submissionFiles.400.reviewRoundIdRequired"
+msgstr "تعیین شناسه دور داوری الزامی است."
+
+msgid "api.submissionFiles.400.reviewRoundSubmissionNotMatch"
+msgstr "دور داوری انتخاب شده با اثر مورد نظر مطابقت ندارد."
+
+msgid "api.submissionFiles.403.unauthorizedFileStageId"
+msgstr "دسترسی غیرمجاز به شناسه مرحله فایل"
+
+msgid "api.submissionFiles.403.unauthorizedFileStageIdWrite"
+msgstr "اجازه ویرایش در مرحله فایل تعیین شده وجود ندارد."
+
+msgid "api.submissionFiles.403.unauthorizedReviewRound"
+msgstr "دسترسی غیرمجاز به اطلاعات دور داوری"
+
+msgid "api.submissions.400.missingRequired"
+msgstr ""
+"به دلیل آنکه برخی از اطلاعات ضروری در دسترس نیست، درخواست شما قابل اجرا "
+"نمی‌باشد"
+
+msgid "api.submissions.400.invalidIssueIdentifiers"
+msgstr "نسخه، دوره و یا سال درخواستی معتبر نمی‌باشد"
+
+msgid "api.submissions.400.invalidSubmitAs"
+msgstr "نقش انتخابی برای ارسال اثر نامعتبر است."
+
+msgid "api.submissions.403.csrfTokenFailure"
+msgstr ""
+"درخواست شما نادیده گرفته شد. شاید به دلیل آن است که ورود شما به سیستم منقضی "
+"شده است. لطفاً صفحه را از اول بارگذاری کرده و دوباره تلاش کنید"
+
+msgid "api.submissions.403.deleteSubmissionOutOfContext"
+msgstr "شما نمی‌توانید اثری که به این سامانه نشر منتسب نشده است را حذف کنید"
+
+msgid "api.submissions.403.requestedOthersUnpublishedSubmissions"
+msgstr ""
+"شما تنها مجاز به مشاهده آثار منتشر نشده‌ای هستید که به شما انتساب داده شده است."
+
+msgid "api.submissions.403.unauthorizedDeleteSubmission"
+msgstr "شما مجاز به حذف این اثر نیستید."
+
+msgid "api.submissions.403.userCantEdit"
+msgstr "شما مجاز به ویرایش این اثر نیستید."
+
+msgid "api.submissions.404.siteWideEndpoint"
+msgstr "آدرس نهایی مورد نظر در سطح سامانه یافت نشد."
+
+msgid "api.themes.404.themeUnavailable"
+msgstr "قالب گرافیکی انتخاب شده در دسترس نمی‌باشد."
+
+msgid "api.vocabs.400.localeNotSupported"
+msgstr "زبان انتخابی در زیرسیستمِ واژگان پشتیبانی نمی‌شود."
+
+msgid "api.mailables.404.mailableNotFound"
+msgstr "موجودیت مکاتباتی مورد نظر یافت نشد."
+
+msgid "api.jobs.404.failedJobNotFound"
+msgstr "کار شکست خورده مورد نظر یافت نشد."
+
+msgid "api.jobs.406.failedJobPayloadMissing"
+msgstr "داده‌های ورودی کار شکست خورده یافت نشد."
+
+msgid "api.jobs.406.failedJobEmpty"
+msgstr "محتوای کار شکست خورده خالی است."
+
+msgid "api.jobs.400.failedJobRedispatchedFailed"
+msgstr "ارسال مجدد کار شکست خورده به صف با شکست مواجه شد."
+
+msgid "api.jobs.200.failedJobRedispatchedSucceed"
+msgstr "کار شکست خورده با موفقیت مجدداً به صف ارسال شد."
+
+msgid "api.jobs.200.allFailedJobRedispatchedSucceed"
+msgstr "تمامی کارهای شکست خورده با موفقیت مجدداً به صف ارسال شدند."
+
+msgid "api.jobs.400.failedJobDeleteFailed"
+msgstr "حذف کار شکست خورده با شکست مواجه شد."
+
+msgid "api.jobs.200.failedJobDeleteSucceed"
+msgstr "کار شکست خورده با موفقیت حذف شد."

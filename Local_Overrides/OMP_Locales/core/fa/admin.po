@@ -1,0 +1,160 @@
+# Mehdi Nikzad Semeskandi <mehdi.nikzad2@gmail.com>, 2026.
+msgid ""
+msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+
+
+# === Auto-appended missing keys (needs Persian translation) ===
+
+msgid "admin.hostedContexts"
+msgstr "بسترهای میزبانی‌شده"
+
+msgid "admin.settings.appearance.success"
+msgstr "تنظیمات ظاهری سایت با موفقیت به‌روزرسانی شد."
+
+msgid "admin.settings.config.success"
+msgstr "تنظیمات پیکربندی سایت با موفقیت به‌روزرسانی شد."
+
+msgid "admin.settings.info.success"
+msgstr "اطلاعات سایت با موفقیت به‌روزرسانی شد."
+
+msgid "admin.settings.redirect"
+msgstr "تغییر مسیر انتشارات"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"درخواست‌های ارسال شده به سایت اصلی به این انتشارات هدایت خواهند شد. این گزینه "
+"زمانی مفید است که سایت فقط یک انتشارات را میزبانی کند."
+
+msgid "admin.settings.noPressRedirect"
+msgstr "تغییر مسیر انجام نشود"
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "این زبان پیش‌فرض سایت و تمامی بسترهای میزبانی‌شده خواهد بود."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"همه زبان‌هایی که باید در سایت پشتیبانی شوند را انتخاب کنید. زبان‌های انتخاب‌شده "
+"برای همه انتشارات میزبانی‌شده در سایت قابل استفاده خواهند بود و همچنین در "
+"منوی انتخاب زبان در هر صفحه از سایت ظاهر می‌شوند."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "* زبان‌های علامت‌گذاری‌شده ممکن است ناقص باشند."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید این زبان را حذف کنید؟ این کار ممکن است بر "
+"انتشارات میزبانی‌شده که در حال حاضر از این زبان استفاده می‌کنند تأثیر بگذارد."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"هر زبان دیگری را که می‌خواهید در این سیستم پشتیبانی شود انتخاب کنید. زبان‌ها "
+"پیش از اینکه بتوانند توسط انتشارات میزبانی‌شده استفاده شوند باید نصب شده باشند."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید این زبان را غیرفعال کنید؟ این کار ممکن است بر "
+"انتشارات میزبانی‌شده که در حال حاضر از این زبان استفاده می‌کنند تأثیر بگذارد."
+
+msgid "admin.systemVersion"
+msgstr "نسخه OMP"
+
+msgid "admin.systemConfiguration"
+msgstr "پیکربندی OMP"
+
+msgid "admin.presses.pressSettings"
+msgstr "تنظیمات انتشارات"
+
+msgid "admin.presses.noneCreated"
+msgstr "هیچ انتشاراتی ایجاد نشده است."
+
+msgid "admin.contexts.create"
+msgstr "ایجاد انتشارات"
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "عنوان الزامی است."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "مسیر الزامی است."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"مسیر تنها می‌تواند شامل حروف، اعداد و کاراکترهای _ و - باشد. باید با حرف یا عدد "
+"شروع و خاتمه یابد."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "مسیر انتخاب‌شده هم‌اکنون توسط انتشارات دیگری استفاده می‌شود."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr "زبان اصلی باید یکی از زبان‌های پشتیبانی‌شده انتشارات باشد."
+
+msgid "admin.contexts.form.create.success"
+msgstr "{$name} با موفقیت ایجاد شد."
+
+msgid "admin.contexts.form.edit.success"
+msgstr "{$name} با موفقیت ویرایش شد."
+
+msgid "admin.contexts.contextDescription"
+msgstr "توصیف انتشارات"
+
+msgid "admin.presses.addPress"
+msgstr "افزودن انتشارات"
+
+msgid "admin.overwriteConfigFileInstructions"
+msgstr ""
+"<h4>توجه!</h4>\n"
+"<p>سیستم نتوانست به‌طور خودکار فایل پیکربندی را بازنویسی کند. برای اعمال "
+"تغییرات پیکربندی، باید فایل <tt>config.inc.php</tt> را در یک ویرایشگر متن "
+"مناسب باز کرده و محتویات آن را با محتویات فیلد متنی زیر جایگزین کنید.</p>"
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"انتشارات میزبانی‌شده‌ای که مجاز به ارسال ایمیل‌های انبوه هستند را انتخاب کنید. "
+"هنگامی که این ویژگی فعال باشد، مدیر انتشارات می‌تواند برای همه کاربران ثبت‌نام‌"
+"کرده در انتشارات خود ایمیل ارسال کند.<br><br>سوءاستفاده از این ویژگی برای "
+"ارسال ایمیل‌های ناخواسته ممکن است قوانین ضد هرزنامه در برخی حوزه‌های قضایی را "
+"نقض کرده و باعث مسدود شدن ایمیل‌های سرور شما به عنوان هرزنامه شود.<br><br>"
+"محدودیت‌های بیشتر برای این ویژگی را می‌توان برای هر انتشارات از طریق جادوگر "
+"تنظیمات در فهرست <a href=\"{$hostedContextsUrl}\">بسترهای میزبانی‌شده</a> "
+"فعال کرد."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"مدیر انتشارات نمی‌تواند برای هیچ‌یک از نقش‌های انتخاب‌شده در زیر ایمیل انبوه "
+"ارسال کند. از این تنظیم برای محدود کردن سوءاستفاده از ویژگی اطلاع‌رسانی ایمیلی "
+"استفاده کنید.<br><br>ویژگی ایمیل انبوه را می‌توان به‌طور کامل برای این انتشارات "
+"در <a href=\"{$siteSettingsUrl}\">مدیریت > تنظیمات سایت</a> غیرفعال کرد."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"ویژگی ایمیل انبوه برای این انتشارات غیرفعال شده است. این ویژگی را در "
+"<a href=\"{$siteSettingsUrl}\">مدیریت > تنظیمات سایت</a> فعال کنید."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"انتشارات را به این سایت اضافه، ویرایش یا حذف کنید و تنظیمات سراسری سایت را "
+"مدیریت نمایید."
+
+msgid "admin.job.processLogFile.invalidLogEntry.chapterId"
+msgstr "شناسه فصل یک مقدار صحیح نیست"
+
+msgid "admin.job.processLogFile.invalidLogEntry.seriesId"
+msgstr "شناسه مجموعه یک مقدار صحیح نیست"
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"نوع آمار جغرافیایی مصرف را که می‌تواند توسط انتشارات این سایت جمع‌آوری شود "
+"انتخاب کنید. آمار جغرافیایی دقیق‌تر ممکن است اندازه پایگاه داده شما را به‌طور "
+"قابل توجهی افزایش دهد."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"آمار مؤسساتی را فعال کنید اگر می‌خواهید انتشارات این سایت بتوانند آمار مصرف را "
+"بر اساس مؤسسه جمع‌آوری کنند. انتشارات باید مؤسسه و محدوده IP آن را اضافه کنند."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"تعیین می‌کند که آیا نقاط پایانی API SUSHI برای همه انتشارات این سایت به‌صورت "
+"عمومی در دسترس باشد یا خیر."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "استفاده از سایت به عنوان بستر برای همه انتشارات"

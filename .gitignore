@@ -1,0 +1,30 @@
+# Antigravity & Agent files
+brain/
+.agents/
+.system_generated/
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python cache & temp
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Theme
+
+# Docker runtime volumes / persistent data (if kept locally)
+volumes/
+Archive_May2026/scratch/
+*.log

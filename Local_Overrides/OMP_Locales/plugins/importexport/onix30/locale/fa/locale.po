@@ -1,0 +1,63 @@
+# === Plugin locale — needs Persian translation ===
+
+msgid "plugins.importexport.onix30.displayName"
+msgstr "افزونه برون‌بری تک‌نگاشت ONIX 3.0"
+
+msgid "plugins.importexport.onix30.description"
+msgstr "برون‌بری فراداده تک‌نگاشت در قالب ONIX 3.0"
+
+msgid "plugins.importexport.onix30.cliUsage"
+msgstr ""
+"Usage: {$scriptName} {$pluginName} [xmlFileName] [pressPath] [monographId]"
+
+msgid "plugins.importexport.onix30.cliError"
+msgstr "خطا:"
+
+msgid "plugins.importexport.onix30.error.unknownPress"
+msgstr "مسیر انتشارات مشخص‌شده «{$contextPath}» وجود ندارد."
+
+msgid "plugins.importexport.onix30.export.error.couldNotWrite"
+msgstr "امکان نوشتن در فایل «{$fileName}» وجود ندارد."
+
+msgid "plugins.importexport.onix30.export.error.monographNotFound"
+msgstr "هیچ تک‌نگاشتی با شناسه تک‌نگاشت «{$monographId}» مطابقت ندارد."
+
+msgid "plugins.importexport.onix30.noFormats"
+msgstr "تک‌نگاشت‌های بدون قالب انتشار نمایش داده نمی‌شوند."
+
+msgid "plugins.importexport.onix30.exportSubmissionsSelect"
+msgstr "انتخاب تک‌نگاشت‌ها برای برون‌بری"
+
+msgid "plugins.importexport.onix30.selectMonograph"
+msgstr "یک تک‌نگاشت برای برون‌بری انتخاب کنید:"
+
+msgid "plugins.importexport.onix30.exportButton"
+msgstr "برون‌بری"
+
+msgid "plugins.importexport.onix30.exportFormats"
+msgstr "قالب‌های موجود"
+
+msgid "plugins.importexport.onix30.unavailable"
+msgstr "در دسترس نیست"
+
+msgid "plugins.importexport.onix30.validityStatus"
+msgstr "وضعیت ONIX"
+
+msgid "plugins.importexport.onix30.formatValid"
+msgstr "معتبر"
+
+msgid "plugins.importexport.onix30.formatInvalid"
+msgstr "نامعتبر"
+
+msgid "plugins.importexport.onix30.pressMissingFields"
+msgstr ""
+"این انتشارات فاقد برخی اطلاعات الزامی است. لطفاً به <a href="
+"\"{$url}\">تنظیمات انتشارات</a> بروید و جزئیات ناقص را پر کنید."
+
+msgid "plugins.importexport.onix30.form.addresseeField"
+msgstr "گیرنده برای این برون‌بری"
+
+msgid "plugins.importexport.onix30.form.addresseeField.tip"
+msgstr ""
+"می‌توانید این فیلد را خالی بگذارید و یک برون‌بری عمومی ایجاد کنید. این امر "
+"منجر به عدم وجود عنصر <Addressee> در برون‌بری ONIX خواهد شد."

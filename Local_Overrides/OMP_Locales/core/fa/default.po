@@ -1,0 +1,215 @@
+# Jonas Raoni Soares da Silva <weblate@raoni.org>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:23:43-07:00\n"
+"PO-Revision-Date: 2022-07-03 13:31+0000\n"
+"Last-Translator: Jonas Raoni Soares da Silva <weblate@raoni.org>\n"
+"Language-Team: English (United States) <http://translate.pkp.sfu.ca/projects/"
+"omp/default/en_US/>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "default.genres.appendix"
+msgstr "پیوست"
+
+msgid "default.genres.bibliography"
+msgstr "کتاب‌شناسی"
+
+msgid "default.genres.manuscript"
+msgstr "دست‌نوشته کتاب"
+
+msgid "default.genres.chapter"
+msgstr "دست‌نوشته فصل"
+
+msgid "default.genres.glossary"
+msgstr "واژه‌نامه"
+
+msgid "default.genres.index"
+msgstr "نمایه"
+
+msgid "default.genres.preface"
+msgstr "پیشگفتار"
+
+msgid "default.genres.prospectus"
+msgstr "طرح‌نامه"
+
+msgid "default.genres.table"
+msgstr "جدول"
+
+msgid "default.genres.figure"
+msgstr "تصویر"
+
+msgid "default.genres.photo"
+msgstr "عکس"
+
+msgid "default.genres.illustration"
+msgstr "تصویرسازی"
+
+msgid "default.genres.other"
+msgstr "سایر"
+
+msgid "default.groups.name.manager"
+msgstr "مدیر انتشارات"
+
+msgid "default.groups.plural.manager"
+msgstr "مدیران انتشارات"
+
+msgid "default.groups.abbrev.manager"
+msgstr "م.ا"
+
+msgid "default.groups.name.editor"
+msgstr "سردبیر انتشارات"
+
+msgid "default.groups.plural.editor"
+msgstr "سردبیران انتشارات"
+
+msgid "default.groups.abbrev.editor"
+msgstr "س.ا"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "سردبیر مجموعه"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "سردبیران مجموعه"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "س.م"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "مدیر اشتراک"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "مدیران اشتراک"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "م.ش"
+
+msgid "default.groups.name.chapterAuthor"
+msgstr "پدیدآورنده فصل"
+
+msgid "default.groups.plural.chapterAuthor"
+msgstr "پدیدآورندگان فصل"
+
+msgid "default.groups.abbrev.chapterAuthor"
+msgstr "پ.ف"
+
+msgid "default.groups.name.volumeEditor"
+msgstr "سردبیر نسخه"
+
+msgid "default.groups.plural.volumeEditor"
+msgstr "سردبیران نسخه"
+
+msgid "default.groups.abbrev.volumeEditor"
+msgstr "س.ن"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>از پدیدآورندگان دعوت می‌شود تا دست‌نوشته‌های خود را برای این انتشارات ارسال کنند. دست‌نوشته‌هایی که مناسب تشخیص داده شوند، پیش از تصمیم‌گیری نهایی مبنی بر پذیرش یا عدم پذیرش، برای داوری ارسال خواهند شد.</p>"
+"<p>پدیدآورندگان موظف‌اند پیش از ارسال دست‌نوشته، مجوزهای لازم برای انتشار هرگونه مطالب همراه با اثر، از جمله عکس‌ها، اسناد و مجموعه‌داده‌ها را کسب کنند. تمامی پدیدآورندگان شناسایی‌شده در اثر ارسالی باید با ذکر نام خود به عنوان پدیدآورنده موافقت کنند. در موارد مقتضی، پژوهش باید توسط کمیته اخلاق مربوطه و مطابق با الزامات قانونی کشور محل انجام مطالعه، به تأیید رسیده باشد.</p>"
+"<p>سردبیر ممکن است در صورتی که دست‌نوشته فاقد استانداردهای کیفی حداقلی باشد، آن را در مرحله بررسی اولیه رد کند. لطفاً پیش از ارسال، اطمینان حاصل کنید که دامنه و طرح کلی کتاب به درستی ساختاریافته و بیان شده است. عنوان باید مختصر و چکیده باید به تنهایی گویا باشد. این امر احتمال موافقت داوران با داوری کتاب را افزایش می‌دهد. هنگامی که اطمینان یافتید اثر ارسالی شما با این استانداردها مطابقت دارد، لطفاً طبق فهرست بازبینی زیر برای آماده‌سازی اثر خود اقدام کنید.</p>"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>تمامی آثار ارسالی باید الزامات زیر را دارا باشند.</p>"
+"<ul>"
+"<li>این اثر با الزامات ذکر شده در <a href=\"{$submissionGuidelinesUrl}\">راهنمای پدیدآورندگان</a> مطابقت دارد.</li>"
+"<li>این اثر پیش‌تر منتشر نشده و برای بررسی به انتشارات دیگری نیز ارسال نشده است.</li>"
+"<li>تمامی مراجع از نظر دقت و کامل بودن بررسی شده‌اند.</li>"
+"<li>تمامی جداول و تصاویر شماره‌گذاری و برچسب‌گذاری شده‌اند.</li>"
+"<li>مجوز انتشار برای تمامی عکس‌ها، مجموعه‌داده‌ها و سایر مطالب همراه با این اثر کسب شده است.</li>"
+"</ul>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>نام‌ها و نشانی‌های رایانامه وارد شده در این وبگاه انتشارات، منحصراً برای اهداف ذکر شده در این انتشارات استفاده خواهد شد و در اختیار هیچ شخص یا نهاد دیگری قرار نخواهد گرفت.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr "این انتشارات دسترسی آزاد فوری به محتوای خود را فراهم می‌کند؛ بر این اصل که قرار دادن آزادانه نتایج پژوهش‌ها در اختیار عموم، از تبادل گسترده‌تر دانش در سطح جهانی حمایت می‌کند."
+
+msgid "default.contextSettings.forReaders"
+msgstr "ما خوانندگان را تشویق می‌کنیم تا برای خدمات اطلاع‌رسانی نشر این انتشارات ثبت‌نام کنند. از پیوند <a href=\"{$indexUrl}/{$contextPath}/user/register\">ثبت‌نام</a> در بالای صفحه اصلی انتشارات استفاده کنید. با این ثبت‌نام، فهرست مطالب هر تک‌نگاشت جدید انتشارات از طریق رایانامه برای خواننده ارسال می‌شود. این فهرست همچنین به انتشارات اجازه می‌دهد تا سطح مشخصی از حمایت یا تعداد مخاطبان خود را اعلام کند. <a href=\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">بیانیه حریم خصوصی</a> انتشارات را مطالعه کنید که به خوانندگان اطمینان می‌دهد نام و نشانی رایانامه آن‌ها برای اهداف دیگر استفاده نخواهد شد."
+
+msgid "default.contextSettings.forAuthors"
+msgstr "علاقه‌مند به ارسال اثر به این انتشارات هستید؟ توصیه می‌کنیم صفحه <a href=\"{$indexUrl}/{$contextPath}/about\">درباره انتشارات</a> را برای سیاست‌های بخش‌های انتشارات و همچنین <a href=\"{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines\">راهنمای پدیدآورندگان</a> مطالعه کنید. پدیدآورندگان باید پیش از ارسال اثر در سامانه <a href=\"{$indexUrl}/{$contextPath}/user/register\">ثبت‌نام</a> کنند، یا اگر قبلاً ثبت‌نام کرده‌اند، می‌توانند به سادگی <a href=\"{$indexUrl}/index/login\">وارد شده</a> و فرآیند ۵ مرحله‌ای را آغاز کنند."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"ما کتابداران پژوهشی را تشویق می‌کنیم تا نام این انتشارات را در فهرست منابع الکترونیکی کتابخانه خود قرار دهند. همچنین، این سامانه نشر متن‌باز برای کتابخانه‌ها مناسب است تا میزبان آثار اعضای هیئت علمی خود باشند (به <a href=\"https://pkp.sfu.ca/omp\">Open Monograph Press</a> مراجعه کنید)."
+
+msgid "default.groups.name.externalReviewer"
+msgstr "داور خارجی"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "داوران خارجی"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "د.خ"
+msgid "default.groups.name.editorialBoardMember"
+msgstr "عضو هیئت تحریریه"
+msgid "default.submission.step.beforeYouBegin"
+msgstr "پیش از شروع"
+
+msgid "default.contextSettings.checklist"
+msgstr "موارد ضروری برای ارسال"
+
+msgid "submission.wizard.titleWithStep"
+msgstr "مرحله {$step}: {$title}"
+
+msgid "submission.wizard.submitting.monographInLanguage"
+msgstr "ارسال اثر به زبان {$language}"
+
+msgid "default.submission.step.details"
+msgstr "جزئیات اثر"
+
+msgid "default.submission.step.uploadFiles"
+msgstr "بارگذاری فایلها"
+
+msgid "default.submission.step.contributors"
+msgstr "پدیدآورندگان"
+
+msgid "default.submission.step.forTheEditors"
+msgstr "برای دبیران"
+
+msgid "default.submission.step.review"
+msgstr "داوری و ارسال"
+
+msgid "default.genres.appendix"
+msgstr "پیوست"
+
+msgid "default.genres.bibliography"
+msgstr "کتابشناسی"
+
+msgid "default.genres.manuscript"
+msgstr "متن اصلی"
+
+msgid "default.genres.chapter"
+msgstr "فصل"
+
+msgid "default.genres.glossary"
+msgstr "واژهنامه"
+
+msgid "default.genres.index"
+msgstr "نمایه"
+
+msgid "default.genres.preface"
+msgstr "پیشگفتار"
+
+msgid "default.genres.prospectus"
+msgstr "طرح پیشنهادی"
+
+msgid "default.genres.table"
+msgstr "جدول"
+
+msgid "default.genres.figure"
+msgstr "شکل"
+
+msgid "default.genres.photo"
+msgstr "عکس"
+
+msgid "default.genres.illustration"
+msgstr "تصویرسازی"

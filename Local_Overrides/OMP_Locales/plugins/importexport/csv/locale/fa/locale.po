@@ -1,0 +1,60 @@
+# === Plugin locale — needs Persian translation ===
+
+msgid "plugins.importexport.csv.displayName"
+msgstr "افزونه درون‌ریزی محتوای جداشده با Tab"
+
+msgid "plugins.importexport.csv.description"
+msgstr "درون‌ریزی اثرهای ارسالی به انتشارات از داده‌های جداشده با Tab."
+
+msgid "plugins.importexport.csv.cliOnly"
+msgstr ""
+"\n"
+"\t\t<p>این افزونه در حال حاضر فقط از خط فرمان پشتیبانی می‌کند. اجرا کنید...\n"
+"\t\t\t<pre>php tools/importExport.php CSVImportExportPlugin</pre>\n"
+"\t\t\t...برای اطلاعات بیشتر.</p>\n"
+"\t"
+
+msgid "plugins.importexport.csv.cliUsage"
+msgstr ""
+"ابزار خط فرمان برای درون‌ریزی داده‌های CSV در OMP\n"
+"\t\t\tUsage:\n"
+"\t\t\t{$scriptName} [--dry-run] fileName.csv username\n"
+"\t\t\tگزینه dry-run-- را می‌توان برای آزمایش بدون ایجاد تغییرات استفاده کرد.\n"
+"\t\t\tنام کاربری که می‌خواهید اثرهای ارسالی را به آن اختصاص دهید مشخص کنید.\n"
+
+msgid "plugins.importexport.csv.fileDoesNotExist"
+msgstr "فایل «{$filename}» وجود ندارد. خاتمه."
+
+msgid "plugins.importexport.csv.unknownUser"
+msgstr "کاربر ناشناخته: «{$username}». خاتمه."
+
+msgid "plugins.importexport.csv.unknownLocale"
+msgstr "زبان ناشناخته: «{$locale}». رد شد."
+
+msgid "plugins.importexport.csv.unknownPress"
+msgstr "انتشارات ناشناخته: «{$contextPath}». رد شد."
+
+msgid "plugins.importexport.csv.noGenre"
+msgstr "هیچ گونه متنی وجود ندارد. خاتمه."
+
+msgid "plugins.importexport.csv.noAuthorGroup"
+msgstr ""
+"هیچ گروه پدیدآورنده پیش‌فرضی در انتشارات {$press} وجود ندارد. این ارسال رد "
+"می‌شود."
+
+msgid "plugins.importexport.csv.noSeries"
+msgstr ""
+"مسیر مجموعه {$seriesPath} وجود ندارد. امکان افزودن آن به این ارسال وجود "
+"ندارد."
+
+msgid "plugins.importexport.csv.import.submission"
+msgstr "اثر: '{$title}' با موفقیت درون‌ریزی شد."
+
+msgid "plugins.importexport.csv.import.success.description"
+msgstr "درون‌ریزی موفق بود. موارد درون‌ریزی‌شده در زیر فهرست شده‌اند."
+
+msgid "plugins.importexport.csv.invalidHeader"
+msgstr "فایل CSV یا وجود ندارد یا دارای سرآیند نامعتبر است. لطفاً فایل نمونه «sample.csv» موجود در پوشه افزونه را ببینید."
+
+msgid "plugins.importexport.csv.invalidAuthor"
+msgstr "پدیدآورنده «{$author}» فرمت نامعتبر دارد و رد شد."

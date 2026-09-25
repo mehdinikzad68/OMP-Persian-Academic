@@ -1,0 +1,619 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:23:43-07:00\n"
+"PO-Revision-Date: 2019-09-30T06:23:43-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "submission.upload.selectComponent"
+msgstr "یک مؤلفه انتخاب کنید"
+
+msgid "submission.title"
+msgstr "عنوان کتاب"
+
+msgid "submission.select"
+msgstr "انتخاب اثر"
+
+msgid "submission.synopsis"
+msgstr "چکیده اجمالی"
+
+msgid "submission.workflowType"
+msgstr "نوع اثر"
+
+msgid "submission.workflowType.description"
+msgstr "تک‌نگاشت اثری است که تماماً توسط یک یا چند پدیدآورنده تألیف شده باشد. یک مجموعه ویراسته برای هر فصل پدیدآورندگان متفاوتی دارد (که جزئیات فصل‌ها در ادامه این فرآیند وارد می‌شود)."
+
+msgid "submission.workflowType.editedVolume.label"
+msgstr "مجموعه ویراسته"
+
+msgid "submission.workflowType.editedVolume"
+msgstr "مجموعه ویراسته: پدیدآورندگان با فصل مربوط به خود مرتبط هستند."
+
+msgid "submission.workflowType.authoredWork"
+msgstr "تک‌نگاشت: پدیدآورندگان با کل کتاب مرتبط هستند."
+
+msgid "submission.workflowType.change"
+msgstr "تغییر"
+
+msgid "submission.editorName"
+msgstr "{$editorName} (ویراستار)"
+
+msgid "submission.monograph"
+msgstr "تک‌نگاشت"
+
+msgid "submission.published"
+msgstr "آماده تولید و نشر"
+
+msgid "submission.fairCopy"
+msgstr "نسخه پاک‌نویس"
+
+msgid "submission.authorListSeparator"
+msgstr "; "
+
+msgid "submission.artwork.permissions"
+msgstr "مجوزها"
+
+msgid "submission.chapter"
+msgstr "فصل"
+
+msgid "submission.chapters"
+msgstr "فصل‌ها"
+
+msgid "submission.chapter.addChapter"
+msgstr "افزودن فصل"
+
+msgid "submission.chapter.editChapter"
+msgstr "ویرایش فصل"
+
+msgid "submission.chapter.pages"
+msgstr "صفحات"
+
+msgid "submission.copyedit"
+msgstr "ویراستاری"
+
+msgid "submission.publicationFormats"
+msgstr "قالب‌های انتشار"
+
+msgid "submission.proofs"
+msgstr "نسخه‌های نمونه"
+
+msgid "submission.download"
+msgstr "بارگیری"
+
+msgid "submission.sharing"
+msgstr "اشتراک‌گذاری این مطلب"
+
+msgid "manuscript.submission"
+msgstr "ثبت دست‌نوشته"
+
+msgid "submission.round"
+msgstr "دور&nbsp;{$round}"
+
+msgid "submissions.queuedReview"
+msgstr "در حال داوری"
+
+msgid "manuscript.submissions"
+msgstr "دست‌نوشته‌های ارسالی"
+
+msgid "submission.metadata"
+msgstr "فراداده"
+
+msgid "submission.supportingAgencies"
+msgstr "مؤسسات حامی"
+
+msgid "grid.action.addChapter"
+msgstr "ایجاد فصل جدید"
+
+msgid "grid.action.editChapter"
+msgstr "ویرایش این فصل"
+
+msgid "grid.action.deleteChapter"
+msgstr "حذف این فصل"
+
+msgid "submission.submit"
+msgstr "آغاز ارسال اثر جدید (کتاب)"
+
+msgid "submission.submit.newSubmissionMultiple"
+msgstr "آغاز ارسال اثر جدید در"
+
+msgid "submission.submit.newSubmissionSingle"
+msgstr "ارسال اثر جدید"
+
+msgid "submission.submit.upload"
+msgstr "بارگذاری اثر"
+
+msgid "author.volumeEditor"
+msgstr "ویراستار مجموعه"
+
+msgid "author.isVolumeEditor"
+msgstr "این پدیدآورنده را به عنوان ویراستار این مجموعه معرفی کنید."
+
+msgid "submission.submit.seriesPosition"
+msgstr "جایگاه در سلسله‌اثر"
+
+msgid "submission.submit.seriesPosition.description"
+msgstr "مثال: کتاب ۲، جلد ۲"
+
+msgid "submission.submit.privacyStatement"
+msgstr "بیانیه حریم خصوصی"
+
+msgid "submission.submit.contributorRole"
+msgstr "نقش پدیدآورنده"
+
+msgid "submission.submit.submissionFile"
+msgstr "فایل اثر"
+
+msgid "submission.submit.prepare"
+msgstr "آماده‌سازی"
+
+msgid "submission.submit.catalog"
+msgstr "کاتالوگ (ویترین)"
+
+msgid "submission.submit.metadata"
+msgstr "فراداده"
+
+msgid "submission.submit.finishingUp"
+msgstr "مراحل پایانی"
+
+msgid "submission.submit.confirmation"
+msgstr "تأییدیه"
+
+msgid "submission.submit.nextSteps"
+msgstr "گام‌های بعدی"
+
+msgid "submission.submit.coverNote"
+msgstr "یادداشت ارسالی به سردبیر"
+
+msgid "submission.submit.generalInformation"
+msgstr "اطلاعات عمومی"
+
+msgid "submission.submit.whatNext.description"
+msgstr "به انتشارات اطلاع داده شده است که دست‌نوشته خود را ارسال کرده‌اید و یک تأییدیه نیز برای سوابق شما ایمیل شده است. پس از اینکه سردبیر دست‌نوشته را داوری کرد، با شما تماس خواهد گرفت."
+
+msgid "submission.submit.checklistErrors"
+msgstr "لطفاً موارد موجود در فهرست بررسی ارسال اثر را مطالعه کرده و علامت بزنید. {$itemsRemaining} مورد بررسی‌نشده باقی مانده است."
+msgid "submission.submit.placement"
+msgstr "محل قرارگیری اثر"
+
+msgid "submission.submit.userGroup"
+msgstr "ارسال اثر در نقشِ..."
+
+msgid "submission.submit.noContext"
+msgstr "انتشارات مربوط به این اثر یافت نشد."
+
+msgid "grid.chapters.title"
+msgstr "فصل‌ها"
+
+msgid "grid.copyediting.deleteCopyeditorResponse"
+msgstr "حذف بارگذاری ویراستیار"
+
+msgid "submission.complete"
+msgstr "پذیرفته شده"
+
+msgid "submission.incomplete"
+msgstr "در انتظار پذیرش"
+
+msgid "submission.editCatalogEntry"
+msgstr "مدخل"
+
+msgid "submission.catalogEntry.new"
+msgstr "افزودن مدخل"
+
+msgid "submission.catalogEntry.add"
+msgstr "افزودن موارد انتخاب‌شده به کاتالوگ (ویترین)"
+
+msgid "submission.catalogEntry.select"
+msgstr "انتخاب تک‌نگاشت‌ها جهت افزودن به کاتالوگ (ویترین)"
+
+msgid "submission.catalogEntry.selectionMissing"
+msgstr "باید حداقل یک تک‌نگاشت را برای افزودن به کاتالوگ (ویترین) انتخاب کنید."
+
+msgid "submission.catalogEntry.confirm"
+msgstr "افزودن این کتاب به کاتالوگ (ویترین) عمومی"
+
+msgid "submission.catalogEntry.confirm.required"
+msgstr "لطفاً تأیید کنید که این اثر برای قرارگیری در کاتالوگ (ویترین) آماده است."
+
+msgid "submission.catalogEntry.isAvailable"
+msgstr "این تک‌نگاشت برای گنجانده شدن در کاتالوگ (ویترین) عمومی آماده است."
+
+msgid "submission.catalogEntry.viewSubmission"
+msgstr "مشاهده اثر"
+
+msgid "submission.catalogEntry.chapterPublicationDates"
+msgstr "تاریخ‌های انتشار"
+
+msgid "submission.catalogEntry.disableChapterPublicationDates"
+msgstr "تمام فصل‌ها از تاریخ انتشار تک‌نگاشت استفاده خواهند کرد."
+
+msgid "submission.catalogEntry.enableChapterPublicationDates"
+msgstr "هر فصل می‌تواند تاریخ انتشار مخصوص به خود را داشته باشد."
+
+msgid "submission.catalogEntry.monographMetadata"
+msgstr "تک‌نگاشت"
+
+msgid "submission.catalogEntry.catalogMetadata"
+msgstr "کاتالوگ (ویترین)"
+
+msgid "submission.catalogEntry.publicationMetadata"
+msgstr "قالب انتشار"
+
+msgid "submission.event.metadataPublished"
+msgstr "فراداده‌های تک‌نگاشت برای انتشار پذیرفته شد."
+
+msgid "submission.event.metadataUnpublished"
+msgstr "فراداده‌های تک‌نگاشت دیگر منتشر نمی‌شوند."
+
+msgid "submission.event.publicationFormatMadeAvailable"
+msgstr "قالب انتشار «{$publicationFormatName}» در دسترس قرار گرفت."
+
+msgid "submission.event.publicationFormatMadeUnavailable"
+msgstr "قالب انتشار «{$publicationFormatName}» دیگر در دسترس نیست."
+
+msgid "submission.event.publicationFormatPublished"
+msgstr "قالب انتشار «{$publicationFormatName}» برای انتشار پذیرفته شد."
+
+msgid "submission.event.publicationFormatUnpublished"
+msgstr "قالب انتشار «{$publicationFormatName}» دیگر منتشر نمی‌شود."
+
+msgid "submission.event.catalogMetadataUpdated"
+msgstr "فراداده‌های کاتالوگ (ویترین) به‌روزرسانی شد."
+
+msgid "submission.event.publicationMetadataUpdated"
+msgstr "فراداده‌های قالب انتشار برای «{$formatName}» به‌روزرسانی شد."
+
+msgid "submission.event.publicationFormatCreated"
+msgstr "قالب انتشار «{$formatName}» ایجاد شد."
+
+msgid "submission.event.publicationFormatRemoved"
+msgstr "قالب انتشار «{$formatName}» حذف شد."
+
+msgid "editor.submission.decision.sendExternalReview"
+msgstr "ارسال برای داوری خارجی"
+
+msgid "workflow.review.externalReview"
+msgstr "داوری خارجی"
+
+msgid "submission.upload.fileContents"
+msgstr "مؤلفه اثر"
+
+msgid "submission.dependentFiles"
+msgstr "فایل‌های وابسته"
+
+msgid "submission.metadataDescription"
+msgstr "این مشخصات بر اساس مجموعه فراداده‌های «دابلین کور» (Dublin Core) تنظیم شده‌اند که یک استاندارد بین‌المللی برای توصیف محتوای انتشارات است."
+
+msgid "section.any"
+msgstr "هر سلسله‌اثر"
+
+msgid "submission.list.monographs"
+msgstr "تک‌نگاشت‌ها"
+
+msgid "submission.list.countMonographs"
+msgstr "{$count} تک‌نگاشت"
+
+msgid "submission.list.itemsOfTotalMonographs"
+msgstr "{$count} از {$total} تک‌نگاشت"
+
+msgid "submission.list.orderFeatures"
+msgstr "ترتیب موارد برگزیده"
+
+msgid "submission.list.orderingFeatures"
+msgstr "برای تغییر ترتیب موارد برگزیده در صفحه اصلی، از قابلیت کشیدن و رها کردن یا دکمه‌های بالا و پایین استفاده کنید."
+
+msgid "submission.list.orderingFeaturesSection"
+msgstr "برای تغییر ترتیب موارد برگزیده در {$title}، از قابلیت کشیدن و رها کردن یا دکمه‌های بالا و پایین استفاده کنید."
+
+msgid "submission.list.saveFeatureOrder"
+msgstr "ذخیره ترتیب"
+
+msgid "submission.list.viewEntry"
+msgstr "مشاهده مدخل"
+
+msgid "catalog.browseTitles"
+msgstr "{$numTitles} عنوان"
+
+msgid "publication.catalogEntry"
+msgstr "مدخل کاتالوگ (ویترین)"
+
+msgid "publication.catalogEntry.success"
+msgstr "جزئیات مدخل کاتالوگ (ویترین) به‌روزرسانی شد."
+
+msgid "publication.invalidSeries"
+msgstr "سلسله‌اثر مربوط به این اثر یافت نشد."
+
+msgid "publication.inactiveSeries"
+msgstr "{$series} (غیرفعال)"
+
+msgid "publication.required.issue"
+msgstr "پیش از انتشار، باید اثر به یک نسخه اختصاص یابد."
+
+msgid "publication.publishedIn"
+msgstr "منتشر شده در <a href=\"{$issueUrl}\">{$issueName}</a>."
+
+msgid "publication.publish.confirmation"
+msgstr "تمام الزامات انتشار برآورده شده است. آیا اطمینان دارید که می‌خواهید این مدخل کاتالوگ (ویترین) را عمومی کنید؟"
+
+msgid "publication.scheduledIn"
+msgstr "زمان‌بندی شده برای انتشار در <a href=\"{$issueUrl}\">{$issueName}</a>."
+
+msgid "submission.publication"
+msgstr "انتشار"
+
+msgid "publication.status.published"
+msgstr "منتشر شده"
+
+msgid "submission.status.scheduled"
+msgstr "زمان‌بندی شده"
+
+msgid "publication.status.unscheduled"
+msgstr "زمان‌بندی نشده"
+
+msgid "submission.publications"
+msgstr "انتشارات"
+
+msgid "publication.copyrightYearBasis.issueDescription"
+msgstr "سال حق انتشار به‌صورت خودکار هنگام انتشار در یک نسخه تنظیم خواهد شد."
+
+msgid "publication.copyrightYearBasis.submissionDescription"
+msgstr "سال حق انتشار به‌صورت خودکار بر اساس تاریخ انتشار تنظیم خواهد شد."
+
+msgid "publication.datePublished"
+msgstr "تاریخ انتشار"
+
+msgid "publication.editDisabled"
+msgstr "این نسخه منتشر شده است و امکان ویرایش آن وجود ندارد."
+
+msgid "publication.event.published"
+msgstr "اثر منتشر شد."
+
+msgid "publication.event.scheduled"
+msgstr "اثر برای انتشار زمان‌بندی شد."
+
+msgid "publication.event.unpublished"
+msgstr "انتشار اثر لغو شد."
+
+msgid "publication.event.versionPublished"
+msgstr "نسخه جدید منتشر شد."
+
+msgid "publication.event.versionScheduled"
+msgstr "نسخه جدید برای انتشار زمان‌بندی شد."
+
+msgid "publication.event.versionUnpublished"
+msgstr "یک نسخه از حالت انتشار خارج شد."
+
+msgid "publication.invalidSubmission"
+msgstr "اثر مربوط به این انتشار یافت نشد."
+
+msgid "publication.publish"
+msgstr "انتشار"
+
+msgid "publication.publish.requirements"
+msgstr "پیش از انتشار، الزامات زیر باید برآورده شوند."
+
+msgid "publication.required.declined"
+msgstr "یک اثر رد شده را نمی‌توان منتشر کرد."
+
+msgid "publication.required.reviewStage"
+msgstr "اثر پیش از انتشار باید در مراحل ویراستاری یا تولید و نشر باشد."
+
+msgid "submission.license.description"
+msgstr "مجوز به‌صورت خودکار پس از انتشار بر روی <a href='{$licenseUrl}' target='_blank'>{$licenseName}</a> تنظیم خواهد شد."
+
+msgid "submission.copyrightHolder.description"
+msgstr "حق انتشار به‌صورت خودکار پس از انتشار به {$copyright} واگذار خواهد شد."
+
+msgid "submission.copyrightOther.description"
+msgstr "واگذاری حق انتشارِ آثار منتشر شده به طرفِ ذیل."
+
+msgid "publication.unpublish"
+msgstr "لغو انتشار"
+
+msgid "publication.unpublish.confirm"
+msgstr "آیا اطمینان دارید که نمی‌خواهید این مورد منتشر شود؟"
+
+msgid "publication.unschedule.confirm"
+msgstr "آیا اطمینان دارید که نمی‌خواهید این مورد برای انتشار زمان‌بندی شود؟"
+
+msgid "publication.version.details"
+msgstr "جزئیات انتشار برای نسخه {$version}"
+
+msgid "submission.queries.production"
+msgstr "مباحث تولید و نشر"
+
+msgid "publication.chapter.landingPage"
+msgstr "صفحه فصل"
+
+msgid "publication.chapter.landingPage.doi.description"
+msgstr "(این فصل همیشه در صفحه مخصوص به خود نمایش داده می‌شود زیرا دارای شناسه اشیاء دیجیتال (DOI) است.)"
+
+msgid "publication.chapter.hasLandingPage"
+msgstr "نمایش این فصل در صفحه مخصوص به خود و پیوند به آن صفحه از فهرست مطالب کتاب."
+
+msgid "publication.publish.success"
+msgstr "وضعیت انتشار با موفقیت تغییر یافت."
+
+msgid "chapter.volume"
+msgstr "جلد"
+
+msgid "submission.withoutChapter"
+msgstr "{$name} — بدون این فصل"
+
+msgid "submission.chapterCreated"
+msgstr " — فصل ایجاد شد"
+
+msgid "chapter.pages"
+msgstr "صفحات"
+
+msgid "editor.submission.decision.sendInternalReview"
+msgstr "ارسال برای داوری داخلی"
+
+msgid "editor.submission.decision.sendInternalReview.description"
+msgstr "این اثر برای ارسال جهت داوری داخلی آماده است."
+
+msgid "editor.submission.decision.sendInternalReview.log"
+msgstr "{$editorName} این اثر را به مرحله داوری داخلی ارسال کرد."
+
+msgid "editor.submission.decision.sendInternalReview.completed"
+msgstr "ارسال شد برای داوری داخلی"
+
+msgid "editor.submission.decision.sendInternalReview.completed.description"
+msgstr "اثر با عنوان «{$title}» به مرحله داوری داخلی ارسال شد. به پدیدآورنده اطلاع‌رسانی شد (مگر اینکه گزینه عدم ارسال ایمیل را انتخاب کرده باشید)."
+
+msgid "editor.submission.decision.sendInternalReview.notifyAuthorsDescription"
+msgstr "ایمیلی به پدیدآورندگان ارسال کنید تا بدانند اثرشان برای داوری داخلی فرستاده شده است. در صورت امکان، به آن‌ها بگویید فرآیند داوری داخلی چقدر طول می‌کشد و چه زمانی باید منتظر تماس بعدی سردبیران باشند."
+
+msgid "editor.submission.decision.promoteFiles.internalReview"
+msgstr "فایل‌هایی را که باید به مرحله داوری داخلی ارسال شوند، انتخاب کنید."
+
+msgid "editor.submission.decision.sendExternalReview.log"
+msgstr "{$editorName} این اثر را به مرحله داوری خارجی ارسال کرد."
+
+msgid "editor.submission.decision.sendExternalReview.completed"
+msgstr "ارسال شد برای داوری خارجی"
+
+msgid "editor.submission.decision.sendExternalReview.completed.description"
+msgstr "اثر با عنوان «{$title}» به مرحله داوری خارجی ارسال شد."
+
+msgid "editor.submission.decision.backToReview"
+msgstr "بازگشت به داوری"
+
+msgid "editor.submission.decision.backToReview.description"
+msgstr "بازگردانی تصمیمِ پذیرش این اثر و ارسال مجدد آن به مرحله داوری."
+
+msgid "editor.submission.decision.backToReview.log"
+msgstr "{$editorName} تصمیم مبنی بر پذیرش این اثر را بازگردانی کرد و آن را به مرحله داوری بازفرستاد."
+
+msgid "editor.submission.decision.backToReview.completed"
+msgstr "بازفرستاده شد به داوری"
+
+msgid "editor.submission.decision.backToReview.completed.description"
+msgstr "اثر با عنوان «{$title}» به مرحله داوری بازگردانده شد."
+
+msgid "editor.submission.decision.backToReview.notifyAuthorsDescription"
+msgstr "ایمیلی به پدیدآورندگان بفرستید تا بدانند اثرشان به مرحله داوری بازگردانده شده است. توضیح دهید چرا این تصمیم گرفته شده و آن‌ها را از داوری‌های بعدی آگاه کنید."
+
+msgid "editor.submission.decision.sendExternalReview.notifyAuthorsDescription"
+msgstr "ایمیلی به پدیدآورندگان بفرستید تا بدانند اثرشان برای داوری همتا (Peer Review) ارسال شده است. در صورت امکان، به آن‌ها بگویید فرآیند داوری چقدر طول می‌کشد و چه زمانی باید منتظر تماس بعدی سردبیران باشند."
+
+msgid "editor.submission.decision.promoteFiles.externalReview"
+msgstr "فایل‌هایی را که باید به مرحله داوری ارسال شوند، انتخاب کنید."
+
+msgid "editor.submission.recommend.sendExternalReview"
+msgstr "پیشنهاد ارسال برای داوری خارجی"
+
+msgid "editor.submission.recommend.sendExternalReview.description"
+msgstr "پیشنهاد دهید که این اثر به مرحله داوری خارجی فرستاده شود."
+
+msgid "editor.submission.recommend.sendExternalReview.log"
+msgstr "{$editorName} پیشنهاد داد که این اثر به مرحله داوری خارجی فرستاده شود."
+
+msgid "doi.submission.incorrectContext"
+msgstr "امکان ایجاد شناسه اشیاء دیجیتال (DOI) برای اثر «{$pubObjectTitle}» وجود ندارد. این اثر در سامانه نشر فعلی موجود نیست."
+
+msgid "publication.chapter.licenseUrl"
+msgstr "نشانی اینترنتی (URL) مجوز"
+
+msgid "publication.chapterDefaultLicenseURL"
+msgstr "نشانی اینترنتی (URL) پیش‌فرض برای مجوز فصل"
+
+msgid "submission.copyright.description"
+msgstr "لطفاً شرایط حق انتشار (کپی‌رایت) برای ارسال اثر به این انتشارات را مطالعه کرده و بپذیرید."
+
+msgid "submission.wizard.notAllowed.description"
+msgstr "شما مجاز به ارسال اثر به این انتشارات نیستید زیرا پدیدآورندگان باید توسط کادر تحریریه ثبت‌نام شوند. اگر معتقدید این یک خطا است، لطفاً با <a href='mailto:{$email}'>{$name}</a> تماس بگیرید."
+msgid "submission.wizard.sectionClosed.message"
+msgstr "سامانه نشر {$contextName} در حال حاضر ارسال اثر برای مجموعه {$section} را نمی‌پذیرد. در صورت نیاز به راهنمایی برای بازیابی اثر خود، لطفاً با <a href='mailto:{$email}'>{$name}</a> تماس بگیرید."
+msgid "submission.sectionNotFound"
+msgstr "سلسله‌اثر مربوط به این اثر یافت نشد."
+
+msgid "submission.sectionRestrictedToEditors"
+msgstr "تنها کارکنان هیئت تحریریه مجاز به ارسال اثر در این سلسله‌اثر هستند."
+
+msgid "submission.wizard.submitting.monograph"
+msgstr "ارسال یک <strong>تک‌نگاشت</strong>."
+msgid "submission.wizard.submitting.monographInLanguage"
+msgstr "ارسال یک <strong>تک‌نگاشت</strong> به زبان <strong>{$language}</strong>."
+msgid "submission.wizard.submitting.editedVolume"
+msgstr "ارسال یک <strong>مجموعه ویراسته‌شده</strong>."
+msgid "submission.wizard.submitting.editedVolumeInLanguage"
+msgstr "ارسال یک <strong>مجموعه ویراسته‌شده</strong> به زبان <strong>{$language}</strong>."
+msgid "submission.wizard.chapters.description"
+msgstr "لطفاً تمامی فصل‌های این اثر را ارائه دهید. اگر در حال ارسال یک مجموعه ویراسته هستید، لطفاً اطمینان حاصل کنید که برای هر فصل، پدیدآورندگان آن مشخص شده باشند."
+
+msgid "submission.dashboard.view.reviewInternal"
+msgstr "همه موارد در حال داوری داخلی"
+
+msgid "submission.stage.externalReviewWithRound"
+msgstr "داوری خارجی (دور داوری {$round})"
+
+msgid "submission.stage.internalReviewWithRound"
+msgstr "داوری داخلی (دور داوری {$round})"
+msgid "default.submission.step.beforeYouBegin"
+msgstr "پیش از شروع"
+
+msgid "default.contextSettings.checklist"
+msgstr "موارد ضروری برای ارسال"
+
+msgid "submission.wizard.titleWithStep"
+msgstr "مرحله {$step}: {$title}"
+
+msgid "submission.wizard.submitting.monographInLanguage"
+msgstr "ارسال اثر به زبان {$language}"
+
+msgid "default.submission.step.details"
+msgstr "جزئیات اثر"
+
+msgid "default.submission.step.uploadFiles"
+msgstr "بارگذاری فایلها"
+
+msgid "default.submission.step.contributors"
+msgstr "پدیدآورندگان"
+
+msgid "default.submission.step.forTheEditors"
+msgstr "برای دبیران"
+
+msgid "default.submission.step.review"
+msgstr "داوری و ارسال"
+
+msgid "default.genres.appendix"
+msgstr "پیوست"
+
+msgid "default.genres.bibliography"
+msgstr "کتابشناسی"
+
+msgid "default.genres.manuscript"
+msgstr "متن اصلی"
+
+msgid "default.genres.chapter"
+msgstr "فصل"
+
+msgid "default.genres.glossary"
+msgstr "واژهنامه"
+
+msgid "default.genres.index"
+msgstr "نمایه"
+
+msgid "default.genres.preface"
+msgstr "پیشگفتار"
+
+msgid "default.genres.prospectus"
+msgstr "طرح پیشنهادی"
+
+msgid "default.genres.table"
+msgstr "جدول"
+
+msgid "default.genres.figure"
+msgstr "شکل"
+
+msgid "default.genres.photo"
+msgstr "عکس"
+
+msgid "default.genres.illustration"
+msgstr "تصویرسازی"

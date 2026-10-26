@@ -28,3 +28,6 @@ Theme
 volumes/
 Archive_May2026/scratch/
 *.log
+
+# Local instance configuration (never commit)
+config.inc.php
